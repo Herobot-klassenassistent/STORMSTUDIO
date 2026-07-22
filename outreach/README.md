@@ -31,5 +31,7 @@ Vul vóór verzending in elk concept je eigen `[e-mail]` en `[telefoon]` in.
 
 - Brede lijst: ~60 scholen (Overijssel, Gelderland, Drenthe; Friesland volgt).
 - SO/SBO/ZML shortlist: 18 scholen, waarvan 5 met geverifieerd e-mailadres.
-- Individuele concepten geschreven: 6 (Spinaker, De Sluis, De Catamaran,
-  Roelant-Berk en Beuk, SO Fryslân, De Brug).
+- Individuele concepten geschreven: 18 (alle scholen op de shortlist). Voor de
+  scholen 6 t/m 18 staat het e-mailadres op **"te bevestigen"** — check dat
+  eerst via de contactpagina vóór verzending, en vul in elk concept nog je
+  eigen `[e-mail]` en `[telefoon]` in.

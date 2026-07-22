@@ -5,15 +5,15 @@ nr,school,plaats,provincie,type,adres,postcode,telefoon,email,email_status,websi
 4,Roelant-Berk en Beukschool,Nijmegen,Gelderland,speciaal onderwijs (cluster),Hengstdal 4,6522 JV,0243220721,info@entreaonderwijs.nl,geverifieerd (bestuur),rbb-school.nl,ja
 5,SO Fryslan,Drachten,Friesland,speciaal onderwijs (cluster 3),Morra 2-3,9204 KH,0512584594,info@so-fryslan.nl,geverifieerd (bestuur),so-fryslan.nl,ja
 6,SBO De Brug,Zwolle,Overijssel,speciaal basisonderwijs,,,,,te bevestigen via contactpagina,sbodebrug.nl,ja
-7,Obadjaschool SO/VSO ZML,Zwolle,Overijssel,speciaal onderwijs (ZML),,,,,te bevestigen via contactpagina,,nee
-8,SBO De Windroos,Oldenzaal,Overijssel,speciaal basisonderwijs,,,,,te bevestigen via contactpagina,sbodewindroos.nl,nee
-9,SBO De Vonder,,Overijssel,speciaal basisonderwijs,,,,,te bevestigen via contactpagina,sbodevonder.nl,nee
-10,De Linde (SO/VSO),Deventer,Overijssel,speciaal onderwijs,,,,,te bevestigen via contactpagina,delindedeventer.nl,nee
-11,SBO De Toermalijn,Emmen,Drenthe,speciaal basisonderwijs,Sparrenlaan,7822 EM,,,te bevestigen via contactpagina,sbo-de-toermalijn.nl,nee
-12,ZML Thriantaschool,Emmen,Drenthe,speciaal onderwijs (ZML),Zuidlaarderbrink,7812 GE,,,te bevestigen via contactpagina,zml-thriantaschool.nl,nee
-13,SBO De Carrousel (RENN4),Hoogeveen,Drenthe,speciaal basisonderwijs,Wielewaal 1,7905 GX,0528234444,,te bevestigen via contactpagina,renn4.nl,nee
-14,Duisterhoutschool,Oosterwolde,Friesland,speciaal onderwijs (ZML),,,,,te bevestigen via contactpagina,duisterhout.nl,nee
-15,It Twaluk,Leeuwarden,Friesland,speciaal onderwijs,,,,,te bevestigen via contactpagina,ittwaluk.nl,nee
-16,SBO Nijmegen,Nijmegen,Gelderland,speciaal basisonderwijs,,,,,te bevestigen via contactpagina,sbo-nijmegen.nl,nee
-17,SG Mariendael (VSO),Arnhem,Gelderland,voortgezet speciaal onderwijs,,,,,te bevestigen via contactpagina,deonderwijsspecialisten.nl,nee
-18,De Vorm KSBO,Apeldoorn,Gelderland,speciaal basisonderwijs,,,,,te bevestigen via contactpagina,,nee
+7,Obadjaschool SO/VSO ZML,Zwolle,Overijssel,speciaal onderwijs (ZML),,,,,te bevestigen via contactpagina,,ja
+8,SBO De Windroos,Oldenzaal,Overijssel,speciaal basisonderwijs,,,,,te bevestigen via contactpagina,sbodewindroos.nl,ja
+9,SBO De Vonder,,Overijssel,speciaal basisonderwijs,,,,,te bevestigen via contactpagina,sbodevonder.nl,ja
+10,De Linde (SO/VSO),Deventer,Overijssel,speciaal onderwijs,,,,,te bevestigen via contactpagina,delindedeventer.nl,ja
+11,SBO De Toermalijn,Emmen,Drenthe,speciaal basisonderwijs,Sparrenlaan,7822 EM,,,te bevestigen via contactpagina,sbo-de-toermalijn.nl,ja
+12,ZML Thriantaschool,Emmen,Drenthe,speciaal onderwijs (ZML),Zuidlaarderbrink,7812 GE,,,te bevestigen via contactpagina,zml-thriantaschool.nl,ja
+13,SBO De Carrousel (RENN4),Hoogeveen,Drenthe,speciaal basisonderwijs,Wielewaal 1,7905 GX,0528234444,,te bevestigen via contactpagina,renn4.nl,ja
+14,Duisterhoutschool,Oosterwolde,Friesland,speciaal onderwijs (ZML),,,,,te bevestigen via contactpagina,duisterhout.nl,ja
+15,It Twaluk,Leeuwarden,Friesland,speciaal onderwijs,,,,,te bevestigen via contactpagina,ittwaluk.nl,ja
+16,SBO Nijmegen,Nijmegen,Gelderland,speciaal basisonderwijs,,,,,te bevestigen via contactpagina,sbo-nijmegen.nl,ja
+17,SG Mariendael (VSO),Arnhem,Gelderland,voortgezet speciaal onderwijs,,,,,te bevestigen via contactpagina,deonderwijsspecialisten.nl,ja
+18,De Vorm KSBO,Apeldoorn,Gelderland,speciaal basisonderwijs,,,,,te bevestigen via contactpagina,,ja
