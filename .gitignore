@@ -1,0 +1,7 @@
+# Nooit geheimen committen
+.env
+*.env
+outreach/tools/*secret*
+outreach/tools/token*.json
+credentials*.json
+client_secret*.json
