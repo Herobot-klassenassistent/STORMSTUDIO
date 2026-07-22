@@ -154,6 +154,12 @@ PRIORITEIT: SPECIAAL ONDERWIJS (SO / SBO / ZML) - jouw specialisatie
     E-mail: directie.sbofacet@catent.nl   [GEVERIFIEERD]
     Web: sbofacet.nl
 
+23. Kentalis De Skelp - Drachten (Friesland)
+    Speciaal onderwijs cluster 2 (taalontwikkelingsstoornis, 3-12 jr)
+    Noorderhogeweg 24, 9207 DP Drachten | tel 0512-514974
+    E-mail: info-skelp@kentalis.nl   [GEVERIFIEERD]
+    Web: skelp.nl
+
 
 ===========================================================================
 REGULIERE BASISSCHOLEN
@@ -284,21 +290,64 @@ ASSEN
     E-mail: directie@kindcentrum-devuurvogel.nl   [GEVERIFIEERD]
 
 --- FRIESLAND ---
-(reguliere basisscholen nog te verzamelen - volgende ronde)
+
+LEEUWARDEN
+- Openbaar IKC de Vosseburcht - Coornhertstraat 8, 8913 HK
+    E-mail: info.vosseburcht@proloog.nl   [GEVERIFIEERD]
+- IKC de Pionier - Molkenkelder 4A, 8941 AJ
+    E-mail: info.pionier@proloog.nl   [GEVERIFIEERD]
+- Michaelschool Leeuwarden (vrijeschool) - Hercules Seghersstraat 3, 8932 DG
+    E-mail: info@michaelschoolleeuwarden.nl   [GEVERIFIEERD]
+- IKC Franciscus - Johan de Walestraat 1, 8921 XB
+    E-mail: info@ikcfranciscus.nl   [GEVERIFIEERD]
+- IKC Sint Paulus - Julianalaan 40, 8932 AB
+    E-mail: directie@sintpaulusschool.nl   [GEVERIFIEERD]
+- OJBS Oldenije - Sint Anthonystraat 5, 8911 DV   [e-mail nog ophalen; Proloog]
+- Leeuwarder Schoolvereniging - Jelsumerstraat 10, 8917 EN   [e-mail nog ophalen]
+
+DRACHTEN
+- Basisschool De Parel (school met de Bijbel) - Langewyk 275, 9204 WE
+    E-mail: dir.parel@noorderbasis.nl   [GEVERIFIEERD]
+- Montessorischool De Plotter - Dollard 19, 9204 CK
+    E-mail: directie@deplotter.com   [GEVERIFIEERD]
+- KJBS St. Lukas (jenaplan) - De Lanen 96, 9204 WC
+    E-mail: info@st-lukas.nl   [GEVERIFIEERD]
+- CBS De Voorde - Flevo 186, 9204 JT
+    E-mail: info@pcbodevoorde.nl   [GEVERIFIEERD]
+- Kentalis De Skelp (SO cluster 2) - Noorderhogeweg 24, 9207 DP
+    E-mail: info-skelp@kentalis.nl   [GEVERIFIEERD - zie prioriteitslijst]
+
+SNEEK
+- OBS De Oudvaart - Loengasterlaan 3, 8604 ZC
+    E-mail: info@oudvaartsneek.nl   [GEVERIFIEERD]
+- Thomas van Aquinoschool - Louw Doniastraat 1, 8607 AT
+    E-mail: info@thomasvanaquinoschool.nl   [GEVERIFIEERD]
+- Jenaplanschool Master - Jancko Douwamastraat 31, 8602 BK
+    E-mail: info.mastersneek@kykscholen.nl   [GEVERIFIEERD]
+- CBS De Vuurvlinder - Keizersmantel 1, 8607 GM   [e-mail nog ophalen]
+
+HEERENVEEN
+- OBS Het Vogelnest - Tureluurstraat 20, 8446 HM
+    E-mail: directie.vogelnest@ambion.nl   [GEVERIFIEERD]
+- OBS Van Maasdijkschool - van Beyma thoe Kingmaweg 1, 8441 CP
+    E-mail: vanmaasdijkschool@ambion.nl   [GEVERIFIEERD]
+- OBS Ekke de Haanschool - Zegge 2, 8446 CL
+    E-mail: directie.ekkedehaan@ambion.nl   [GEVERIFIEERD]
+- CBS De Hoeksteen - Dr. G. van Schouwenlaan 2, 8441 CA   [e-mail nog ophalen]
 
 
 ===========================================================================
 SAMENVATTING
 ===========================================================================
-Speciaal onderwijs (prioriteit): 22 scholen, allemaal met geverifieerd e-mailadres
-Reguliere basisscholen:          ~45 scholen (Overijssel/Gelderland/Drenthe),
-                                 waarvan het merendeel nu geverifieerd
+Speciaal onderwijs (prioriteit): 23 scholen, allemaal met geverifieerd e-mailadres
+Reguliere basisscholen:          ~65 scholen (Overijssel/Gelderland/Drenthe/
+                                 Friesland), waarvan het merendeel geverifieerd
 Individuele mailconcepten klaar:  6
 
 Nog te doen:
-- Friesland reguliere basisscholen toevoegen
 - Restant e-mailadressen bevestigen (Menkotoren, Ouverture, Eben-Haezer,
-  De Diamant het Rooster, KBS de Laarhorst, De Parkschool)
+  De Diamant het Rooster, KBS de Laarhorst, De Parkschool, Oldenije,
+  Leeuwarder Schoolvereniging, CBS De Vuurvlinder Sneek, CBS De Hoeksteen)
 - Overige concepten schrijven zodra je die wilt versturen
 - Zelf versturen vanuit je eigen mail (evt. via mail-merge voor grotere aantallen)
 ===========================================================================

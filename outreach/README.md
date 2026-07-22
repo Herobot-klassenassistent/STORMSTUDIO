@@ -29,12 +29,14 @@ Vul vóór verzending in elk concept je eigen `[e-mail]` en `[telefoon]` in.
 
 ## Status (laatste update: 22 juli 2026)
 
-- Brede lijst: ~60 scholen (Overijssel, Gelderland, Drenthe; Friesland volgt).
-  Het merendeel heeft nu een **geverifieerd** e-mailadres (rechtstreeks van de
-  schoolwebsite/contactpagina of schoolgids gehaald). Nog te bevestigen:
-  Menkotoren, Ouverture, Eben-Haezer, De Diamant het Rooster, KBS de Laarhorst
-  en De Parkschool.
-- SO/SBO/ZML shortlist: 22 scholen, **allemaal met geverifieerd e-mailadres**.
+- Brede lijst: ~65 scholen (Overijssel, Gelderland, Drenthe én Friesland —
+  Leeuwarden, Drachten, Sneek, Heerenveen). Het merendeel heeft nu een
+  **geverifieerd** e-mailadres (rechtstreeks van de schoolwebsite/contactpagina
+  of schoolgids gehaald). Nog te bevestigen: Menkotoren, Ouverture, Eben-Haezer,
+  De Diamant het Rooster, KBS de Laarhorst, De Parkschool, Oldenije, Leeuwarder
+  Schoolvereniging, CBS De Vuurvlinder (Sneek) en CBS De Hoeksteen (Heerenveen).
+- SO/SBO/ZML shortlist: 23 scholen, **allemaal met geverifieerd e-mailadres**
+  (incl. Kentalis De Skelp, cluster 2, Drachten).
   Nieuw toegevoegd én geverifieerd t.o.v. vorige ronde: Obadja, De Windroos
   (Oldenzaal), De Vonder, De Linde, De Toermalijn, Thriantaschool, De Carrousel,
   Duisterhout, It Twaluk, SBO de Windroos (Goffert, Nijmegen), Mariëndael,
