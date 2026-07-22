@@ -27,9 +27,27 @@ Er is hier geen mailkoppeling; versturen doe je zelf vanuit je eigen mail.
 Voor grotere aantallen: zet de CSV in een Gmail mail-merge (YAMM/GMass).
 Vul vóór verzending in elk concept je eigen `[e-mail]` en `[telefoon]` in.
 
-## Status (laatste update)
+## Status (laatste update: 22 juli 2026)
 
 - Brede lijst: ~60 scholen (Overijssel, Gelderland, Drenthe; Friesland volgt).
-- SO/SBO/ZML shortlist: 18 scholen, waarvan 5 met geverifieerd e-mailadres.
+  Het merendeel heeft nu een **geverifieerd** e-mailadres (rechtstreeks van de
+  schoolwebsite/contactpagina of schoolgids gehaald). Nog te bevestigen:
+  Menkotoren, Ouverture, Eben-Haezer, De Diamant het Rooster, KBS de Laarhorst
+  en De Parkschool.
+- SO/SBO/ZML shortlist: 22 scholen, **allemaal met geverifieerd e-mailadres**.
+  Nieuw toegevoegd én geverifieerd t.o.v. vorige ronde: Obadja, De Windroos
+  (Oldenzaal), De Vonder, De Linde, De Toermalijn, Thriantaschool, De Carrousel,
+  Duisterhout, It Twaluk, SBO de Windroos (Goffert, Nijmegen), Mariëndael,
+  De Vorm, 't Iemenschoer, De Stapsteen, De Bouwsteen/Fundament en SBO Facet.
 - Individuele concepten geschreven: 6 (Spinaker, De Sluis, De Catamaran,
-  Roelant-Berk en Beuk, SO Fryslân, De Brug).
+  Roelant-Berk en Beuk, SO Fryslân, De Brug). De overige geverifieerde scholen
+  staan klaar in de lijsten; concepten volgen zodra je die wilt versturen.
+
+## Bronvermelding e-mailadressen
+
+De adressen met status **geverifieerd** zijn opgehaald via WebSearch uit de
+eigen schoolwebsite/contactpagina, schoolgids of het schoolbestuur (bijv.
+`@catent.nl`, `@vivente.nu`, `@leerplein055.nl`, `@floresonderwijs.nl`,
+`@deltascholengroep.nl`, `@josephscholen.nl`, `@attendiz.nl`). Waar een school
+onder een bestuur valt, is het bestuurs-/directieadres opgenomen. Een handvol
+adressen bleef geanonimiseerd in de bron en staat als "nog ophalen".
