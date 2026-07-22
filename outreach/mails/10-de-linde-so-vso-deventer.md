@@ -1,0 +1,20 @@
+Aan: [e-mail bevestigen via https://delindedeventer.nl — NIET geverifieerd]
+School: De Linde (SO/VSO), Deventer — speciaal onderwijs
+Onderwerp: Nieuwe media in de klas — even vooruitkijken naar volgend jaar
+
+---
+
+Beste team van De Linde,
+
+Ik weet het, het is vakantie. Maar ik gebruik deze weken om mijn jaar in te delen, en ik dacht daarbij meteen aan het speciaal onderwijs in Deventer.
+
+Mijn naam is Kevin Storm. Ik ben ooit zelf begonnen als leerkracht in het speciaal onderwijs, en werk nu al twintig jaar met nieuwe media in de klas: ik geef workshops, ontwerp curriculum, train leerkrachten en adviseer scholen. De afgelopen jaren deed ik dat vaak via partijen als Kleinkunstig in Zwolle, Facet in Emmen en TETEM en Kaliber in Enschede, en nog een hoop meer.
+
+Juist bij leerlingen die extra ondersteuning nodig hebben voel ik me thuis: ik stem alles af op de groep die voor me zit, in tempo, prikkels en aanpak. Met zowel SO als VSO onder één dak zou ik desgewenst een doorlopende lijn kunnen neerzetten die bij beide past. Nu bied ik scholen aan om rechtstreeks met mij te werken. Zonder bureau ertussen kan ik het nog persoonlijker maken — en het scheelt meestal ook in de kosten.
+
+Zullen we na de vakantie eens rustig kennismaken? Kijk gerust vast rond op kevinstorm.eu.
+
+Fijne zomer,
+
+Kevin Storm
+kevinstorm.eu · linkedin.com/in/stormkevin · [e-mail] · [telefoon]
