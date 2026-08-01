@@ -337,6 +337,48 @@ MEPPEL
 - Kindcentrum De IJsvogel - Engelgaarde 33, 7943 LD
     E-mail: de-ijsvogel@stichtingpromes.nl   [GEVERIFIEERD]
 
+--- OVERIJSSEL (ronde 3) ---
+
+STEENWIJK
+- OBS Beatrixschool - Middenweg 4, 8332 CZ
+    E-mail: directie@obsbeatrixschool.nl   [GEVERIFIEERD]
+- OBS De SamenSprong - Gasthuislaan 86, 8331 MZ
+    E-mail: directie@obsdesamensprong.nl   [GEVERIFIEERD]
+- RK Basisschool Sint Clemens - Molenstraat 25, 8331 HP
+    E-mail: directie.clemens@catent.nl   [GEVERIFIEERD]
+
+--- GELDERLAND (ronde 3) ---
+
+ZUTPHEN
+- OBS De Parel - Het Zwanevlot 316, 7206 CS
+    E-mail: info@obsdeparel.nl   [GEVERIFIEERD]
+- RKBS John F Kennedy - Leeuweriklaan 21, 7203 JD
+    E-mail: directie@jfk.skbg.nl   [GEVERIFIEERD]
+- ODBS Theo Thijssen
+    E-mail: theothijssen-zutphen@archipelprimair.nl   [GEVERIFIEERD]
+- CKC de Bongerd - Bongerdspad 2, 7201 NV
+    E-mail: info@ckcdebongerd.nl   [GEVERIFIEERD]
+
+HARDERWIJK
+- CBS De Bron - Frankenskamp 4, 3848 DE
+    E-mail: infobron@stichtingvco.nl   [GEVERIFIEERD]
+- De Olijfboom - Kamillemeen 5, 3844 HZ
+    E-mail: info@deolijfboomharderwijk.nl   [GEVERIFIEERD]
+- Daltonschool De Veste - Houtkamp 37, 3841 XC
+    E-mail: deveste@stichtingproo.nl   [GEVERIFIEERD]
+- De Lelie (ZMLK, SO) - Anne Franklaan 7, 3842 GV
+    E-mail: lelie@educare.nl   [GEVERIFIEERD - zie prioriteitslijst]
+
+--- DRENTHE (ronde 3) ---
+
+EMMEN
+- OBS Meester Vegter - Bargermeerweg 113, 7811 LD
+    E-mail: locatieleider@obs-mr-vegter.nl   [GEVERIFIEERD]
+- Kardinaal Alfrinkschool - Geuzingerbrink 74, 7812 NW
+    E-mail: kardinaalalfrinkschool@primenius.nl   [GEVERIFIEERD]
+- IKC St. Gerardus - Splitting 145, 7826 CT
+    E-mail: stgerardus@primenius.nl   [GEVERIFIEERD]
+
 --- FRIESLAND ---
 
 LEEUWARDEN
@@ -387,9 +429,10 @@ HEERENVEEN
 ===========================================================================
 SAMENVATTING
 ===========================================================================
-Speciaal onderwijs (prioriteit): 26 scholen, allemaal met geverifieerd e-mailadres
-Reguliere basisscholen:          ~80 scholen (Overijssel/Gelderland/Drenthe/
-                                 Friesland; ronde 2: Almelo, Kampen, Ede, Meppel),
+Speciaal onderwijs (prioriteit): 27 scholen, allemaal met geverifieerd e-mailadres
+Reguliere basisscholen:          ~93 scholen (Overijssel/Gelderland/Drenthe/
+                                 Friesland; ronde 2: Almelo, Kampen, Ede, Meppel;
+                                 ronde 3: Zutphen, Harderwijk, Emmen, Steenwijk),
                                  waarvan het merendeel geverifieerd
 Individuele mailconcepten klaar:  6 + 1 algemene fits-all mail (00-...)
 
