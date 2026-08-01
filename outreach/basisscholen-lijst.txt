@@ -289,6 +289,54 @@ ASSEN
 - Basisschool de Vuurvogel - Obrechtlaan 3, 9402 TB
     E-mail: directie@kindcentrum-devuurvogel.nl   [GEVERIFIEERD]
 
+--- OVERIJSSEL (ronde 2) ---
+
+ALMELO
+- PCBS De Mare - De Rotsduif 22, 7609 VK
+    E-mail: demarealmelo@demarealmelo.nl   [GEVERIFIEERD]
+- SO Dr. Herderscheeschool - Schapendijk 3, 7608 LV
+    E-mail: info@herderschee.nl   [GEVERIFIEERD - SO, zie prioriteitslijst]
+- KBS De Noorderborch - Havezathe 99, 7608 CL
+    E-mail: noorderborch@varietas.nl   [GEVERIFIEERD]
+
+KAMPEN
+- CKC De Fontein - Wederiklaan 1, 8265 DA
+    E-mail: administratie.fontein@ijsselrijk.nl   [GEVERIFIEERD]
+- Dr. Schaepmanschool - Triangel 22, 8265 RG
+    E-mail: kbsdrschaepmanschool@aves.nl   [GEVERIFIEERD]
+- OBS De Schatkaart - Zilverschoon 81, 8265 HE
+    E-mail: directie@obsdeschatkaart.nl   [GEVERIFIEERD]
+- OBS Villa Nova - Bouwkamp 4, 8266 KL
+    E-mail: directie@obsvillanova.nl   [GEVERIFIEERD]
+- Kentalis Enkschool Kampen (SO cluster 2) - Marinus Postlaan 1b, 8264 PB
+    E-mail: info-enkschool@kentalis.nl   [GEVERIFIEERD - zie prioriteitslijst]
+
+--- GELDERLAND (ronde 2) ---
+
+EDE
+- Basisschool Calluna - Sijsseltselaan 16, 6711 JE
+    E-mail: calluna@proominent.nl   [GEVERIFIEERD]
+- SBO De Regenboog - Generaal Spoorlaan 4, 6711 LX
+    E-mail: directie@sboderegenboog.cnsede.nl   [GEVERIFIEERD - SBO, zie prioriteitslijst]
+- CNS-Basisschool De Ontdekking - Sterkerij 14, 6717 XR
+    E-mail: directie.ontdekking@cnsede.nl   [GEVERIFIEERD]
+- Franciscusschool - Mesdagstraat 5, 6717 SE
+    E-mail: info.fr@skovv.nl   [GEVERIFIEERD]
+- OBS De Kern - Kleine Houtplein 1, 6718 GG
+    E-mail: obsdekern@proominent.nl   [GEVERIFIEERD]
+
+--- DRENTHE (ronde 2) ---
+
+MEPPEL
+- KBS De Plataan - Vledderstraat 3E, 7941 LC
+    E-mail: directie.plataan@catent.nl   [GEVERIFIEERD]
+- OBS Oosterboerschool - KP Laan 22, 7943 CV
+    E-mail: oosterboerschool@stichtingpromes.nl   [GEVERIFIEERD]
+- KC obs Sprinkels - Zuiderlaan 197B, 7944 EE
+    E-mail: obssprinkels@stichtingpromes.nl   [GEVERIFIEERD]
+- Kindcentrum De IJsvogel - Engelgaarde 33, 7943 LD
+    E-mail: de-ijsvogel@stichtingpromes.nl   [GEVERIFIEERD]
+
 --- FRIESLAND ---
 
 LEEUWARDEN
@@ -339,10 +387,11 @@ HEERENVEEN
 ===========================================================================
 SAMENVATTING
 ===========================================================================
-Speciaal onderwijs (prioriteit): 23 scholen, allemaal met geverifieerd e-mailadres
-Reguliere basisscholen:          ~65 scholen (Overijssel/Gelderland/Drenthe/
-                                 Friesland), waarvan het merendeel geverifieerd
-Individuele mailconcepten klaar:  6
+Speciaal onderwijs (prioriteit): 26 scholen, allemaal met geverifieerd e-mailadres
+Reguliere basisscholen:          ~80 scholen (Overijssel/Gelderland/Drenthe/
+                                 Friesland; ronde 2: Almelo, Kampen, Ede, Meppel),
+                                 waarvan het merendeel geverifieerd
+Individuele mailconcepten klaar:  6 + 1 algemene fits-all mail (00-...)
 
 Nog te doen:
 - Restant e-mailadressen bevestigen (Menkotoren, Ouverture, Eben-Haezer,
