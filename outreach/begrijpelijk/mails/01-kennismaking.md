@@ -1,33 +1,28 @@
-Concept — Kennismaking / netwerken (begrijpelijk-campagne)
+Concept — Kennismaking / netwerken (Kevins eigen tone of voice)
 
-DOEL: kennismaken, niet verkopen. Geen aanbod, geen opdracht, geen cv.
-Gewoon: ik stel me voor, ik vind jullie werk interessant, zullen we een
-kop koffie doen? Laagdrempelig en kort. Personaliseer de haak per organisatie.
+DOEL: kennismaken, niet verkopen. Geen aanbod, geen opdracht. Warme, korte,
+persoonlijke mail. Vervang [PERSOONLIJKE ALINEA] door één zin/alinea over waarom
+je juist deze organisatie wilt ontmoeten. Wil je je cv meesturen? Voeg 'm zelf
+toe vóór verzenden (kan niet automatisch in het concept).
 
 Aan: [info-adres of contactpersoon]
 Onderwerp: Even kennismaken — kop koffie?
 
 ---
 
-Beste [naam / team van [organisatie]],
+Beste mensen van [organisatie],
 
-Ik stuur jullie een berichtje zonder bijbedoeling — ik zou gewoon graag eens
-kennismaken.
+Mijn naam is Kevin Storm. Ik ben sinds juni in het mooie Enter (Twente) komen wonen.
 
-Ik ben Kevin Storm. Ik werk ruim twintig jaar met onderwijs en nieuwe media, en
-ik ben gefascineerd door hetzelfde vraagstuk waar jullie aan werken: hoe maak je
-ingewikkelde informatie begrijpelijk voor iedereen — óók voor wie moeite heeft
-met taal of de digitale wereld. Ik begon ooit in het speciaal onderwijs, dus dat
-"ontwerpen voor wie het níet vanzelf snapt" zit er bij mij diep in.
+Graag wil ik mij even kort voorstellen. Ik ben freelance workshopdocent, met 8 jaar ervaring in het speciaal onderwijs en daarna 12 jaar een eigen bedrijf in educatie. Ik ontwikkel lesmateriaal en geef lessen. Zo maakte ik een heel jaar curriculum en gaf ik teamtrainingen voor de bibliotheek regio Oost-Achterhoek, werk ik voor organisaties als Facet in Emmen, en begeleidde ik bijvoorbeeld ouderen voor Twents Zilver. Ik heb me gespecialiseerd in nieuwe media — online veiligheid, gamedesign, Photoshop en meer — maar ook de goede oude technieken zoals tekenen en muziek maken.
 
-[Concrete haak — bijv.: "Wat jullie doen rond [thema] volg ik met veel
-interesse." / "Jullie project [X] sprak me aan."]
+[PERSOONLIJKE ALINEA — waarom je juist deze organisatie wilt ontmoeten. Niet verkopen; oprechte interesse.]
 
-Ik zoek niets, ik wil vooral graag mensen in dit veld leren kennen en ideeën
-uitwisselen. Zou een kop koffie na de zomer schikken — bij jullie in de buurt of
-online? Leuk als het lukt; geen probleem als het even niet uitkomt.
+Ik zou het erg leuk vinden om een keer een verkennend gesprek te hebben, zonder verwachtingen — gewoon om te kijken of we iets voor elkaar kunnen betekenen. En dat hoeft niet altijd financieel te zijn.
 
-Hartelijke groet,
+Heeft u een momentje in de komende weken?
+
+Vriendelijke groet,
 
 Kevin Storm
 www.kevinstorm.eu/over-mij · https://www.linkedin.com/in/stormkevin/ · kevinstorm1980@gmail.com · 06 24529391
