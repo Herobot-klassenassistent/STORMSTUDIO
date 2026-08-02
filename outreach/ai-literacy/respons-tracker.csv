@@ -2,8 +2,12 @@ organisatie,tier,contactpersoon,e-mail,datum_verstuurd,kanaal,status,laatste_act
 # STATUS-waarden: nog-versturen | verstuurd | geopend | gereageerd | gesprek-gepland | offerte-uit | gewonnen | afgewezen | geen-reactie
 # KANAAL-waarden: e-mail | linkedin | telefoon | via-bureau | event
 # Vul een regel per benaderde organisatie. Follow-up-regel: als na 7-10 dagen geen reactie -> status geen-reactie + volgende_actie 'follow-up mail' of 'bellen'.
-Hogeschool KPZ,A,,servicepunt@kpz.nl,,e-mail,nog-versturen,concept klaar (mails/01),versturen + na 7 dagen bellen 038-4217425,,Sterkste eerste target; dichtbij
-Speakers Academy,C,,info@speakersacademy.com,,e-mail,nog-versturen,concept klaar (mails/03),versturen + eventueel bellen 010-4333322,,Route naar corporate
-Windesheim - Pabo,A,,,,e-mail,nog-versturen,template klaar (mails/01),eerst contactpersoon zoeken via LinkedIn,,Opleidingsmanager Pabo zoeken
-Saxion APO,A,,,,e-mail,nog-versturen,template klaar (mails/01),APO frontoffice bellen 088-0199190 voor juiste persoon,,Vraag naar lerarenopleider-coordinator
-NHL Stenden - Pabo Emmen,A,,,,e-mail,nog-versturen,template klaar (mails/01),teamleider Pabo Emmen zoeken,,Regio Drenthe
+Hogeschool KPZ,A,,servicepunt@kpz.nl,,e-mail,concept-in-gmail,Gmail-concept aangemaakt,openen + verzenden; na 7 dagen bellen 038-4217425,,Sterkste PABO-target; dichtbij
+Speakers Academy,C,,info@speakersacademy.com,,e-mail,concept-in-gmail,Gmail-concept aangemaakt,openen + verzenden; eventueel bellen 010-4333322,,Route naar corporate
+Marnix Onderwijscentrum,A,,moc@hsmarnix.nl,,e-mail,concept-in-gmail,Gmail-concept aangemaakt,openen + verzenden,,Nascholingsingang (moc@) geverifieerd
+Netwerk Mediawijsheid,B,,info@mediawijzer.net,,e-mail,concept-in-gmail,Gmail-concept aangemaakt,openen + verzenden; vraag naar partner worden,,Adres geverifieerd (mediawijzer.net)
+SLO,B,,info@slo.nl,,e-mail,concept-in-gmail,Gmail-concept aangemaakt,openen + verzenden,,Curriculum-aansluiting; adres geverifieerd
+Novel-T,F,,contact@novelt.com,,e-mail,concept-in-gmail,Gmail-concept aangemaakt,openen + verzenden,,Regio Twente; adres geverifieerd
+Windesheim - Pabo,A,,,,linkedin,nog-versturen,template klaar (mails/01),contactpersoon zoeken via LinkedIn,,Opleidingsmanager Pabo zoeken
+Saxion APO,A,,,,telefoon,nog-versturen,template klaar (mails/01),APO frontoffice bellen 088-0199190 voor juiste persoon,,Vraag naar lerarenopleider-coordinator
+NHL Stenden - Pabo Emmen,A,,,,linkedin,nog-versturen,template klaar (mails/01),teamleider Pabo Emmen zoeken,,Regio Drenthe
