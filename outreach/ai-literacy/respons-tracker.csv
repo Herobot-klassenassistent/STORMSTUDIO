@@ -1,0 +1,9 @@
+organisatie,tier,contactpersoon,e-mail,datum_verstuurd,kanaal,status,laatste_actie,volgende_actie,datum_follow_up,notitie
+# STATUS-waarden: nog-versturen | verstuurd | geopend | gereageerd | gesprek-gepland | offerte-uit | gewonnen | afgewezen | geen-reactie
+# KANAAL-waarden: e-mail | linkedin | telefoon | via-bureau | event
+# Vul een regel per benaderde organisatie. Follow-up-regel: als na 7-10 dagen geen reactie -> status geen-reactie + volgende_actie 'follow-up mail' of 'bellen'.
+Hogeschool KPZ,A,,servicepunt@kpz.nl,,e-mail,nog-versturen,concept klaar (mails/01),versturen + na 7 dagen bellen 038-4217425,,Sterkste eerste target; dichtbij
+Speakers Academy,C,,info@speakersacademy.com,,e-mail,nog-versturen,concept klaar (mails/03),versturen + eventueel bellen 010-4333322,,Route naar corporate
+Windesheim - Pabo,A,,,,e-mail,nog-versturen,template klaar (mails/01),eerst contactpersoon zoeken via LinkedIn,,Opleidingsmanager Pabo zoeken
+Saxion APO,A,,,,e-mail,nog-versturen,template klaar (mails/01),APO frontoffice bellen 088-0199190 voor juiste persoon,,Vraag naar lerarenopleider-coordinator
+NHL Stenden - Pabo Emmen,A,,,,e-mail,nog-versturen,template klaar (mails/01),teamleider Pabo Emmen zoeken,,Regio Drenthe
