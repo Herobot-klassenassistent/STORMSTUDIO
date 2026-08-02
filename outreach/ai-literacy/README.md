@@ -29,6 +29,17 @@ verkopen). Zie `pitch-ai-geletterdheid.md` voor de volledige pitch.
 | **D** | Evenementenbureaus | Kopen workshops/sessies in voor bedrijfsevents |
 | **E** | AI-trainingsaanbieders | Subcontract / trainerpool (zij hebben de vraag) |
 | **F** | Innovatiehubs, ondernemersorganisaties, bibliotheken | Podium + directe bedrijfsklanten in de regio |
+| **G** | Grote landelijke instituten & corporates (NCOI, de Baak, Nyenrode, ECP, Google Digitale Werkplaats, VodafoneZiggo, KPN, SIDN Fonds, Schouten & Nelissen, The Next Speaker) | Bewezen inhuurders van externe educatoren/sprekers |
+
+### Let op bij Tier G (grote organisaties)
+
+Grote merken (KPN, Google, VodafoneZiggo) nemen zelden een *cold* speaker-mail
+aan: hun educatiewerk loopt via **named programma's, formulieren of uitvoerende
+partners**. De hoogste kans zit bij de instituten die structureel externe
+trainers/sprekers inhuren en een echte intake hebben — daar zijn concepten voor
+klaar (NCOI `freelance@ncoi.nl`, de Baak, Nyenrode, ECP). De rest staat in de
+tracker met het juiste kanaal (formulier/partner/LinkedIn), zonder verzonnen
+adres.
 
 ## Belangrijk — dit is GEEN BCC-blast
 
