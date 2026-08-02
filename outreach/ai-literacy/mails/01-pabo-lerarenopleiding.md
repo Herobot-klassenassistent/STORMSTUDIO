@@ -31,9 +31,9 @@ Dit sluit direct aan op digitale geletterdheid en de EU AI Act, die scholen en
 opleidingen nu voor de vraag stelt hoe ze studenten hierin bekwaam maken.
 
 Zou een korte kennismaking na de zomer schikken? Dan kijk ik graag met jullie
-waar dit het beste past. Kijk gerust vast rond op kevinstorm.eu.
+waar dit het beste past. Kijk gerust vast rond op www.kevinstorm.eu/over-mij.
 
 Met vriendelijke groet,
 
 Kevin Storm
-kevinstorm.eu · linkedin.com/in/stormkevin · kevinstorm1980@gmail.com · 06 24529391
+www.kevinstorm.eu/over-mij · https://www.linkedin.com/in/stormkevin/ · kevinstorm1980@gmail.com · 06 24529391

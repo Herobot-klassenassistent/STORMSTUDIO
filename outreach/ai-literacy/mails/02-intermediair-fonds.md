@@ -27,9 +27,9 @@ graag mee over:
 - (co-)aanvragen waar dit binnen jullie regelingen/programma's past.
 
 Zou een kort kennismakingsgesprek mogelijk zijn om te kijken waar onze
-doelen elkaar raken? Meer over mijn werk: kevinstorm.eu.
+doelen elkaar raken? Meer over mijn werk: www.kevinstorm.eu/over-mij.
 
 Met vriendelijke groet,
 
 Kevin Storm
-kevinstorm.eu · linkedin.com/in/stormkevin · kevinstorm1980@gmail.com · 06 24529391
+www.kevinstorm.eu/over-mij · https://www.linkedin.com/in/stormkevin/ · kevinstorm1980@gmail.com · 06 24529391

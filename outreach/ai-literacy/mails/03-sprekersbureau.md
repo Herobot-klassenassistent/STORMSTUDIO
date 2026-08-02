@@ -30,9 +30,9 @@ Actueel en gevraagd: sinds de EU AI Act moeten organisaties AI-geletterdheid
 borgen — er is veel vraag naar iemand die dit tastbaar en praktisch maakt.
 
 Ik hoor graag welke gegevens jullie nodig hebben om mij op te nemen (bio, foto,
-tarieven, video). Meer over mij: kevinstorm.eu · linkedin.com/in/stormkevin.
+tarieven, video). Meer over mij: www.kevinstorm.eu/over-mij · https://www.linkedin.com/in/stormkevin/.
 
 Met vriendelijke groet,
 
 Kevin Storm
-kevinstorm.eu · linkedin.com/in/stormkevin · kevinstorm1980@gmail.com · 06 24529391
+www.kevinstorm.eu/over-mij · https://www.linkedin.com/in/stormkevin/ · kevinstorm1980@gmail.com · 06 24529391

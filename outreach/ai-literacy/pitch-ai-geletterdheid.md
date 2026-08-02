@@ -1,6 +1,6 @@
 # Pitch — AI-geletterdheid & zélf bouwen met AI
 
-**Kevin Storm · Storm.Studio · kevinstorm.eu**
+**Kevin Storm · Storm.Studio · www.kevinstorm.eu/over-mij**
 20+ jaar onderwijs, nieuwe media, curriculumontwerp en train-de-trainer.
 
 ---
@@ -67,7 +67,7 @@ praat; ik ben de docent die er live mee bouwt terwijl je meekijkt.
 - 20+ jaar in onderwijs, nieuwe media en curriculumontwerp.
 - Werkte samen met o.a. TETEM en Kaliber (Enschede), Facet (Emmen),
   Kleinkunstig (Zwolle).
-- Portfolio & voorbeelden: **kevinstorm.eu** · **linkedin.com/in/stormkevin**
+- Portfolio & voorbeelden: **www.kevinstorm.eu/over-mij** · **https://www.linkedin.com/in/stormkevin/**
 
 *(TODO Kevin: voeg 2–3 concrete cases toe met resultaat — welke groep, wat
 gebouwd, welk effect. Cases verkopen sterker dan opsommingen.)*
@@ -75,4 +75,4 @@ gebouwd, welk effect. Cases verkopen sterker dan opsommingen.)*
 ---
 
 **Contact:** Kevin Storm · kevinstorm1980@gmail.com · 06 24529391 ·
-kevinstorm.eu · linkedin.com/in/stormkevin
+www.kevinstorm.eu/over-mij · https://www.linkedin.com/in/stormkevin/

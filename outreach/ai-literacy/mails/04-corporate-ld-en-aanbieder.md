@@ -24,11 +24,11 @@ niveau af op de groep. Van een energieke inspiratiesessie op een event tot een
 meerdaags traject per afdeling.
 
 Zou een korte kennismaking passen om te kijken wat jullie team nu nodig heeft?
-Meer over mijn werk: kevinstorm.eu.
+Meer over mijn werk: www.kevinstorm.eu/over-mij.
 
 Met vriendelijke groet,
 Kevin Storm
-kevinstorm.eu · linkedin.com/in/stormkevin · kevinstorm1980@gmail.com · 06 24529391
+www.kevinstorm.eu/over-mij · https://www.linkedin.com/in/stormkevin/ · kevinstorm1980@gmail.com · 06 24529391
 
 ============================================================
 VARIANT B — AI-trainingsaanbieder (als samenwerking / trainerpool)
@@ -46,8 +46,7 @@ Ik denk dat ik jullie trainerpool kan versterken — juist op het stuk waar
 deelnemers zélf leren bouwen, niet alleen prompten.
 
 Ik werk graag als associate/freelance trainer voor trajecten en workshops.
-Zullen we kijken of er een match is? Meer over mij: kevinstorm.eu ·
-linkedin.com/in/stormkevin.
+Zullen we kijken of er een match is? Meer over mij: www.kevinstorm.eu/over-mij en https://www.linkedin.com/in/stormkevin/.
 
 Met vriendelijke groet,
 Kevin Storm
