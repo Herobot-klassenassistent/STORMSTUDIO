@@ -1,6 +1,6 @@
 # Statusoverzicht outreach — Kevin Storm
 
-**Laatste update: 6 augustus 2026** (samengesteld uit de mailbox).
+**Laatste update: 6 augustus 2026** (bijgewerkt na gesprek met Wijzer in geldzaken).
 Dit is het levende overzicht. De losse `respons-tracker.csv`'s per campagne
 blijven bestaan, maar dít bestand geeft de actuele stand over alles heen.
 
@@ -12,8 +12,10 @@ blijven bestaan, maar dít bestand geeft de actuele stand over alles heen.
 |---|---|---|---|
 | **Rijnbrink** | Elise Nieuwhof | **ma 7 sept, 10:30** (agenda-uitnodiging binnen) | Bibliotheek-/onderwijsnetwerk |
 | **Stadkamer (Zwolle)** | Anneke Renting + Joris Bakhuis | **maandag ~13:00** (melden bij balie) | Cultuureducatie primair onderwijs |
-| **Ministerie van Financiën / Wijzer in geldzaken** | F. Boerkamp | **Digi-koffie via Teams** (link ontvangen) | Financiële educatie |
-| **Geldlessen.nl (Nibud)** | Femke | **do 10:00 digi-koffie** (link volgt) | Lesgeven over geldzaken |
+
+## ⭐ Gesprek gehad — positief, met follow-up
+
+- **Wijzer in geldzaken** (Femke Boerkamp, `f.boerkamp@minfin.nl`) — gesprek 6 aug ging goed. Zij stuurde nuttige links (subsidielijsten = leads, plek om jezelf aan te bieden op geldlessen.nl). Jij staat op de **wachtlijst voor de Docentendag Financiële educatie, 5 okt in Amersfoort** — kans om Femke IRL te ontmoeten. **Details + links: `begrijpelijk/follow-up-wijzeringeldzaken.md`.** (N.B.: Wijzer in geldzaken = Geldlessen = Femke — één relatie.)
 
 ## 🗓️ Actief aan het plannen
 
@@ -65,3 +67,4 @@ ProDemos · HKU · Gynzy · **Rijksmuseum Boerhaave** (Desirée — agenda vol, 
 2. **Taalnetwerken** benaderen (tip van Lezen en Schrijven) — mogelijke nieuwe mini-campagne.
 3. Data prikken met **Kunstcircuit Deventer** (Lee).
 4. Follow-up sociaal-batch (New Dutch Connections, War Child, MEE, Augeo) bij stilte rond **14 aug**.
+5. **Wijzer in geldzaken-follow-up** (zie `begrijpelijk/follow-up-wijzeringeldzaken.md`): subsidielijsten doornemen als leads, jezelf aanmelden op geldlessen.nl (lesmateriaal + scholingsaanbod), wachtlijst Docentendag 5 okt volgen.
