@@ -2,8 +2,8 @@ locatie,gemeente,provincie,afstand_ca,email,contact_status,datum_verstuurd,statu
 # VluchtelingenWerk Oost-Nederland — locaties binnen ~50km van Enter (7468). Doel: train-de-trainer nieuwe media + curriculum per locatie.
 # STATUS: nog-versturen | concept-in-gmail | verstuurd | gereageerd | gesprek-gepland | gewonnen | afgewezen | geen-reactie
 # LET OP: e-mailpatroon is NIET uniform: sommige [plaats]@vluchtelingenwerk.nl, AZC's azc[plaats]@..., soms via partnerorganisatie. Per locatie verifieren.
-VluchtelingenWerk Hof van Twente,Goor,Overijssel,~15 km,goor@vluchtelingenwerk.nl,geverifieerd,,concept-in-gmail,Gmail-concept aangemaakt,openen + verzenden,,teamleider Pascale Verdonk
-AZC Almelo,Almelo,Overijssel,~12 km,azcalmelo@vluchtelingenwerk.nl,geverifieerd,,concept-in-gmail,Gmail-concept aangemaakt,openen + verzenden,,AZC-locatie
+VluchtelingenWerk Hof van Twente,Goor,Overijssel,~15 km,goor@vluchtelingenwerk.nl,geverifieerd,2026-08-06,verstuurd,verzonden 6 aug,follow-up bij geen reactie,2026-08-16,teamleider Pascale Verdonk
+AZC Almelo,Almelo,Overijssel,~12 km,azcalmelo@vluchtelingenwerk.nl,geverifieerd,2026-08-06,verstuurd,verzonden 6 aug,follow-up bij geen reactie,2026-08-16,AZC-locatie
 VluchtelingenWerk Enschede (Het Tromphuis),Enschede,Overijssel,~30 km,,te bevestigen,,nog-versturen,alleen telefoon publiek,adres via finder/bellen,,M.H. Tromplaan 47
 VluchtelingenWerk Hengelo,Hengelo,Overijssel,~25 km,,te bevestigen,,nog-versturen,noodopvang; geen publiek adres,adres via finder,,
 VluchtelingenWerk Oldenzaal,Oldenzaal,Overijssel,~35 km,,te bevestigen,,nog-versturen,alleen oekraine-adres gevonden,adres via finder,,
