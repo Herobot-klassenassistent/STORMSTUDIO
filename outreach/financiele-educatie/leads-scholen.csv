@@ -1,8 +1,79 @@
 school,plaats,provincie,type,subsidie_ronde,bron_lijst,email,contact_status,datum_verstuurd,status,laatste_actie,volgende_actie,datum_follow_up,notitie
-# LEADS-SHEET financiële educatie — scholen met subsidie (bron: uitvoeringvanbeleidszw.nl, tip van Femke/Wijzer in geldzaken)
+# LEADS financiele educatie — VERLEENDE SUBSIDIES PO 2025 (71 besturen). Bron: uitvoeringvanbeleidszw.nl PDF.
+# LET OP: dit zijn SCHOOLBESTUREN/onderwijsgroepen, niet losse scholen. Benader het bestuur of kies een school eronder.
 # STATUS: nog-versturen | verstuurd | gereageerd | gesprek-gepland | gewonnen | afgewezen | geen-reactie
-# TYPE: PO | SBO | SO | VO | MBO   ·   BRON_LIJST: po-2025 | vo | mbo | po-2026
-# Vul per school een regel. E-mail: geverifieerd van schoolwebsite; anders 'te bevestigen'.
-# --- Namen invullen zodra Kevin de subsidielijsten plakt (gov-pagina blokkeert automatische uitlezing, 403). ---
-# Voorbeeldregel (verwijderen zodra echte data binnen is):
-# OBS Voorbeeld,Enschede,Overijssel,PO,po-2025,po-2025,directie@voorbeeld.nl,te bevestigen,,nog-versturen,,,,achterstandsscore-school met FE-subsidie
+# email leeg = nog opzoeken op bestuurs-/schoolwebsite. plaats/provincie 'te bevestigen' = door Kevin checken.
+# ===== REGIO KEVIN EERST (Twente / Overijssel / Drenthe / Gelderland) =====
+Stichting Consent,Enschede,Overijssel,PO-bestuur,2025,po-2025,,adres opzoeken,,nog-versturen,,adres zoeken + personaliseren,,openbaar PO Enschede; EUR 150.068 - REGIO
+Stichting Symbio,Hengelo,Overijssel,PO-bestuur,2025,po-2025,,adres opzoeken,,nog-versturen,,adres zoeken + personaliseren,,Hengelo; EUR 99.975 - REGIO
+Stichting Keender,Haaksbergen,Overijssel,PO-bestuur,2025,po-2025,,adres opzoeken,,nog-versturen,,adres zoeken + personaliseren,,Haaksbergen; EUR 160.875 - REGIO
+Stichting Openbaar Primair Onderwijs Hof van Twente,Goor,Overijssel,PO-bestuur,2025,po-2025,,adres opzoeken,,nog-versturen,,adres zoeken + personaliseren,,Hof van Twente; EUR 103.980 - REGIO
+Stichting Kindcentrum Rivierenwijk,Deventer,Overijssel,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,plaats checken + adres,,waarschijnlijk Deventer; EUR 162.567 - REGIO?
+Vereniging Pricoh,Hoogeveen,Drenthe,PO-bestuur,2025,po-2025,,adres opzoeken,,nog-versturen,,adres zoeken + personaliseren,,PC Onderwijs Hoogeveen; EUR 174.860 - REGIO
+Stichting KindPunt,Meppel,Drenthe,PO-bestuur,2025,po-2025,,adres opzoeken,,nog-versturen,,adres zoeken + personaliseren,,Meppel e.o.; EUR 93.890 - REGIO
+Veluwse Onderwijsgroep,Apeldoorn,Gelderland,PO-bestuur,2025,po-2025,,adres opzoeken,,nog-versturen,,adres zoeken + personaliseren,,Apeldoorn/Veluwe; EUR 199.240 - REGIO
+Stichting Primair Onderwijs Apeldoorn (Leerplein055),Apeldoorn,Gelderland,PO-bestuur,2025,po-2025,,adres opzoeken,,nog-versturen,,adres zoeken + personaliseren,,Leerplein055 (al bekend uit scholenlijst); EUR 193.260 - REGIO
+Stichting PCBO Apeldoorn,Apeldoorn,Gelderland,PO-bestuur,2025,po-2025,,adres opzoeken,,nog-versturen,,adres zoeken + personaliseren,,PC Apeldoorn; EUR 168.459 - REGIO
+Stichting De Korenburg,Winterswijk,Gelderland,PO-bestuur,2025,po-2025,,adres opzoeken,,nog-versturen,,adres zoeken + personaliseren,,Winterswijk/Achterhoek; EUR 163.015 - REGIO
+LiemersNovum,Zevenaar,Gelderland,PO-bestuur,2025,po-2025,,adres opzoeken,,nog-versturen,,adres zoeken + personaliseren,,Liemers/Zevenaar; EUR 140.425 - REGIO
+Samenwerkingsstichting Kans & Kleur,Wijchen,Gelderland,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,plaats checken + adres,,waarschijnlijk Wijchen; EUR 164.900 - REGIO?
+Zinder,Tiel,Gelderland,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,plaats checken + adres,,waarschijnlijk Tiel/Rivierenland; EUR 80.170 - REGIO?
+St. Katholiek Onderwijs Flevoland en Veluwe,te bevestigen,Gelderland/Flevoland,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,plaats checken + adres,,Veluwe deel = regio; EUR 108.318
+# ===== NOORD (Friesland / Groningen — Kevin deed hier eerder outreach) =====
+Proloog,Leeuwarden,Friesland,PO-bestuur,2025,po-2025,,adres opzoeken,,nog-versturen,,adres zoeken,,Leeuwarden; EUR 200.000
+Stichting Ambion,Heerenveen,Friesland,PO-bestuur,2025,po-2025,,adres opzoeken,,nog-versturen,,adres zoeken,,Heerenveen e.o.; EUR 120.975
+Noventa,Witmarsum,Friesland,PO-bestuur,2025,po-2025,,adres opzoeken,,nog-versturen,,adres zoeken,,SW-Friesland; EUR 151.555
+Nije Gaast,Balk,Friesland,PO-bestuur,2025,po-2025,,adres opzoeken,,nog-versturen,,adres zoeken,,Gaasterland; EUR 77.520
+Openbaar Onderwijs Groningen,Groningen,Groningen,PO-bestuur,2025,po-2025,,adres opzoeken,,nog-versturen,,adres zoeken,,Stad Groningen; EUR 191.980
+Scholengroep Opron,Stadskanaal,Groningen,PO-bestuur,2025,po-2025,,adres opzoeken,,nog-versturen,,adres zoeken,,Stadskanaal/Veendam (grens Drenthe); EUR 82.193
+# ===== OVERIG LANDELIJK (plaats te bevestigen; op bedrag te prioriteren) =====
+Stichting Lucas Onderwijs,Den Haag,Zuid-Holland,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 200.000
+SCOH,Den Haag,Zuid-Holland,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 200.000
+De Haagse Scholen,Den Haag,Zuid-Holland,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 183.725
+Amsterdam West Binnen de Ring,Amsterdam,Noord-Holland,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 200.000
+Stichting Samen tussen Amstel en IJ,Amsterdam,Noord-Holland,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 195.143
+Stichting Swalm en Roer,Roermond,Limburg,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 200.000
+Stichting Kindante,te bevestigen,Limburg,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 187.980
+Meerderweert,Weert,Limburg,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 199.950
+Stichting SMART Limburg,te bevestigen,Limburg,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 187.400
+Stichting Primair Onderwijs Leudal en Thornerkwartier (SPOLT),te bevestigen,Limburg,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 151.736
+B.S. Silvester-Bernadette,te bevestigen,Limburg,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 90.580
+SKPO,Eindhoven,Noord-Brabant,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 181.020
+Signum onderwijs,Den Bosch,Noord-Brabant,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 183.990
+SKOPOS Schijndel,Schijndel,Noord-Brabant,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 195.660
+Stichting Invitare Openbaar Onderwijs,te bevestigen,Noord-Brabant,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 189.975
+OBO West-Brabant,te bevestigen,Noord-Brabant,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 119.805
+Skobos,te bevestigen,Noord-Brabant,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 170.970
+Stichting Prisma Almere,Almere,Flevoland,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 194.518
+IJmare,te bevestigen,te bevestigen,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 84.998
+Kopwerk,te bevestigen,Noord-Holland,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 196.547
+Stichting Fedra,te bevestigen,Noord-Holland,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 198.000
+Stichting Surplus,Schagen,Noord-Holland,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 91.250
+Wijzer,Hoorn,Noord-Holland,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 163.790
+PCOU,Utrecht,Utrecht,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 176.305
+Stichting scholen voor christelijk basisonderwijs Zeist e.o.,Zeist,Utrecht,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 81.810
+Stichting Openbaar Onderwijs Albrandswaard,Albrandswaard,Zuid-Holland,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 193.794
+St. Onderwijsgroep EduMare,te bevestigen,Zuid-Holland,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 198.485
+Onderwijsgroep OZHW,te bevestigen,Zuid-Holland,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 78.330
+Stichting voor Protestants Christelijk Primair Onderwijs op Goeree-Overflakkee,Goeree-Overflakkee,Zuid-Holland,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 144.612
+Stichting Islamitische Scholen Rijn en Gouwe,te bevestigen,Zuid-Holland,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 108.900
+Stichting Obase,Zierikzee,Zeeland,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 135.180
+Albero,te bevestigen,te bevestigen,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 106.600
+Stichting Archipel Onderwijs,te bevestigen,te bevestigen,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 99.325
+Stichting Klasse,te bevestigen,te bevestigen,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 138.835
+Stichting Talentis,te bevestigen,te bevestigen,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 144.885
+St. De Vier Windstreken,te bevestigen,te bevestigen,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 172.859
+Basisschool De Wissel (bestuur Onze Wijs),te bevestigen,te bevestigen,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 154.779
+OPOZ,Zoetermeer,Zuid-Holland,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 189.490
+Omar Abdelmalek,te bevestigen,te bevestigen,PO,2025,po-2025,,te bevestigen,,nog-versturen,,,,individuele aanvrager?; EUR 84.600
+Stichting Openbaar Onderwijs Noord,te bevestigen,te bevestigen,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 120.400
+LOGOS Stichting voor Protestants Christelijk Onderwijs,te bevestigen,te bevestigen,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 160.440
+Stichting OPOPS,te bevestigen,te bevestigen,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 197.500
+Stichting Eduquaat,te bevestigen,te bevestigen,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 196.580
+Fides Jorai,te bevestigen,te bevestigen,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 98.940
+Algemene Hindoe Basisschool,Den Haag,Zuid-Holland,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 113.111
+Stichting Penta,te bevestigen,te bevestigen,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 75.000
+Stichting Openbaar Onderwijs Present,te bevestigen,te bevestigen,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 198.260
+Obs De Tandem,te bevestigen,te bevestigen,PO,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 116.140
+SKOLO,te bevestigen,te bevestigen,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 101.000
+Stichting Muzerij en Nuwelijn,te bevestigen,te bevestigen,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,,,EUR 90.063
