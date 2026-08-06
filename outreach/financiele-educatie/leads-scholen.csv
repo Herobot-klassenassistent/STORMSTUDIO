@@ -4,21 +4,22 @@ school,plaats,provincie,type,subsidie_ronde,bron_lijst,email,contact_status,datu
 # STATUS: nog-versturen | verstuurd | gereageerd | gesprek-gepland | gewonnen | afgewezen | geen-reactie
 # email leeg = nog opzoeken op bestuurs-/schoolwebsite. plaats/provincie 'te bevestigen' = door Kevin checken.
 # ===== REGIO KEVIN EERST (Twente / Overijssel / Drenthe / Gelderland) =====
-Stichting Consent,Enschede,Overijssel,PO-bestuur,2025,po-2025,,adres opzoeken,,nog-versturen,,adres zoeken + personaliseren,,openbaar PO Enschede; EUR 150.068 - REGIO
-Stichting Symbio,Hengelo,Overijssel,PO-bestuur,2025,po-2025,,adres opzoeken,,nog-versturen,,adres zoeken + personaliseren,,Hengelo; EUR 99.975 - REGIO
-Stichting Keender,Haaksbergen,Overijssel,PO-bestuur,2025,po-2025,,adres opzoeken,,nog-versturen,,adres zoeken + personaliseren,,Haaksbergen; EUR 160.875 - REGIO
-Stichting Openbaar Primair Onderwijs Hof van Twente,Goor,Overijssel,PO-bestuur,2025,po-2025,,adres opzoeken,,nog-versturen,,adres zoeken + personaliseren,,Hof van Twente; EUR 103.980 - REGIO
-Stichting Kindcentrum Rivierenwijk,Deventer,Overijssel,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,plaats checken + adres,,waarschijnlijk Deventer; EUR 162.567 - REGIO?
-Vereniging Pricoh,Hoogeveen,Drenthe,PO-bestuur,2025,po-2025,,adres opzoeken,,nog-versturen,,adres zoeken + personaliseren,,PC Onderwijs Hoogeveen; EUR 174.860 - REGIO
-Stichting KindPunt,Meppel,Drenthe,PO-bestuur,2025,po-2025,,adres opzoeken,,nog-versturen,,adres zoeken + personaliseren,,Meppel e.o.; EUR 93.890 - REGIO
-Veluwse Onderwijsgroep,Apeldoorn,Gelderland,PO-bestuur,2025,po-2025,,adres opzoeken,,nog-versturen,,adres zoeken + personaliseren,,Apeldoorn/Veluwe; EUR 199.240 - REGIO
-Stichting Primair Onderwijs Apeldoorn (Leerplein055),Apeldoorn,Gelderland,PO-bestuur,2025,po-2025,,adres opzoeken,,nog-versturen,,adres zoeken + personaliseren,,Leerplein055 (al bekend uit scholenlijst); EUR 193.260 - REGIO
-Stichting PCBO Apeldoorn,Apeldoorn,Gelderland,PO-bestuur,2025,po-2025,,adres opzoeken,,nog-versturen,,adres zoeken + personaliseren,,PC Apeldoorn; EUR 168.459 - REGIO
-Stichting De Korenburg,Winterswijk,Gelderland,PO-bestuur,2025,po-2025,,adres opzoeken,,nog-versturen,,adres zoeken + personaliseren,,Winterswijk/Achterhoek; EUR 163.015 - REGIO
-LiemersNovum,Zevenaar,Gelderland,PO-bestuur,2025,po-2025,,adres opzoeken,,nog-versturen,,adres zoeken + personaliseren,,Liemers/Zevenaar; EUR 140.425 - REGIO
-Samenwerkingsstichting Kans & Kleur,Wijchen,Gelderland,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,plaats checken + adres,,waarschijnlijk Wijchen; EUR 164.900 - REGIO?
-Zinder,Tiel,Gelderland,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,plaats checken + adres,,waarschijnlijk Tiel/Rivierenland; EUR 80.170 - REGIO?
-St. Katholiek Onderwijs Flevoland en Veluwe,te bevestigen,Gelderland/Flevoland,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,plaats checken + adres,,Veluwe deel = regio; EUR 108.318
+Stichting Consent,Enschede,Overijssel,PO-bestuur,2025,po-2025,info@consentscholen.nl,geverifieerd,2026-08-06,concept-in-gmail,Gmail-concept aangemaakt,openen + verzenden,,EUR 150.068 - REGIO
+Stichting Keender,Haaksbergen,Overijssel,PO-bestuur,2025,po-2025,info@keender.nl,geverifieerd,2026-08-06,concept-in-gmail,Gmail-concept aangemaakt,openen + verzenden,,EUR 160.875 - REGIO
+Stichting Openbaar Primair Onderwijs Hof van Twente,Goor,Overijssel,PO-bestuur,2025,po-2025,info@opohvt.nl,geverifieerd,2026-08-06,concept-in-gmail,Gmail-concept aangemaakt,openen + verzenden,,EUR 103.980 - REGIO
+Stichting Kindcentrum Rivierenwijk,Deventer,Overijssel,PO,2025,po-2025,info@kindcentrumrivierenwijk.nl,geverifieerd,2026-08-06,concept-in-gmail,Gmail-concept aangemaakt,openen + verzenden,,EUR 162.567 - REGIO (Deventer bevestigd)
+Stichting KindPunt,Meppel,Drenthe,PO-bestuur,2025,po-2025,info@kindpunt.nl,geverifieerd,2026-08-06,concept-in-gmail,Gmail-concept aangemaakt,openen + verzenden,,EUR 93.890 - REGIO (nu WIES)
+Stichting Primair Onderwijs Apeldoorn (Leerplein055),Apeldoorn,Gelderland,PO-bestuur,2025,po-2025,info@leerplein055.nl,geverifieerd,2026-08-06,concept-in-gmail,Gmail-concept aangemaakt,openen + verzenden,,EUR 193.260 - REGIO
+Stichting PCBO Apeldoorn,Apeldoorn,Gelderland,PO-bestuur,2025,po-2025,info@pcboapeldoorn.nl,geverifieerd,2026-08-06,concept-in-gmail,Gmail-concept aangemaakt,openen + verzenden,,EUR 168.459 - REGIO
+Stichting De Korenburg,Winterswijk,Gelderland,SBO,2025,po-2025,info@dekorenburg.nl,geverifieerd,2026-08-06,concept-in-gmail,Gmail-concept aangemaakt,openen + verzenden,,EUR 163.015 - REGIO; SBO-school (sterke match)
+LiemersNovum,Zevenaar,Gelderland,PO-bestuur,2025,po-2025,info@liemersnovum.nl,geverifieerd,2026-08-06,concept-in-gmail,Gmail-concept aangemaakt,openen + verzenden,,EUR 140.425 - REGIO
+Samenwerkingsstichting Kans & Kleur,Wijchen,Gelderland,PO-bestuur,2025,po-2025,info@kansenkleur.nl,geverifieerd,2026-08-06,concept-in-gmail,Gmail-concept aangemaakt,openen + verzenden,,EUR 164.900 - REGIO (Wijchen bevestigd)
+# --- REGIO, adres nog te bevestigen (geen concept aangemaakt) ---
+Stichting Symbio,Hengelo,Overijssel,PO-bestuur,2025,po-2025,,contactformulier,,nog-versturen,geen algemeen e-mailadres gevonden,via symbiohengelo.nl/contact invullen,,EUR 99.975 - REGIO; alleen formulier
+Vereniging Pricoh,Hoogeveen,Drenthe,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,alleen schooladressen gevonden; waarschijnlijk info@pricoh.nl,adres bevestigen via pricoh.nl,,EUR 174.860 - REGIO
+Veluwse Onderwijsgroep,Apeldoorn,Gelderland,PO-bestuur,2025,po-2025,,contactformulier,,nog-versturen,e-mail niet publiek,via veluwseonderwijsgroep.nl/contact,,EUR 199.240 - REGIO; formulier
+Zinder,Deventer,Overijssel,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,bestuur zit in DEVENTER (niet Tiel); adres via zinderonderwijs.nl,adres bevestigen,,EUR 80.170 - REGIO (Overijssel)
+St. Katholiek Onderwijs Flevoland en Veluwe,te bevestigen,Gelderland/Flevoland,PO-bestuur,2025,po-2025,,te bevestigen,,nog-versturen,,plaats + adres checken,,EUR 108.318
 # ===== NOORD (Friesland / Groningen — Kevin deed hier eerder outreach) =====
 Proloog,Leeuwarden,Friesland,PO-bestuur,2025,po-2025,,adres opzoeken,,nog-versturen,,adres zoeken,,Leeuwarden; EUR 200.000
 Stichting Ambion,Heerenveen,Friesland,PO-bestuur,2025,po-2025,,adres opzoeken,,nog-versturen,,adres zoeken,,Heerenveen e.o.; EUR 120.975
