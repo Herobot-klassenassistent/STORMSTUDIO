@@ -1,0 +1,148 @@
+HANDOFF / CONTEXT SUMMARY — Kevin Storm freelance outreach project
+(Plain-text brief to paste into another AI so it can continue helping. Last updated ~6 Aug 2026.)
+
+========================================================
+0) HOW TO USE THIS
+========================================================
+You are helping Kevin Storm build a freelance pipeline via warm, personal outreach emails.
+Everything is tracked in a git repo called STORMSTUDIO, folder "outreach/", branch
+"claude/school-drafts-hecr49". Each campaign is a subfolder with: a pitch (internal), a
+targets/leads CSV, a response-tracker CSV, a mails/ folder with templates, and a README.
+Master status board: outreach/status-overzicht.md.
+
+TOOLING LIMITS TO KNOW:
+- The assistant can only CREATE Gmail DRAFTS, it cannot SEND. Kevin opens each draft and clicks Send.
+- The assistant cannot submit web contact forms. Kevin does those.
+- Many government/org pages (DUO, uitvoeringvanbeleidszw.nl, vluchtelingenwerk finder, some
+  contact pages, Kevin's own netlify site) BLOCK automated fetch (HTTP 403). Workaround: Kevin
+  pastes lists / uploads PDFs, and the assistant structures them.
+
+========================================================
+1) WHO KEVIN IS (profile + voice)
+========================================================
+- Kevin Storm. Freelance workshop docent / educator. Bevoegd docent speciaal basisonderwijs.
+  Had a music career first ("muziekcarrière"), then ~11 years freelance teaching (he also frames
+  it as 8 yr special education + 12 yr own education business = 20+ yrs total).
+- Specialisms: nieuwe media (online veiligheid, gamedesign, Photoshop, e.d.) AND classic
+  techniques (tekenen, muziek maken). Develops lesmateriaal & curriculum, gives workshops and
+  team trainings, does train-de-trainer, and can design (digital) tools — including with AI.
+- Key differentiator: special-needs background = designs for people who don't "get it" by default.
+- Lives in Enter, Twente (postcode 7468HH) since June 2026. Core region: Twente / Overijssel /
+  Gelderland / Drenthe (has also done Friesland).
+- Has worked with/for: Facet (Emmen), bibliotheek regio Oost-Achterhoek (curriculum + teamtrainingen),
+  Kleinkunstig (Zwolle), Kaliber (Enschede), TETEM (Enschede), Twents Zilver (ouderenbegeleiding),
+  Max Music. Writes a monthly column (Uitgeverij de Inzet).
+- Interests / target themes: social causes; asielzoekers/vluchtelingen; mensen met verstandelijke
+  beperking; special-needs kids; resilience/welzijn of the STAFF in tough sectors ("the hard days");
+  education, culture, libraries, museums; corporate & AI-literacy.
+
+CONTACT + LINKS:
+- Email: kevinstorm1980@gmail.com   Phone: 06 24529391
+- About page: www.kevinstorm.eu/over-mij
+- LinkedIn (use EXACTLY this, no google-wrapped version): www.linkedin.com/in/stormkevin
+- Workshops site: https://stormstudio.netlify.app/workshops
+
+OUTREACH VOICE / RULES (important):
+- Tone = warm, personal, low-pressure "kennismaken / kop koffie". Signature phrases he uses:
+  "Mijn naam is Kevin Storm en ik stel me graag even aan jullie voor..."; "een verkennend gesprek
+  zonder verwachtingen"; "en dat hoeft niet altijd financieel te zijn"; "Heeft u een momentje in de
+  komende weken?"; sign-off "Vriendelijke groet, Kevin Storm".
+- NOT salesy. Goal is usually an intro/coffee, not a hard pitch.
+- Per-request link rules varied: for the school-board emails he wanted the LinkedIn link ONLY
+  (exactly www.linkedin.com/in/stormkevin) and NO mention of any grant/subsidy. For
+  VluchtelingenWerk he wanted BOTH LinkedIn + the workshops site.
+- He can't attach his CV to a draft via the tool; he adds it himself before sending if wanted.
+
+========================================================
+2) CAMPAIGN FOLDERS (outreach/)
+========================================================
+- basisscholen (older): primary + special-education schools, Overijssel/Gelderland/Drenthe/Friesland.
+  Broad list + SO/SBO shortlist + BCC batch mails.
+- ai-literacy: "AI-geletterdheid & zelf tools bouwen met AI". Targets PABO/lerarenopleidingen,
+  kennisinstituten/fondsen, sprekersbureaus, eventbureaus, AI-trainingsaanbieders, big orgs.
+- begrijpelijk: "het onbegrijpelijke begrijpelijk maken" (overheid/laaggeletterdheid + financieel).
+- zorg: sensory & accessible design for care (VG/dementie).
+- sociaal: vulnerable groups & staff resilience (refugees, VG, special-needs, professional resilience).
+- financiele-educatie: schools that got financial-education subsidy (leads-scholen.csv = 71 PO 2025
+  subsidy BOARDS, region-first) + a geldlessen.nl self-listing text.
+- vluchtelingenwerk: train-de-trainer new media + curriculum per location.
+
+========================================================
+3) CURRENT PIPELINE (as of ~6 Aug 2026)
+========================================================
+APPOINTMENTS / STRONG:
+- Rijnbrink (Elise Nieuwhof): appointment Mon 7 Sept, 10:30.
+- Stadkamer Zwolle (Anneke Renting + Joris Bakhuis): kennismaking a Monday ~13:00 (cultuureducatie PO).
+- Wijzer in geldzaken (Femke Boerkamp, f.boerkamp@minfin.nl): GOOD meeting 6 Aug. She sent follow-up
+  links: (a) subsidy-recipient lists (funded schools = leads), (b) geldlessen.nl forms to list your
+  lesmateriaal + scholingsaanbod, (c) Docentendag Financiële educatie, 5 Oct, Amersfoort — Kevin is
+  ON THE WAITLIST (might meet Femke in person).
+
+WARM / IN PROGRESS:
+- Movisie: forwarded Kevin to the content specialist (discriminatie/eenzaamheid).
+- IMPAKT (Arjon): wants Kevin to translate IMPAKT projects into educational content; meet at the
+  "Data Never Dies" opening.
+- Kunstcircuit / Bibliotheek Deventer (Lee Pieket): scheduling; Kevin offered 24/27/28/31 Aug.
+- Beeld & Geluid, Medilex, ZINiN, Bibliotheek Salland: warm, parked until after summer holidays.
+
+SENT, AWAITING REPLY:
+- sociaal batch (sent 4 Aug): De Vrolijkheid (Wesley back 10 Aug — TOP match, watch it),
+  New Dutch Connections, War Child, MEE Samen, Augeo.
+- zorg batch (sent ~2 Aug): Cosis, 's Heeren Loo, Philadelphia, Vilans, Alzheimer Nederland, Pharos.
+- VluchtelingenWerk (sent 6 Aug): Hof van Twente (goor@vluchtelingenwerk.nl), AZC Almelo
+  (azcalmelo@vluchtelingenwerk.nl). Offer = train-de-trainer new media + curriculum per location.
+
+DRAFTS READY BUT NOT YET CONFIRMED SENT:
+- 10 financial-education school-board drafts (via Femke referral, NO grant mention, LinkedIn-only link):
+  Consent (Enschede), Keender (Haaksbergen), OPO Hof van Twente (Goor), Kindcentrum Rivierenwijk
+  (Deventer), KindPunt (Meppel), Leerplein055 (Apeldoorn), PCBO Apeldoorn, De Korenburg (Winterswijk,
+  SBO), LiemersNovum (Zevenaar), Kans & Kleur (Wijchen). All in Gmail Drafts.
+
+POLITE DECLINES (door sometimes open): ProDemos, HKU, Gynzy, Rijksmuseum Boerhaave (open later),
+Phion, Nuffic/Erasmus+, CODA Apeldoorn, Nederlands Openluchtmuseum, Nieuwe Instituut, Bibliotheek
+Twente, Onderwijs Maak Je Samen, VluchtelingenWerk HQ (too busy). Stichting Lezen en Schrijven
+declined direct work BUT tipped a good lead: approach the local "taalnetwerken".
+
+CLOSED — DO NOT CONTACT AGAIN: Aveleijn (met Christel; nice org, no content match).
+
+========================================================
+4) OPEN NEXT STEPS / TODO
+========================================================
+- Send the 10 school-board drafts (Gmail Drafts); then log them as sent.
+- Follow up quiet ones ~14–16 Aug (sociaal batch, VluchtelingenWerk Goor/AZC Almelo).
+- Watch De Vrolijkheid after 10 Aug.
+- Femke follow-ups: mine the funded-schools lists as leads; submit geldlessen.nl scholingsaanbod +
+  lesmateriaal; track the Docentendag waitlist (5 Oct).
+- Extend financiele-educatie: paste the VO and MBO subsidy PDFs to add those schools.
+- Find addresses for 5 remaining region school boards: Symbio (Hengelo, form-only), Veluwse
+  Onderwijsgroep (Apeldoorn, form-only), Pricoh (Hoogeveen), Zinder (board is in DEVENTER, not Tiel),
+  KO Flevoland en Veluwe.
+- New niche: approach the local "taalnetwerken" (tip from Lezen en Schrijven).
+- VluchtelingenWerk: paste the finder list (name + place per location within 50 km of 7468HH) to draft
+  the rest; optionally also do a regional VluchtelingenWerk Oost-Nederland approach.
+- Add 2–3 concrete CASES to the pitch docs (they currently have a TODO for this — cases sell hardest).
+
+========================================================
+5) READY-TO-REUSE EMAIL TEMPLATE (Kevin's voice)
+========================================================
+Onderwerp: Even kennismaken — kop koffie?
+
+Beste mensen van [organisatie],
+
+Mijn naam is Kevin Storm en ik stel me graag even aan jullie voor. Ik ben bevoegd docent speciaal
+basisonderwijs en geef sinds mijn muziekcarrière al ruim elf jaar freelance les. Ik ontwikkel
+lesmateriaal en werk voor uiteenlopende organisaties — o.a. Facet in Emmen, de bibliotheek regio
+Oost-Achterhoek, Kleinkunstig en Kaliber. Sinds juni woon ik in het mooie Enter (Twente). Ik heb me
+gespecialiseerd in nieuwe media — online veiligheid, gamedesign, Photoshop en meer — maar ook de
+goede oude technieken zoals tekenen en muziek maken.
+
+[PERSOONLIJKE ALINEA — waarom je juist deze organisatie wilt ontmoeten; oprechte interesse, niet verkopen.]
+
+Ik zou het erg leuk vinden om een keer een verkennend gesprek te hebben, zonder verwachtingen —
+gewoon om te kijken of we iets voor elkaar kunnen betekenen. En dat hoeft niet altijd financieel te zijn.
+
+Heeft u een momentje in de komende weken?
+
+Vriendelijke groet,
+Kevin Storm
+www.kevinstorm.eu/over-mij · www.linkedin.com/in/stormkevin · kevinstorm1980@gmail.com · 06 24529391
