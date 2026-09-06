@@ -1,0 +1,15 @@
+school,categorie,plaats,provincie,email,contact_status,datum_verstuurd,status,laatste_actie,volgende_actie,datum_follow_up,notitie
+# Scholen die buiten het standaard onderwijs vallen (special needs, hoogbegaafd, justitiele jeugd, democratisch, etc.). Nog niet eerder benaderd.
+# Warme intro (Kevins eigen template), schone HTML-links, geen em dashes (zie SCHRIJFREGELS.md).
+# STATUS: concept-in-gmail | verstuurd | gereageerd | gesprek-gepland | gewonnen | afgewezen | geen-reactie
+De Berkenschutse,SO/VSO expertise (o.a. epilepsie/complex),Heeze,Noord-Brabant,informatie@berkenschutse.nl,geverifieerd,,concept-in-gmail,concept klaar,openen + verzenden,,expertisecentrum (V)SO
+Portalis / VSO Veenhuizen (JJI),Justitiele jeugdinrichting onderwijs,Veenhuizen,Drenthe,d.schroor@elker.nl,geverifieerd,,concept-in-gmail,concept klaar (persoonlijk aan Dewi),openen + verzenden,,teamleider Dewi Schroor (Elker/Het Poortje); REGIO
+Wings Agora,Zelfsturend/Agora-onderwijs (VO),Roermond,Limburg,info@wingsroermond.nl,geverifieerd,,concept-in-gmail,concept klaar,openen + verzenden,,bijzondere pedagogiek
+De Twijn,Mytyl/tyltyl / revalidatie SO,Zwolle,Overijssel,regionaalexpertiseteam@detwijn.nl,geverifieerd,,concept-in-gmail,concept klaar,openen + verzenden,,REGIO; adres = expertiseteam
+De Achtbaan,Voltijd hoogbegaafdenonderwijs (PO),Utrecht,Utrecht,info.deachtbaan@ksu.nl,geverifieerd,,concept-in-gmail,concept klaar,openen + verzenden,,hoogbegaafd
+Democratische school De Ruimte,Democratisch onderwijs,Soest,Utrecht,info@deruimtesoest.nl,geverifieerd,,concept-in-gmail,concept klaar,openen + verzenden,,democratische school
+# --- Volgende ronde / nog adres te verifieren ---
+Leonardoschool (hoogbegaafd),Hoogbegaafd,Dordrecht e.a.,divers,,te bevestigen,,nog-versturen,,adres opzoeken (h3o),,
+Horizon / SG Harreveld (gesloten jeugdzorg VSO),JeugdzorgPlus / VSO cluster 4,Z-Holland/Gelderland,divers,,te bevestigen,,nog-versturen,,adres opzoeken,,
+Ziekenhuisonderwijs / educatieve voorziening,Onderwijs aan zieke kinderen,divers,divers,,te bevestigen,,nog-versturen,,voorziening opzoeken,,
+ISK / nieuwkomersonderwijs,Internationale schakelklas,divers,divers,,te bevestigen,,nog-versturen,,school opzoeken,,
