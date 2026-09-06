@@ -1,34 +1,37 @@
-Concept — CmK-coordinator per provincie (analoog aan Compenta)
+Concept — CmK-coordinator per provincie (Kevins uitgebreide, warme intro)
 
-DOEL: kennismaken + laten zien dat je (net als bij Compenta in Drenthe)
-leerlijnen/curriculum en teamtraining ontwerpt voor scholen, vooral speciaal
-onderwijs en bijzondere/maatwerk-scholen. Warme, vrijblijvende toon.
+Gebaseerd op Kevins eigen, succesvolle introductiemail (campagne "Even
+voorstellen — Kevin Storm", juli). Warm, persoonlijk, met concrete cases.
+Volgt de SCHRIJFREGELS: geen em dashes / AI-markers, schone links (htmlBody
+met echte anchors).
 
-LINKS: gebruik nette anchors in de HTML-versie zodat de zichtbare tekst schoon
-is (geen google.com/url-wrapper). Concepten in Gmail zijn met htmlBody gemaakt.
-
-Aan: [info-adres van de CmK-coordinator]
-Onderwerp: Curriculum & leerlijnen voor (speciaal) onderwijs — even kennismaken?
+Onderwerp: Even voorstellen, Kevin Storm
 
 ---
 
-Beste [team van [organisatie] / naam],
+Beste [mensen van [organisatie] / naam],
 
-Mijn naam is Kevin Storm. Ik ben bevoegd docent speciaal basisonderwijs en ontwerp sinds ruim elf jaar curriculum, lesmateriaal en trainingen — met een sterke focus op nieuwe media en op groepen die maatwerk nodig hebben.
+Mijn naam is Kevin Storm. Graag zou ik mezelf even bij jullie willen introduceren.
 
-In Drenthe werk ik samen met Compenta (Cultuureducatie met Kwaliteit): ik ontwikkel leerlijnen en lesmateriaal voor scholen, vooral in het speciaal onderwijs en op scholen die net even iets anders nodig hebben — en ik train de teams zodat het beklijft.
+Ik ben een gediplomeerd docent speciaal basisonderwijs en vanwege mijn carrière in de muziek ben ik freelance les gaan geven. Ik werk inmiddels al meer dan 11 jaar zelfstandig met allerlei organisaties zoals Max Music, Kleinkunstig, Kaliber, Facet en meer.
 
-Dat zou ik graag ook in [provincie] doen. Daarom zoek ik contact met [organisatie] als spil in de cultuureducatie hier: ik ben benieuwd of jullie scholen kennen die maatwerk zoeken, en of ik iets voor jullie netwerk kan betekenen.
+De afgelopen jaren ben ik me steeds meer gaan richten op de trap erboven en ben ik curriculum gaan ontwikkelen en grote projecten gaan draaien, met bijvoorbeeld Compenta als subsidieverstrekker. Hiermee ontwikkel ik prachtig lesmateriaal voor bijvoorbeeld het VSO. Voor meerdere organisaties heb ik lesmateriaal ontwikkeld en veel van die lessen (NFT art, digitaal tekenen, gamedesign) worden superveel geboekt.
 
-[Optioneel, als de org een speciaal-onderwijs-programma heeft: verwijs daarnaar,
-zoals bij Kunstloc Brabant — "Ik zag dat jullie een programma hebben rond
-cultuureducatie en gespecialiseerd onderwijs; daar sluit mijn werk naadloos op aan."]
+Daarnaast ben ik een hele tijd verbonden geweest aan de bibliotheken regio Oost Achterhoek, met als doel het team digitaal vaardiger te maken. Teamtrainingen, videomateriaal voor intern gebruik, etc. Een superleuke periode waarin ik het team digitaal vaardiger heb gemaakt en veel kennis over didactiek heb kunnen achterlaten. Mijn aanbevelingsbrief hiervan kan ik tonen.
 
-Zou een vrijblijvende kennismaking schikken? Een indruk van mijn werk:
-- LinkedIn: www.linkedin.com/in/stormkevin
-- Workshops: stormstudio.netlify.app/workshops
+In Drenthe draai ik al mooie projecten met Compenta als subsidieverstrekker, dus jullie netwerk in [provincie] voelt vertrouwd. [Optioneel bij een SO-programma, zoals Kunstloc Brabant: "Ik zag bovendien dat jullie een programma hebben rond cultuureducatie en gespecialiseerd onderwijs; daar sluit mijn werk goed op aan."]
 
-Vriendelijke groet,
+Ik zou heel graag met jullie een vrijblijvend gesprek willen hebben of we iets voor elkaar kunnen betekenen. Workshops kan ik natuurlijk sowieso geven, maar het lijkt me leuk iets te hebben met wat meer doorgang en diepgang: ontwikkelen, coachen, docenten trainen, en kwaliteit bewaken over een hele leerlijn.
 
+Ik geef les in heel veel onderwerpen omdat ik een brede interesse heb. Dus ik geef les aan kleuters en cartoonlessen, maar ook AI aan volwassenen en alles wat ertussen zit. Nieuwe media en kunst als raakvlak is waar ik me thuisvoel, en ik word vaak opgetrommeld voor inval en voor de zwaardere klussen, want ik hou juist van doelgroepen die een uitdaging zijn. Ik heb stopmotionlessen gedaan met meervoudig gehandicapten, fotografielessen gegeven in de jeugdgevangenis en fictieve festivals georganiseerd met universitaire studenten.
+
+Daarnaast ben ik docententrainer die met organisaties zoals Erasmus internationale colleges geeft. Zo komen docenten uit heel Europa naar Amsterdam om bij mij een cursus "gamification in het onderwijs" te volgen. Na die cursus gaan ze gediplomeerd terug, en ik ben in Roemenië geweest om met mijn cursus hun toekomstige subsidies in het speciaal onderwijs te helpen waarborgen. Daar ben ik best trots op.
+
+Nou goed, veel over mij. Ik wil vooral aangeven dat ik breed inzetbaar ben en graag eens met jullie spar of we op wat voor manier dan ook kunnen samenwerken.
+
+Ik hoor het graag. Mijn cv en werk zijn hier te vinden:
+www.linkedin.com/in/stormkevin
+www.kevinstorm.eu
+
+Vr gr
 Kevin Storm
-www.kevinstorm.eu/over-mij · www.linkedin.com/in/stormkevin · kevinstorm1980@gmail.com · 06 24529391
