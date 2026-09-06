@@ -1,0 +1,22 @@
+tier,organisatie,rol,provincie,website,email,contact_status,datum_verstuurd,status,laatste_actie,volgende_actie,datum_follow_up,notitie
+# CmK-coordinatoren per provincie (analoog aan Compenta/Drenthe) + landelijke fondsen. Doel: curriculum/leerlijnen (speciaal onderwijs + bijzondere scholen) + teamtraining.
+# STATUS: nog-versturen | concept-in-gmail | verstuurd | gereageerd | gesprek-gepland | gewonnen | afgewezen | geen-reactie
+A,Kunstloc Brabant,CmK-coordinator provincie,Noord-Brabant,kunstlocbrabant.nl,esther.leenders@kunstlocbrabant.nl,geverifieerd,,concept-in-gmail,Gmail-concept (HTML clean links),openen + verzenden,,TOPMATCH: heeft programma cultuureducatie & gespecialiseerd onderwijs; Esther Leenders
+A,Keunstwurk,CmK-coordinator provincie,Fryslan,keunstwurk.nl,info@keunstwurk.nl,geverifieerd,,concept-in-gmail,Gmail-concept,openen + verzenden,,
+A,Kunst Centraal,CmK-coordinator provincie,Utrecht,kunstcentraal.nl,info@kunstcentraal.nl,geverifieerd,,concept-in-gmail,Gmail-concept,openen + verzenden,,PO-CmK: angelique.groen@kunstcentraal.nl
+A,Kunstgebouw,CmK-coordinator provincie,Zuid-Holland,kunstgebouw.nl,info@kunstgebouw.nl,geverifieerd,,concept-in-gmail,Gmail-concept,openen + verzenden,,Educatie: Marjan Berg
+A,Huis voor de Kunsten Limburg,CmK-coordinator provincie,Limburg,hklimburg.nl,info@hklimburg.nl,geverifieerd,,concept-in-gmail,Gmail-concept,openen + verzenden,,
+A,Plein C,CmK-coordinator provincie,Noord-Holland,pleinc.nl,info@pleinc.nl,geverifieerd,,concept-in-gmail,Gmail-concept,openen + verzenden,,
+A,Cultuur Oost,CmK-coordinator provincie,Gelderland,cultuuroost.nl,info@cultuuroost.nl,adres-patroon (checken),,concept-in-gmail,Gmail-concept,openen + verzenden,,info@ op patroon; even checken voor verzenden
+A,Cultuurkwadraat / Kunsteducatie Zeeland,CmK-coordinator provincie,Zeeland,,,te bevestigen,,nog-versturen,adres opzoeken,,coordinator + adres nog opzoeken
+A,CmK-coordinator Flevoland,CmK-coordinator provincie,Flevoland,,,te bevestigen,,nog-versturen,adres opzoeken,,coordinator + adres nog opzoeken
+# --- Al in contact (NIET dubbel benaderen) ---
+X,Compenta,CmK-coordinator provincie,Drenthe,compenta.nl,,,,werkt al mee,,,,huidige opdrachtgever
+X,K&C / Stichting Kunst & Cultuur,CmK-coordinator provincie,Groningen,kunstencultuur.nl,,,,in gesprek,,,,Bas Hendrickx - warm (mogelijk vacature)
+X,Rijnbrink,CmK / bibliotheeknetwerk,Overijssel,rijnbrink.nl,,,,afspraak,,,,afspraak 7 sept (Elise Nieuwhof)
+# --- Landelijke fondsen (volgende ronde, nog niet benaderd) ---
+B,Fonds voor Cultuurparticipatie,Landelijk cultuurfonds (financiert CmK),landelijk,cultuurparticipatie.nl,,nog-versturen,,nog-versturen,,volgende ronde,,
+B,LKCA,Kennisinstituut cultuureducatie (+ netwerk speciaal onderwijs),landelijk,lkca.nl,,nog-versturen,,nog-versturen,,volgende ronde,,netwerk cultuureducatie speciaal onderwijs
+B,Jeugdeducatiefonds,Fonds kwetsbare kinderen/onderwijs,landelijk,jeugdeducatiefonds.nl,,nog-versturen,,nog-versturen,,volgende ronde,,
+B,Fonds NutsOhra (FNO),Fonds kwetsbare groepen,landelijk,fnozorgvoorkansen.nl,,nog-versturen,,nog-versturen,,volgende ronde,,
+B,Prins Bernhard Cultuurfonds,Cultuurfonds (+ provinciale afdelingen),landelijk,cultuurfonds.nl,,nog-versturen,,nog-versturen,,volgende ronde,,
