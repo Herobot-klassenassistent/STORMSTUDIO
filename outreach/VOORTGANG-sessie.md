@@ -2,8 +2,9 @@
 
 Everything below is staged as a **draft in your Gmail** (I cannot send; you send).
 All Dutch, your warm intro, clean links, no em dashes. Committed + pushed to
-`claude/school-drafts-hecr49`. **34 new school drafts this session** + the
-opportunities research doc.
+`claude/school-drafts-hecr49`. **42 new school drafts this session** + the
+opportunities research doc. (~32 cultuurprofielscholen van de ~54 landelijk +
+~19 bijzondere scholen/netwerken.)
 
 ## Track A: employers that fit your touring/remote life
 See `kansen-remote-werk/organisaties.md`. 10 categories with named orgs and why
@@ -14,7 +15,11 @@ which you want and I will verify contacts and draft them.
 
 ## Track B: school drafts made this session
 
-### VO cultuurprofielscholen (confirmed VCPS) - 16 new
+### VO cultuurprofielscholen (confirmed VCPS) - 23 new
+(o.a. Sint-Joriscollege, Cals College Nieuwegein, Hermann Wesselink College,
+Berger SG Bergen, Damstede, ROER College Roermond, Compaen VMBO, SSgN Nijmegen,
+Markenhage, Gerrit Rietveld, Penta JvL, Goese Lyceum, Pieter Zeeman, Amadeus,
+Coornhert, ECL, Rembrandt, en de hieronder genoemde regionale toppers)
 Montessori Lyceum Amsterdam (Rogier Oversteegen), Calandlyceum, H.N. Werkman
 Stadslyceum Groningen (Anne Peter van Muijen), Dr. Nassau College Penta Assen
 (Lianne de Vries), Eligant Lyceum Zutphen, Coornhert Lyceum Haarlem, Amadeus
