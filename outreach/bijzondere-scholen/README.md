@@ -22,6 +22,14 @@ geen em dashes, geen AI-markers, schone HTML-links.
 10. **VSO Het Ginnekencollege** (JJI Den Hey-Acker, Breda) — vso-ginneken@dji.minjus.nl — justitiele jeugd; sterke fotografie-in-de-jeugdgevangenis hook.
 11. **Kentalis Dr. J. de Graafschool VSO** (Groningen) — infodegraafschool@kentalis.nl — cluster 2; visueel/beeldend hook; REGIO noord.
 12. **Kentalis College Utrecht VSO** — info-utrecht-vso@kentalis.nl — cluster 2; visueel/beeldend hook.
+13. **De Cirkel** (ZML, Gorinchem) — admin.cirkel@logos-scholengroep.nl — cluster 3 SO+VSO; stopmotion-hook.
+14. **Labyrint VO** (democratisch, Noordlaren) — info@labyrint-vo.nl — REGIO noord.
+15. **Vivanto** (democratisch, Epe) — info@vivanto.school.
+16. **Democratische School Amsterdam** — info@dsa.life.
+17. **Sudbury School Amersfoort** — school@sudburyamersfoort.nl.
+18. **LOS Deurne** (democratisch) — info@losdeurne.nl.
+19. **makED** (democratisch, Voorhout) — info@maked.org.
+20. **Nova Vita** (democratisch, Maastricht) — contact@novavita.school.
 
 ## Volgende ronde (nog adres verifieren)
 ISK/nieuwkomersonderwijs (Ithaka-adres is gemaskeerd, ander adres opzoeken),
