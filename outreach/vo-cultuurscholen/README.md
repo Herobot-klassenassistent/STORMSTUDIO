@@ -29,6 +29,10 @@ AI-markers, schone HTML-links.
 16. **Amadeus Lyceum** (Vleuten) - secretariaat@amadeuslyceum.nl.
 17. **Pieter Zeeman Lyceum** (Zierikzee) - info@pieterzeemanlyceum.nl.
 18. **Eerste Christelijk Lyceum / ECL** (Haarlem) - info@ecl.nl.
+19. **Het Goese Lyceum** (Goes) - info@goeselyceum.nl.
+20. **Stedelijke Scholengemeenschap Nijmegen / SSgN** (Nijmegen, Jenaplan) - info@ssgn.nl.
+21. **Markenhage** (Breda, Dalton) - info@markenhage.nl.
+22. **Gerrit Rietveld College** (Utrecht) - info@grcu.nl.
 
 Alle bovenstaande zijn erkende VCPS-cultuurprofielscholen (bevestigd via cultuurprofielscholen.nl).
 
