@@ -17,9 +17,14 @@ AI-markers, schone HTML-links.
 4. **Jan Tinbergen College** (Roosendaal) - Merel de Korte, cultuurcoordinator - mkr@jtc-roosendaal.nl
 5. **Esdal College**, locatie Oosterstraat (Emmen, REGIO Drenthe) - info@esdalcollege.nl
 6. **Baudartius College** (Zutphen, Achterhoek VO) - info@baudartius.nl - regionale hook (bibliotheken Achterhoek)
+7. **Theresialyceum** (Tilburg) - info@theresialyceum.nl - cultuurprofielschool.
+8. **Titus Brandsmalyceum** (Oss, Het Hooghuis) - infotbl@hethooghuis.nl - cultuurprofielschool.
+9. **Werkplaats Kindergemeenschap VO** (Bilthoven, Kees Boeke) - werkplaatsvo@wpkeesboeke.nl - eigen regie + kunst/cultuur.
 
 ## Volgende ronde (nog adres verifieren)
-Het Streek College (Ede), Zone.college (Oost), en meer VCPS-cultuurprofielscholen
-en scholen met een expliciet kunst/cultuur-profiel of Cultuurkaart-budget.
+ROER College Schondeln (Roermond, enige cultuurprofielschool Limburg; e-mail
+admin@ vs info@roercollege.nl even checken), Montessori Lyceum Amsterdam,
+Fioretti College (Lisse), Het Streek College (Ede, cultuurprofiel niet bevestigd),
+en meer VCPS-cultuurprofielscholen en scholen met een expliciet kunst/cultuur-profiel.
 Let op: de VCPS-ledenlijst (cultuurprofielscholen.nl) is via het netwerk
 geblokkeerd; namen komen uit losse verificatie per school.
