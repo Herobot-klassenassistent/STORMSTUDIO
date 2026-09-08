@@ -21,6 +21,8 @@ Verstuurd-klaar (geverifieerde adressen):
 5. **Huis voor de Kunsten Limburg** (Limburg) — info@hklimburg.nl
 6. **Plein C** (N-Holland) — info@pleinc.nl
 7. **Cultuur Oost** (Gelderland) — info@cultuuroost.nl (adres op patroon — even checken vóór verzenden)
+8. **FleCk / Cultuureducatie Flevoland** (Flevoland) — info@cultuureducatieflevoland.nl — CmK-uitvoerder Flevoland.
+9. **Centrum KCE Oosterschelderegio** (Zeeland) — h.jenkins@centrumkce.nl — persoonlijk aan Hester Jenkins (adviseur cultuureducatie + teamleider).
 
 De concepten zijn met `htmlBody` gemaakt: de zichtbare links zijn schone
 anchors (`www.linkedin.com/in/stormkevin`), niet de lange `google.com/url`-versie.
@@ -31,6 +33,6 @@ anchors (`www.linkedin.com/in/stormkevin`), niet de lange `google.com/url`-versi
 - **Rijnbrink** (Overijssel) — afspraak 7 sept.
 
 ## Volgende rondes (nog niet benaderd)
-- Ontbrekende coordinatoren: **Zeeland** (Cultuurkwadraat/Kunsteducatie Zeeland) en **Flevoland** — adres nog opzoeken.
+- Zeeland en Flevoland nu gedekt (Centrum KCE Oosterschelderegio + FleCk). Nog te doen: andere Zeeuwse regio's (Kunsteducatie Walcheren, Toonbeeld Zeeuws-Vlaanderen).
 - **Landelijke fondsen**: Fonds voor Cultuurparticipatie, LKCA (netwerk speciaal onderwijs), Jeugdeducatiefonds, FNO, Prins Bernhard Cultuurfonds.
 - **Bijzondere/maatwerk-scholen** (tweede golf): cluster 3/4 SO, orthopedagogische behandelcentra, vrije/democratische/Agora-scholen, ziekenhuis-/residentiele scholen.
