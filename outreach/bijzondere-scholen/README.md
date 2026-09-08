@@ -33,6 +33,9 @@ geen em dashes, geen AI-markers, schone HTML-links.
 21. **Mytylschool de Brug** (Rotterdam) — info@mytylschooldebrug.nl — lichamelijk/meervoudig; stopmotion-hook.
 22. **Mytylschool Gabriël** (Den Bosch) — info@mytylschool-gabriel.nl — stopmotion-hook.
 23. **Mytylschool Eindhoven** — mytylschool@ssoe.nl — stopmotion-hook.
+24. **Yulius Onderwijs** (cluster 4, Dordrecht, 14 scholen) — directie@yuliusonderwijs.nl — breed sparren.
+25. **RENN4** (cluster 4, noord, 30+ locaties) — info@renn4.nl — REGIO; breed sparren.
+26. **De Ambelt** (cluster 4, Zwolle/Hardenberg) — info@ambelt.nl — REGIO.
 
 ## Volgende ronde (nog adres verifieren)
 ISK/nieuwkomersonderwijs (Ithaka-adres is gemaskeerd, ander adres opzoeken),
