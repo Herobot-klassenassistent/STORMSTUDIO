@@ -20,11 +20,14 @@ AI-markers, schone HTML-links.
 7. **Theresialyceum** (Tilburg) - info@theresialyceum.nl - cultuurprofielschool.
 8. **Titus Brandsmalyceum** (Oss, Het Hooghuis) - infotbl@hethooghuis.nl - cultuurprofielschool.
 9. **Werkplaats Kindergemeenschap VO** (Bilthoven, Kees Boeke) - werkplaatsvo@wpkeesboeke.nl - eigen regie + kunst/cultuur.
+10. **Montessori Lyceum Amsterdam** - Rogier Oversteegen, kunstcoordinator - r.oversteegen@msa.nl.
+11. **Calandlyceum** (Amsterdam Nieuw-West) - info@calandlyceum.nl.
+12. **H.N. Werkman Stadslyceum** (Groningen, REGIO noord) - Anne Peter van Muijen, cultuurcoordinator - a.van.muijen@o2g2.nl.
 
 ## Volgende ronde (nog adres verifieren)
 ROER College Schondeln (Roermond, enige cultuurprofielschool Limburg; e-mail
-admin@ vs info@roercollege.nl even checken), Montessori Lyceum Amsterdam,
-Fioretti College (Lisse), Het Streek College (Ede, cultuurprofiel niet bevestigd),
+admin@ vs info@roercollege.nl even checken), Fioretti College (Lisse, adres bekend
+maar cultuurprofiel niet bevestigd), Het Streek College (Ede, idem),
 en meer VCPS-cultuurprofielscholen en scholen met een expliciet kunst/cultuur-profiel.
 Let op: de VCPS-ledenlijst (cultuurprofielscholen.nl) is via het netwerk
 geblokkeerd; namen komen uit losse verificatie per school.
