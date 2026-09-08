@@ -30,6 +30,9 @@ geen em dashes, geen AI-markers, schone HTML-links.
 18. **LOS Deurne** (democratisch) — info@losdeurne.nl.
 19. **makED** (democratisch, Voorhout) — info@maked.org.
 20. **Nova Vita** (democratisch, Maastricht) — contact@novavita.school.
+21. **Mytylschool de Brug** (Rotterdam) — info@mytylschooldebrug.nl — lichamelijk/meervoudig; stopmotion-hook.
+22. **Mytylschool Gabriël** (Den Bosch) — info@mytylschool-gabriel.nl — stopmotion-hook.
+23. **Mytylschool Eindhoven** — mytylschool@ssoe.nl — stopmotion-hook.
 
 ## Volgende ronde (nog adres verifieren)
 ISK/nieuwkomersonderwijs (Ithaka-adres is gemaskeerd, ander adres opzoeken),
