@@ -33,6 +33,8 @@ AI-markers, schone HTML-links.
 20. **Stedelijke Scholengemeenschap Nijmegen / SSgN** (Nijmegen, Jenaplan) - info@ssgn.nl.
 21. **Markenhage** (Breda, Dalton) - info@markenhage.nl.
 22. **Gerrit Rietveld College** (Utrecht) - info@grcu.nl.
+23. **Penta College CSG Jacob van Liesveldt** (Hellevoetsluis) - jl@penta.nl.
+24. **Het Erasmus / Kunststroom** (Almelo, REGIO Twente) - Joran Schuijn, coordinator kunststroom - j.schuijn@het-erasmus.nl.
 
 Alle bovenstaande zijn erkende VCPS-cultuurprofielscholen (bevestigd via cultuurprofielscholen.nl).
 
