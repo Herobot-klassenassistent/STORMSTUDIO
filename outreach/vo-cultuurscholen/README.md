@@ -23,8 +23,18 @@ AI-markers, schone HTML-links.
 10. **Montessori Lyceum Amsterdam** - Rogier Oversteegen, kunstcoordinator - r.oversteegen@msa.nl.
 11. **Calandlyceum** (Amsterdam Nieuw-West) - info@calandlyceum.nl.
 12. **H.N. Werkman Stadslyceum** (Groningen, REGIO noord) - Anne Peter van Muijen, cultuurcoordinator - a.van.muijen@o2g2.nl.
+13. **Dr. Nassau College Penta** (Assen, REGIO Drenthe) - Lianne de Vries, coordinator kunst en cultuur - vsl@dr.nassaucollege.nl.
+14. **Eligant Lyceum** (Zutphen, Achterhoek) - info@eligant.nl.
+15. **Coornhert Lyceum** (Haarlem) - info@coornhert.nl.
+16. **Amadeus Lyceum** (Vleuten) - secretariaat@amadeuslyceum.nl.
+17. **Pieter Zeeman Lyceum** (Zierikzee) - info@pieterzeemanlyceum.nl.
+18. **Eerste Christelijk Lyceum / ECL** (Haarlem) - info@ecl.nl.
+
+Alle bovenstaande zijn erkende VCPS-cultuurprofielscholen (bevestigd via cultuurprofielscholen.nl).
 
 ## Volgende ronde (nog adres verifieren)
+Bevestigde CPS nog te mailen: Het Goese Lyceum (Goes). Andere confirmed CPS-namen om
+adres van op te zoeken. NB: Zaanlands Lyceum en Bonhoeffercollege bleken GEEN CPS.
 ROER College Schondeln (Roermond, enige cultuurprofielschool Limburg; e-mail
 admin@ vs info@roercollege.nl even checken), Fioretti College (Lisse, adres bekend
 maar cultuurprofiel niet bevestigd), Het Streek College (Ede, idem),
