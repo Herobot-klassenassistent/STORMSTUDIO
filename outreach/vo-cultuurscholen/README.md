@@ -35,8 +35,16 @@ AI-markers, schone HTML-links.
 22. **Gerrit Rietveld College** (Utrecht) - info@grcu.nl.
 23. **Penta College CSG Jacob van Liesveldt** (Hellevoetsluis) - jl@penta.nl.
 24. **Het Erasmus / Kunststroom** (Almelo, REGIO Twente) - Joran Schuijn, coordinator kunststroom - j.schuijn@het-erasmus.nl.
+25. **Rembrandt College** (Veenendaal) - info@rembrandt-college.nl.
+26. **Compaen VMBO** (Zaandam) - Rob Cerneus, cultuurcoordinator - R.cerneus@compaenvmbo.nl.
+27. **ROER College Schondeln** (Roermond, enige CPS Limburg) - administratie@roercollege.nl.
+28. **Sint-Joriscollege** (Eindhoven) - info-sintjoris@parmantscholen.nl.
+29. **Cals College** (Nieuwegein) - nieuwegein@cals.nl.
+30. **Hermann Wesselink College** (Amstelveen) - school@hethwc.nl.
+31. **Berger Scholengemeenschap** (Bergen NH) - info@berger-sg.nl.
 
 Alle bovenstaande zijn erkende VCPS-cultuurprofielscholen (bevestigd via cultuurprofielscholen.nl).
+Dat zijn ~31 van de ~54 landelijke cultuurprofielscholen; de rest volgt als je wilt.
 
 ## Volgende ronde (nog adres verifieren)
 Bevestigde CPS nog te mailen: Het Goese Lyceum (Goes). Andere confirmed CPS-namen om
