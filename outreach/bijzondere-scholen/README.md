@@ -19,6 +19,9 @@ geen em dashes, geen AI-markers, schone HTML-links.
 7. **Leonardoschool Dordrecht** (Dordrecht) — leonardo@h3o.nl — voltijd hoogbegaafdenonderwijs (H3O).
 8. **Scholengemeenschap Harreveld** (Harreveld) — sgharreveld@aloysiusstichting.nl — VSO cluster 4 / gesloten jeugdzorg (Aloysius Stichting).
 9. **OZL Noord** (regio Noord) — info@ozlnoord.nl — onderwijs aan zieke leerlingen (Ziezon-netwerk).
+10. **VSO Het Ginnekencollege** (JJI Den Hey-Acker, Breda) — vso-ginneken@dji.minjus.nl — justitiele jeugd; sterke fotografie-in-de-jeugdgevangenis hook.
+11. **Kentalis Dr. J. de Graafschool VSO** (Groningen) — infodegraafschool@kentalis.nl — cluster 2; visueel/beeldend hook; REGIO noord.
+12. **Kentalis College Utrecht VSO** — info-utrecht-vso@kentalis.nl — cluster 2; visueel/beeldend hook.
 
 ## Volgende ronde (nog adres verifieren)
 ISK/nieuwkomersonderwijs (Ithaka-adres is gemaskeerd, ander adres opzoeken),
