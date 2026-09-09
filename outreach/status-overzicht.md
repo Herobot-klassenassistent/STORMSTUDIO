@@ -1,8 +1,28 @@
 # Statusoverzicht outreach — Kevin Storm
 
-**Laatste update: 15 augustus 2026** (bijgewerkt na mailcheck).
+**Laatste update: 9 september 2026** (bijgewerkt na mailcheck).
 Dit is het levende overzicht over alle campagnes heen. De losse
 `respons-tracker.csv`'s per campagne blijven ook bestaan.
+
+---
+
+## 🆕 Reacties op de september-campagnes (CPS + bijzondere scholen + CmK + Agora)
+
+**Reageren / actie nodig:**
+- 🔥 **Cultuur Oost** (Joke Veenstra-Rutjes) — POSITIEF: wil kennismaken via Teams en vraagt jouw beschikbaarheid. **Mail stond nog ONGELEZEN in je inbox. Antwoorden met een paar data/tijden.**
+- 🔥 **Vereniging Agora Onderwijs** (Wendy Mazer) — warme tip: benader de Agora-scholen rechtstreeks. => Agora-campagne gestart (5 concepten klaar: Xplore, MC Agora Nijmegen, KWC-Agora, Hub030, Bredagora).
+- **Labyrint VO** (Emile van Doorn) — mail voorgelegd aan de coaches voor een workshopgroep. Warm, afwachten.
+- **Cultuureducatie Enschede** (Lotte Hoogers) — geeft jouw gegevens door aan collega Marlyn. Afwachten.
+- **K&C / Kunst & Cultuur** (Bas Hendrickx) — vacature komt eraan, hij stuurt hem toe. Najagen.
+
+**In behandeling / soft:**
+- **Theresialyceum** — intern doorgestuurd voor afhandeling.
+- **Gerrit van der Veen College** (Heleen Schreuder) — houdt je in gedachten, komt terug bij passende klus.
+- **LOS Deurne** (Hilde) — werken met vrijwilligers/ZZP a 20 euro/uur; workshops mogelijk (laag budget).
+
+**Auto-reply (verstuurd, wacht op inhoudelijk antwoord):** Calandlyceum, RENN4, De Berkenschutse, Centrum KCE (mailbox Hester onbemand => eventueel opnieuw naar info@centrumkce.nl).
+
+**Vriendelijk afgewezen (niet opnieuw benaderen):** SSgN Nijmegen (eigen partners), Kunst Centraal (geen ruimte, werkt schooljaar vooruit), Toonbeeld Zeeuws-Vlaanderen (afstand te groot), Pre-U / U Twente (geen budget).
 
 ---
 

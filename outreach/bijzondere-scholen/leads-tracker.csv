@@ -2,7 +2,7 @@ school,categorie,plaats,provincie,email,contact_status,datum_verstuurd,status,la
 # Scholen die buiten het standaard onderwijs vallen (special needs, hoogbegaafd, justitiele jeugd, democratisch, etc.). Nog niet eerder benaderd.
 # Warme intro (Kevins eigen template), schone HTML-links, geen em dashes (zie SCHRIJFREGELS.md).
 # STATUS: concept-in-gmail | verstuurd | gereageerd | gesprek-gepland | gewonnen | afgewezen | geen-reactie
-De Berkenschutse,SO/VSO expertise (o.a. epilepsie/complex),Heeze,Noord-Brabant,informatie@berkenschutse.nl,geverifieerd,,concept-in-gmail,concept klaar,openen + verzenden,,expertisecentrum (V)SO
+De Berkenschutse,SO/VSO expertise (o.a. epilepsie/complex),Heeze,Noord-Brabant,informatie@berkenschutse.nl,geverifieerd,2026-09-07,verstuurd,auto-reply 7 sep (ontvangstbevestiging),afwachten inhoudelijk antwoord,,expertisecentrum (V)SO
 Portalis / VSO Veenhuizen (JJI),Justitiele jeugdinrichting onderwijs,Veenhuizen,Drenthe,d.schroor@elker.nl,geverifieerd,,concept-in-gmail,concept klaar (persoonlijk aan Dewi),openen + verzenden,,teamleider Dewi Schroor (Elker/Het Poortje); REGIO
 Wings Agora,Zelfsturend/Agora-onderwijs (VO),Roermond,Limburg,info@wingsroermond.nl,geverifieerd,,concept-in-gmail,concept klaar,openen + verzenden,,bijzondere pedagogiek
 De Twijn,Mytyl/tyltyl / revalidatie SO,Zwolle,Overijssel,regionaalexpertiseteam@detwijn.nl,geverifieerd,,concept-in-gmail,concept klaar,openen + verzenden,,REGIO; adres = expertiseteam
@@ -15,18 +15,18 @@ VSO Het Ginnekencollege (JJI Den Hey-Acker),Justitiele jeugdinrichting onderwijs
 Kentalis Dr. J. de Graafschool VSO,Cluster 2 (doof/slechthorend/TOS/CMB),Groningen,Groningen,infodegraafschool@kentalis.nl,geverifieerd,,concept-in-gmail,concept klaar,openen + verzenden,,REGIO noord; visueel/beeldend hook
 Kentalis College Utrecht VSO,Cluster 2 (doof/slechthorend/TOS/CMB),Utrecht,Utrecht,info-utrecht-vso@kentalis.nl,geverifieerd,,concept-in-gmail,concept klaar,openen + verzenden,,visueel/beeldend hook
 De Cirkel (christelijk ZML),ZML cluster 3 SO+VSO,Gorinchem,Zuid-Holland,admin.cirkel@logos-scholengroep.nl,geverifieerd,,concept-in-gmail,concept klaar,openen + verzenden,,stopmotion-met-meervoudig-gehandicapten hook
-Labyrint VO,Democratisch onderwijs (VO),Noordlaren,Groningen,info@labyrint-vo.nl,geverifieerd,,concept-in-gmail,concept klaar,openen + verzenden,,REGIO noord
+Labyrint VO,Democratisch onderwijs (VO),Noordlaren,Groningen,info@labyrint-vo.nl,geverifieerd,2026-09-08,gereageerd,reactie 8 sep (Emile van Doorn): mail voorgelegd aan coaches voor workshopgroep,afwachten,,WARM - REGIO noord
 Vivanto,Democratisch onderwijs,Epe,Gelderland,info@vivanto.school,geverifieerd,,concept-in-gmail,concept klaar,openen + verzenden,,regio Veluwe
 Democratische School Amsterdam,Democratisch onderwijs,Amsterdam,Noord-Holland,info@dsa.life,geverifieerd,,concept-in-gmail,concept klaar,openen + verzenden,,DSA
 Sudbury School Amersfoort,Sudbury/democratisch (PO+VO),Amersfoort,Utrecht,school@sudburyamersfoort.nl,geverifieerd,,concept-in-gmail,concept klaar,openen + verzenden,,
-LOS Deurne,Democratisch onderwijs,Deurne,Noord-Brabant,info@losdeurne.nl,geverifieerd,,concept-in-gmail,concept klaar,openen + verzenden,,
+LOS Deurne,Democratisch onderwijs,Deurne,Noord-Brabant,info@losdeurne.nl,geverifieerd,2026-09-08,gereageerd,reactie 9 sep (Hilde): werken met vrijwilligers/ZZP a 20 euro/uur; workshops mogelijk,laag budget - afwachten,,gereageerd
 makED,Democratisch onderwijs,Voorhout,Zuid-Holland,info@maked.org,geverifieerd,,concept-in-gmail,concept klaar,openen + verzenden,,
 Nova Vita,Democratisch onderwijs,Maastricht,Limburg,contact@novavita.school,geverifieerd,,concept-in-gmail,concept klaar,openen + verzenden,,
 Mytylschool de Brug,Mytyl/tyltyl (lichamelijk/meervoudig) SO+VSO,Rotterdam,Zuid-Holland,info@mytylschooldebrug.nl,geverifieerd,,concept-in-gmail,concept klaar,openen + verzenden,,stopmotion-hook
 Mytylschool Gabriël,Mytyl (lichamelijk/meervoudig),Den Bosch,Noord-Brabant,info@mytylschool-gabriel.nl,geverifieerd,,concept-in-gmail,concept klaar,openen + verzenden,,stopmotion-hook
 Mytylschool Eindhoven,Mytyl (lichamelijk/meervoudig),Eindhoven,Noord-Brabant,mytylschool@ssoe.nl,geverifieerd,,concept-in-gmail,concept klaar,openen + verzenden,,stopmotion-hook
 Yulius Onderwijs,Cluster 4 (gedrag/psychiatrie) SO+VSO,Dordrecht,Zuid-Holland,directie@yuliusonderwijs.nl,geverifieerd,,concept-in-gmail,concept klaar,openen + verzenden,,14 scholen; centrale directie (breed sparren)
-RENN4,Cluster 4 (gedrag) SO+VSO,Groningen,Groningen/Drenthe/Fryslan,info@renn4.nl,geverifieerd,,concept-in-gmail,concept klaar,openen + verzenden,,REGIO noord; 30+ locaties; Erasmusschool@renn4.nl als backup
+RENN4,Cluster 4 (gedrag) SO+VSO,Groningen,Groningen/Drenthe/Fryslan,info@renn4.nl,geverifieerd,2026-09-08,verstuurd,auto-reply 8 sep (frontoffice),afwachten inhoudelijk antwoord,,REGIO noord; 30+ locaties
 De Ambelt,Cluster 4 (gedrag/psychiatrie),Zwolle,Overijssel,info@ambelt.nl,geverifieerd,,concept-in-gmail,concept klaar,openen + verzenden,,REGIO; Zwolle + Hardenberg
 Vereniging Agora Onderwijs,Agora/zelfsturend (netwerk),landelijk,landelijk,info@verenigingagoraonderwijs.nl,geverifieerd,,concept-in-gmail,concept klaar (netwerk-intro),openen + verzenden,,opent alle Agora-scholen
 # --- Volgende ronde / nog adres te verifieren ---
