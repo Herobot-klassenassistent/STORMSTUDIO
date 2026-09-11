@@ -196,6 +196,19 @@ Local and quick; good for concrete school projects (Route C).
 7. **Johanna Kinderfonds / FNO** - for the mytyl / zieke-leerlingen work.
 8. **Local cultuurcoaches + Rabo ClubSupport** in your region - steady, low-threshold.
 
+## Benaderd 11 sep 2026 (concept-drafts klaar in Gmail, warme 'Even voorstellen'-toon)
+- **FutureNL** (`hallo@futurenl.org`) - stichting digitale geletterdheid PO/VO,
+  contracteert makers/trainers. Insteek: AI / nieuwe media + train-the-teacher.
+- **Kaliber Kunstenschool** (`onderwijs@kaliberkunstenschool.nl`, Anne Nijland +
+  Marleen Renckels) - kunsthub Twente, boekt makers + adviseert scholen. Insteek:
+  lokaal, teamtraining + maatwerk + special needs.
+- **Jeugdfonds Sport & Cultuur Overijssel** (`overijssel@jeugdfondssportencultuur.nl`,
+  Tanja Stijnman + Cristel Corporaal) - betaalt deelname per kind. Insteek: geen
+  hire-pitch maar op de kaart komen zodat kinderen bij mijn trajecten kunnen.
+- **Cultuurcoach Enschede - Jacintha Blom** (`jacintha@cultuurinenschede.nl`, via
+  Concordia) - koppelt scholen en makers in de stad. Insteek: lokale koffie, op de
+  radar komen. (NB: Gemeente Enschede/Kelly Bekhuis was een andere deur, afgewezen.)
+
 ## Already in contact - do NOT double-approach
 Compenta (Drenthe, opdrachtgever) - CmK coordinators contacted: Kunstloc Brabant,
 Keunstwurk, Kunst Centraal (afgewezen), Kunstgebouw, Huis voor de Kunsten Limburg,
