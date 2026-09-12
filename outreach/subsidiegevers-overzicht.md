@@ -209,6 +209,20 @@ Local and quick; good for concrete school projects (Route C).
   Concordia) - koppelt scholen en makers in de stad. Insteek: lokale koffie, op de
   radar komen. (NB: Gemeente Enschede/Kelly Bekhuis was een andere deur, afgewezen.)
 
+## Benaderd 12 sep 2026 (concept-drafts klaar, focus teamtraining + leerlijnen)
+Gespecialiseerd onderwijs + funding-clusters. Toon: warm 'Even voorstellen',
+maar de vraag is nadrukkelijk het hogere niveau (teamtraining + curriculum/leerlijn),
+met workshopervaring als onderbouwing, niet als aanbod.
+- **Koraal** (`seconderwijs@koraal.nl`) - groot cluster 4 + zorgonderwijs, Brabant/Limburg.
+- **SWV VO 23-01 Twente** (`info@swv2301.nl`) - samenwerkingsverband passend onderwijs VO;
+  ontvangt/verdeelt onderwijsgeld, doet professionalisering. Regio Twente.
+- **SWV Twente Noord PO** (`info@swv-twentenoord.nl`) - samenwerkingsverband PO Twente Noord.
+- HOLD (adres niet schoon te verifieren): Koninklijke Visio (alleen regionale ambulante
+  adressen), VierTaal (alleen trajectbegeleiding), Horizon/iHub (geen schone cluster-4 mail).
+- NIET opnieuw (al eerder gemaild): Attendiz (11 jul, info@attendiz.nl), Aloysius Stichting
+  (18 jul, info@aloysiusstichting.nl), Yulius Onderwijs (8 sep, directie@yuliusonderwijs.nl),
+  De Twijn (valt onder OOZ = bestaande klant Gerie Schinkel).
+
 ## Already in contact - do NOT double-approach
 Compenta (Drenthe, opdrachtgever) - CmK coordinators contacted: Kunstloc Brabant,
 Keunstwurk, Kunst Centraal (afgewezen), Kunstgebouw, Huis voor de Kunsten Limburg,
