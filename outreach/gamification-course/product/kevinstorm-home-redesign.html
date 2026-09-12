@@ -1,0 +1,207 @@
+<title>Kevin Storm</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=Libre+Franklin:wght@400;500;600;700&display=swap">
+<style>
+  :root{
+    --ink:#1F2A30; --green:#2E6E4E; --green-deep:#245A40; --copper:#B5652E;
+    --paper:#FAF7F0; --surface:#FFFFFF; --muted:#5E6A6E; --rule:#E4DECF;
+    --on-green:#ffffff;
+    --shadow:0 1px 2px rgba(31,42,48,.05),0 8px 28px rgba(31,42,48,.07);
+    --maxw:1120px;
+    --serif:"Fraunces",Georgia,"Times New Roman",serif;
+    --sans:"Libre Franklin",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --ink:#EDEAE1; --green:#7FB896; --green-deep:#9CCBAF; --copper:#D89A63;
+    --paper:#161C1E; --surface:#1E2628; --muted:#9AA6A4; --rule:#2E3A3C;
+    --on-green:#12211b; --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
+  }}
+  :root[data-theme="dark"]{
+    --ink:#EDEAE1; --green:#7FB896; --green-deep:#9CCBAF; --copper:#D89A63;
+    --paper:#161C1E; --surface:#1E2628; --muted:#9AA6A4; --rule:#2E3A3C;
+    --on-green:#12211b; --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);
+    font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding-inline:24px}
+  a{color:var(--green-deep)}
+  h1,h2,h3{font-family:var(--serif);font-weight:600;text-wrap:balance;line-height:1.1;margin:0}
+  .eyebrow{font-weight:600;font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--copper)}
+  .rule{width:54px;height:3px;background:var(--copper);border:0;margin:16px 0 0}
+  .note{background:var(--surface);border:1px dashed var(--copper);border-radius:10px;
+    padding:12px 16px;font-size:.86rem;color:var(--muted);margin:20px auto 0;max-width:var(--maxw)}
+
+  nav.top{border-bottom:1px solid var(--rule);position:sticky;top:0;background:var(--paper);z-index:5}
+  nav.top .wrap{display:flex;align-items:center;justify-content:space-between;padding-block:16px;gap:20px;flex-wrap:wrap}
+  .brand{font-family:var(--serif);font-weight:900;font-size:1.2rem}
+  .brand span{color:var(--green)}
+  .menu{display:flex;gap:22px;flex-wrap:wrap}
+  .menu a{color:var(--ink);text-decoration:none;font-weight:500;font-size:.95rem}
+  .menu a:hover{color:var(--green)}
+  .menu a.cta{background:var(--green);color:var(--on-green);padding:8px 16px;border-radius:7px}
+
+  .hero{padding-block:76px 44px}
+  .hero .wrap{display:grid;grid-template-columns:1.3fr .9fr;gap:44px;align-items:center}
+  .hero h1{font-size:clamp(2.5rem,5.5vw,4rem);letter-spacing:-.015em}
+  .hero .lede{font-family:var(--serif);font-style:italic;font-weight:400;
+    font-size:clamp(1.1rem,2.2vw,1.4rem);color:var(--muted);margin:20px 0 28px;max-width:34ch}
+  .btn{display:inline-block;font-weight:600;padding:13px 24px;border-radius:8px;text-decoration:none}
+  .btn-primary{background:var(--green);color:var(--on-green)}
+  .btn-ghost{border:1px solid var(--rule);color:var(--ink);margin-left:12px}
+  .portrait{aspect-ratio:4/5;border-radius:16px;background:
+    linear-gradient(145deg,var(--green-deep),var(--ink));
+    display:flex;align-items:flex-end;padding:22px;color:#F3EFE6;box-shadow:var(--shadow)}
+  .portrait span{font-family:var(--serif);font-style:italic;font-size:1.05rem;opacity:.9}
+
+  section{padding-block:56px}
+  .sec-head{max-width:60ch;margin-bottom:32px}
+  .sec-head h2{font-size:clamp(1.8rem,3.5vw,2.4rem);margin-top:10px}
+  .sec-head p{color:var(--muted);margin:12px 0 0}
+
+  /* workshop cards — same layout, house colours */
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:18px}
+  .wcard{background:var(--surface);border:1px solid var(--rule);border-radius:14px;
+    padding:22px;box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease}
+  .wcard:hover{transform:translateY(-2px);border-color:var(--green)}
+  .wcard .ico{width:34px;height:34px;border-radius:8px;background:var(--green);opacity:.14;margin-bottom:14px}
+  .wcard h3{font-size:1.15rem;margin-bottom:6px}
+  .wcard p{margin:0;font-size:.92rem;color:var(--muted)}
+  .wcard .lvl{margin-top:12px;font-size:.75rem;font-weight:600;letter-spacing:.06em;
+    text-transform:uppercase;color:var(--copper)}
+
+  /* services strip */
+  .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:26px}
+  .svc h3{font-size:1.15rem;margin-bottom:8px;display:flex;gap:10px;align-items:baseline}
+  .svc h3 b{color:var(--green);font-family:var(--serif);font-weight:900}
+  .svc p{margin:0;color:var(--muted);font-size:.96rem}
+
+  /* curriculum feature */
+  .feature{background:var(--ink);color:var(--paper);border-radius:18px;padding:44px 40px;
+    display:grid;grid-template-columns:1.4fr .8fr;gap:32px;align-items:center}
+  .feature h2{color:var(--paper);font-size:clamp(1.6rem,3vw,2.2rem)}
+  .feature p{color:#C9CFC9;margin:14px 0 0}
+  .feature .badge{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--copper);font-weight:700}
+  .feature .btn-primary{background:var(--green-deep)}
+  .feature .side{border-left:2px solid var(--green);padding-left:20px;font-size:.95rem}
+  .feature .side b{display:block;font-family:var(--serif);font-size:1.4rem;color:var(--paper)}
+
+  /* road band */
+  .road .wrap{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+  .road blockquote{margin:0;font-family:var(--serif);font-style:italic;font-size:1.5rem;
+    line-height:1.35;color:var(--ink)}
+  .road .who{margin-top:14px;color:var(--muted);font-size:.9rem;font-style:normal}
+
+  footer{border-top:1px solid var(--rule);padding-block:30px;color:var(--muted);font-size:.9rem}
+  footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+  footer a{color:var(--green-deep)}
+  @media (max-width:760px){
+    .hero .wrap,.feature,.road .wrap{grid-template-columns:1fr}
+    .portrait{max-width:320px}
+    section{padding-block:42px}
+  }
+</style>
+
+<div class="note wrap">Redesign reference — homepage rebuilt in the StormStudio housestyle
+(workshop cards kept, recoloured). Copy is real but placeholder-editable; swap in the live
+photo and any Dutch wording. The "pip" and "plugins" areas were intentionally left out.</div>
+
+<nav class="top"><div class="wrap">
+  <div class="brand">Kevin <span>Storm</span></div>
+  <div class="menu">
+    <a href="#workshops">Workshops</a>
+    <a href="#services">Teamtraining</a>
+    <a href="#curriculum">Curriculum</a>
+    <a href="#about">About</a>
+    <a class="cta" href="#contact">Get in touch</a>
+  </div>
+</div></nav>
+
+<header class="hero"><div class="wrap">
+  <div>
+    <span class="eyebrow">Maker · teacher · teacher-trainer</span>
+    <hr class="rule">
+    <h1>Creative, new-media learning that reaches every child.</h1>
+    <p class="lede">Workshops, team-trainings and curriculum in new media, AI, game design and immersive learning — with a home in special education.</p>
+    <div>
+      <a class="btn btn-primary" href="#curriculum">Explore the curriculum</a>
+      <a class="btn btn-ghost" href="#workshops">See workshops</a>
+    </div>
+  </div>
+  <div class="portrait"><span>Kevin Storm — StormStudio</span></div>
+</div></header>
+
+<section id="workshops"><div class="wrap">
+  <div class="sec-head">
+    <span class="eyebrow">Workshops</span>
+    <h2>Hands-on sessions for your class</h2>
+    <p>Tailor-made and ready to run, from primary to special education. Every workshop is real making, not watching.</p>
+  </div>
+  <div class="cards">
+    <div class="wcard"><div class="ico"></div><h3>Game design &amp; AR</h3><p>Build a playable 3D world with Delightex; step inside in AR/VR.</p><div class="lvl">PO · VO · SO</div></div>
+    <div class="wcard"><div class="ico"></div><h3>AI in the classroom</h3><p>Make an AI movie, images and stories — and learn to use AI wisely.</p><div class="lvl">PO · VO</div></div>
+    <div class="wcard"><div class="ico"></div><h3>Stop-motion</h3><p>Tell a story frame by frame. Visible, non-verbal success for every learner.</p><div class="lvl">PO · SO</div></div>
+    <div class="wcard"><div class="ico"></div><h3>Digital drawing</h3><p>Illustration and design on iPad with Procreate.</p><div class="lvl">PO · VO</div></div>
+    <div class="wcard"><div class="ico"></div><h3>Photography</h3><p>Portrait and superimpose photography; see the world differently.</p><div class="lvl">PO · VO · SO</div></div>
+    <div class="wcard"><div class="ico"></div><h3>Graphic novel</h3><p>From character to comic — story, drawing and layout.</p><div class="lvl">PO · VO</div></div>
+    <div class="wcard"><div class="ico"></div><h3>Podcast &amp; sound</h3><p>Write, record and edit; sound design as a creative tool.</p><div class="lvl">VO</div></div>
+    <div class="wcard"><div class="ico"></div><h3>Film making</h3><p>Plan, shoot and edit a short film as a team.</p><div class="lvl">VO · SO</div></div>
+  </div>
+</div></section>
+
+<section id="services"><div class="wrap">
+  <div class="sec-head">
+    <span class="eyebrow">For schools &amp; teams</span>
+    <h2>Beyond the workshop: build capacity that stays</h2>
+  </div>
+  <div class="services">
+    <div class="svc"><h3><b>01</b> Team-trainings</h3><p>I train the people who work with the children every day, so your team keeps going long after I leave.</p></div>
+    <div class="svc"><h3><b>02</b> Curriculum &amp; leerlijnen</h3><p>Tailor-made learning lines in new media, AI and the arts — designed around your group and goals.</p></div>
+    <div class="svc"><h3><b>03</b> Teacher-trainer (Erasmus+)</h3><p>International courses for teachers across Europe, including gamification and immersive learning.</p></div>
+  </div>
+</div></section>
+
+<section id="curriculum"><div class="wrap">
+  <div class="feature">
+    <div>
+      <span class="badge">New · international</span>
+      <h2>Gamification &amp; Immersive Learning</h2>
+      <p>A complete, download-ready teacher-training suite: design lessons with AI, make them playable and immersive with Delightex, and make them work for every learner. Full course, or start with a single mini-course.</p>
+      <p style="margin-top:22px"><a class="btn btn-primary" href="#contact">See the packages</a></p>
+    </div>
+    <div class="side">
+      <b>2-day</b>course, or self-paced
+      <p style="color:#C9CFC9;margin:14px 0">Standalone tracks: AI in Education · Game Design with Delightex · Inclusive Gamification.</p>
+    </div>
+  </div>
+</div></section>
+
+<section class="road"><div class="wrap">
+  <blockquote>“I work from the road as much as from the classroom. Touring with bands taught me to build things that keep working when I’m not in the room.”
+  <span class="who">— Kevin Storm, on why everything is designed to leave something behind</span></blockquote>
+  <div>
+    <span class="eyebrow">About</span>
+    <hr class="rule">
+    <p id="about">Twenty years in education, eleven as a freelancer, qualified teacher in special (primary) education. I design tailor-made lessons and leerlijnen — new media, AI, game design, photography, stop-motion — and I’m at my best with the children who fall just outside the standard picture. I work across the Netherlands and internationally, and I develop every day, wherever the tour bus is.</p>
+  </div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+  <div class="feature" style="background:var(--surface);color:var(--ink);border:1px solid var(--rule)">
+    <div>
+      <span class="eyebrow">Get in touch</span>
+      <h2 style="color:var(--ink)">Let’s make something that stays</h2>
+      <p style="color:var(--muted)">Tell me your group, your goal and your dates, and I’ll propose a fit — a workshop, a team-training, or the full curriculum.</p>
+    </div>
+    <div>
+      <a class="btn btn-primary" href="mailto:kevinstorm1980@gmail.com">Email Kevin</a>
+      <p style="margin-top:14px"><a href="https://www.linkedin.com/in/stormkevin">linkedin.com/in/stormkevin</a></p>
+    </div>
+  </div>
+</div></section>
+
+<footer><div class="wrap">
+  <span>Kevin Storm · StormStudio · kevinstorm.eu</span>
+  <span>Maker · teacher · teacher-trainer</span>
+</div></footer>
