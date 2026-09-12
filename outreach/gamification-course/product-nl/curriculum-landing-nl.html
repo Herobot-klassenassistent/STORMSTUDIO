@@ -1,0 +1,229 @@
+<title>Gamification Curriculum</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=Libre+Franklin:wght@400;500;600;700&display=swap">
+<style>
+  :root{
+    --ink:#1F2A30; --green:#2E6E4E; --green-deep:#245A40; --copper:#B5652E;
+    --paper:#FAF7F0; --surface:#FFFFFF; --muted:#5E6A6E; --rule:#E4DECF;
+    --on-green:#ffffff;
+    --shadow:0 1px 2px rgba(31,42,48,.05),0 8px 28px rgba(31,42,48,.07);
+    --maxw:1120px;
+    --serif:"Fraunces",Georgia,"Times New Roman",serif;
+    --sans:"Libre Franklin",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --ink:#EDEAE1; --green:#7FB896; --green-deep:#9CCBAF; --copper:#D89A63;
+    --paper:#161C1E; --surface:#1E2628; --muted:#9AA6A4; --rule:#2E3A3C;
+    --on-green:#12211b; --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
+  }}
+  :root[data-theme="dark"]{
+    --ink:#EDEAE1; --green:#7FB896; --green-deep:#9CCBAF; --copper:#D89A63;
+    --paper:#161C1E; --surface:#1E2628; --muted:#9AA6A4; --rule:#2E3A3C;
+    --on-green:#12211b; --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding-inline:24px}
+  a{color:var(--green-deep);text-underline-offset:2px}
+  h1,h2,h3{font-family:var(--serif);font-weight:600;text-wrap:balance;line-height:1.1;margin:0}
+  .eyebrow{font-weight:600;font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--copper)}
+  .rule{width:54px;height:3px;background:var(--copper);border:0;margin:18px 0 0}
+  .strip{border-bottom:1px solid var(--rule)}
+  .strip .wrap{display:flex;justify-content:space-between;align-items:center;padding-block:16px;gap:16px;flex-wrap:wrap}
+  .brand{font-family:var(--serif);font-weight:900;font-size:1.15rem}
+  .brand span{color:var(--green)}
+  .navlink{font-size:.9rem;color:var(--muted);text-decoration:none}
+  .hero{padding-block:72px 40px}
+  .hero h1{font-size:clamp(2.6rem,6vw,4.3rem);letter-spacing:-.015em}
+  .hero .lede{font-size:clamp(1.1rem,2.2vw,1.4rem);color:var(--muted);max-width:38ch;margin:22px 0 30px;font-family:var(--serif);font-style:italic;font-weight:400}
+  .cta-row{display:flex;gap:14px;flex-wrap:wrap}
+  .btn{display:inline-block;font-weight:600;font-size:.98rem;padding:13px 24px;border-radius:8px;text-decoration:none;transition:transform .12s ease}
+  .btn:hover{transform:translateY(-1px)}
+  .btn-primary{background:var(--green);color:var(--on-green)}
+  .btn-ghost{background:transparent;color:var(--ink);border:1px solid var(--rule)}
+  .metrics{display:flex;gap:40px;flex-wrap:wrap;margin-top:44px;padding-top:26px;border-top:1px solid var(--rule)}
+  .metric b{font-family:var(--serif);font-weight:900;font-size:2rem;display:block;line-height:1}
+  .metric span{font-size:.86rem;color:var(--muted)}
+  section{padding-block:56px}
+  .sec-head{max-width:62ch;margin-bottom:34px}
+  .sec-head h2{font-size:clamp(1.8rem,3.5vw,2.5rem);margin-top:10px}
+  .sec-head p{color:var(--muted);margin:14px 0 0}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+  .card{background:var(--surface);border:1px solid var(--rule);border-radius:14px;padding:26px;box-shadow:var(--shadow);display:flex;flex-direction:column}
+  .card.flagship{border-color:var(--green);border-width:1.5px}
+  .card .tag{font-size:.72rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin-bottom:12px}
+  .card.flagship .tag{color:var(--green)}
+  .card h3{font-size:1.4rem;margin-bottom:6px}
+  .card .who{font-size:.9rem;color:var(--muted);margin-bottom:14px}
+  .card ul{margin:0 0 18px;padding:0;list-style:none;font-size:.95rem}
+  .card li{padding-left:18px;position:relative;margin-bottom:7px}
+  .card li::before{content:"";position:absolute;left:0;top:9px;width:6px;height:6px;border-radius:50%;background:var(--green)}
+  .card .price{margin-top:auto;font-family:var(--serif);font-weight:600;font-size:1.05rem}
+  .card .price small{display:block;font-family:var(--sans);font-weight:400;font-size:.82rem;color:var(--muted);margin-top:3px}
+  .why{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:28px}
+  .why .item h3{font-size:1.12rem;margin-bottom:8px;display:flex;gap:10px;align-items:baseline}
+  .why .item h3 i{font-style:normal;color:var(--copper);font-family:var(--serif);font-weight:900;font-size:.95rem}
+  .why .item p{margin:0;font-size:.96rem;color:var(--muted)}
+  .price-wrap{overflow-x:auto;border:1px solid var(--rule);border-radius:14px;background:var(--surface)}
+  table{border-collapse:collapse;width:100%;min-width:560px;font-size:.94rem}
+  th,td{text-align:left;padding:14px 18px;border-bottom:1px solid var(--rule)}
+  thead th{background:var(--ink);color:var(--paper);font-weight:600;font-size:.82rem;letter-spacing:.03em}
+  tbody tr:last-child td{border-bottom:0}
+  td.num{font-variant-numeric:tabular-nums;color:var(--ink)}
+  .foot-note{font-size:.84rem;color:var(--muted);margin-top:12px}
+  .aud{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px}
+  .aud .a{border-left:2px solid var(--green);padding:4px 0 4px 16px}
+  .aud .a b{display:block}
+  .aud .a span{font-size:.92rem;color:var(--muted)}
+  .closing{background:var(--ink);color:var(--paper);border-radius:18px;padding:48px 40px;text-align:center}
+  .closing h2{color:var(--paper);font-size:clamp(1.7rem,3.5vw,2.4rem)}
+  .closing p{color:#C9CFC9;max-width:52ch;margin:16px auto 26px}
+  .closing .btn-primary{background:var(--green-deep);color:var(--on-green)}
+  footer{border-top:1px solid var(--rule);padding-block:26px;color:var(--muted);font-size:.88rem}
+  footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+  @media (max-width:560px){.hero{padding-block:48px 28px}section{padding-block:40px}}
+</style>
+
+<div class="strip"><div class="wrap">
+  <div class="brand">Storm<span>Studio</span> · Curriculum</div>
+  <a class="navlink" href="https://www.kevinstorm.eu">kevinstorm.eu</a>
+</div></div>
+
+<header class="hero"><div class="wrap">
+  <span class="eyebrow">Docententraining · live &amp; downloadbaar</span>
+  <hr class="rule">
+  <h1>Gamification &amp; Immersive Learning</h1>
+  <p class="lede">Docenten gaan weg met één echte, speelbare eigen les — die werkt voor elke leerling.</p>
+  <div class="cta-row">
+    <a class="btn btn-primary" href="#pakketten">Bekijk de pakketten</a>
+    <a class="btn btn-ghost" href="#contact">Boek een training</a>
+  </div>
+  <div class="metrics">
+    <div class="metric"><b>2</b><span>daagse cursus, of zelfstandig</span></div>
+    <div class="metric"><b>4</b><span>losse minicursussen</span></div>
+    <div class="metric"><b>150+</b><span>landen gebruiken Delightex</span></div>
+    <div class="metric"><b>11 jr</b><span>in speciaal onderwijs</span></div>
+  </div>
+</div></header>
+
+<section id="pakketten"><div class="wrap">
+  <div class="sec-head">
+    <span class="eyebrow">Wat je kunt krijgen</span>
+    <h2>Eén vlaggenschip, drie manieren om kleiner te beginnen</h2>
+    <p>Koop de volledige tweedaagse, of begin met één spoor. Elke minicursus is op
+    zichzelf compleet — slides, werkboek, tutorials en opdrachten inbegrepen — en
+    leidt vanzelf naar de rest.</p>
+  </div>
+  <div class="cards">
+    <div class="card flagship">
+      <div class="tag">Vlaggenschip</div>
+      <h3>Gamification &amp; Immersive Learning</h3>
+      <div class="who">De volledige tweedaagse cursus</div>
+      <ul>
+        <li>Ontwerp lessen met de zes hefbomen van betrokkenheid</li>
+        <li>Bouw snel met AI, maak het dan speelbaar — zonder code</li>
+        <li>Maak het immersief met Delightex (AR/VR)</li>
+        <li>Maak het werkend voor elke leerling</li>
+      </ul>
+      <div class="price">Vanaf €149 zelfstandig<small>Live vanaf €2.400 / groep</small></div>
+    </div>
+    <div class="card">
+      <div class="tag">Minicursus</div>
+      <h3>AI in het Onderwijs</h3>
+      <div class="who">Praktische AI voor docenten &amp; leerlingen</div>
+      <ul>
+        <li>Plan, differentieer en maak materiaal in minuten</li>
+        <li>Een herbruikbare promptmethode</li>
+        <li>Leer AI-geletterdheid eerlijk aan</li>
+      </ul>
+      <div class="price">€59<small>Schoollicentie vanaf €249</small></div>
+    </div>
+    <div class="card">
+      <div class="tag">Minicursus</div>
+      <h3>Gamedesign met Delightex</h3>
+      <div class="who">Bouw 3D-werelden, codeer ze, stap erin</div>
+      <ul>
+        <li>CoBlocks visueel coderen, van scène tot game</li>
+        <li>Een klasproject met opdracht en rubric</li>
+        <li>AR/VR met een low-tech-alternatief</li>
+      </ul>
+      <div class="price">€59<small>Schoollicentie vanaf €249</small></div>
+    </div>
+    <div class="card">
+      <div class="tag">Minicursus</div>
+      <h3>Inclusieve Gamification</h3>
+      <div class="who">Game-based leren, niemand buitengesloten</div>
+      <ul>
+        <li>Zes inclusie-zetten voor elke game</li>
+        <li>Non-verbaal, meervoudig succes</li>
+        <li>Gebouwd op echte praktijk speciaal onderwijs</li>
+      </ul>
+      <div class="price">€59<small>Schoollicentie vanaf €249</small></div>
+    </div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="sec-head">
+    <span class="eyebrow">Waarom het werkt</span>
+    <h2>Geen praatje over games. Een workshop die er één bouwt.</h2>
+  </div>
+  <div class="why">
+    <div class="item"><h3><i>01</i> Bewezen, geen theorie</h3><p>Ontstaan als cursus voor internationale docenten aan het Mediacollege Amsterdam, via Erasmus+. Opnieuw opgebouwd voor 2026.</p></div>
+    <div class="item"><h3><i>02</i> Ze gaan met iets af naar huis</h3><p>Elke deelnemer bouwt één echte, speelbare les die hij volgende week kan geven. Dat is de hele bedoeling.</p></div>
+    <div class="item"><h3><i>03</i> AI en gamedesign, samen</h3><p>Precies wat scholen nu vragen — met de didactiek eronder om het jarenlang bruikbaar te houden.</p></div>
+    <div class="item"><h3><i>04</i> Ontworpen voor elke leerling</h3><p>Een echt specialisme: game-based leren dat het speciaal onderwijs en gemengde groepen meeneemt.</p></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="sec-head">
+    <span class="eyebrow">Vormen &amp; prijzen</span>
+    <h2>Op jouw manier gegeven</h2>
+    <p>Live op locatie, vier online dagdelen, of zelfstandig als download. Gefinancierd
+    via Erasmus+ KA1, CmK-cultuurgeld, of de middelen voor basisvaardigheden waar dat past.</p>
+  </div>
+  <div class="price-wrap"><table>
+    <thead><tr><th>Product</th><th>Individueel</th><th>School / team</th><th>Aanbieder / reseller</th></tr></thead>
+    <tbody>
+      <tr><td>Volledige cursus (zelfstandig, download)</td><td class="num">€149</td><td class="num">€549</td><td class="num">€1.200</td></tr>
+      <tr><td>Minicursus (AI / Delightex / Inclusief)</td><td class="num">€59</td><td class="num">€249</td><td class="num">€600</td></tr>
+      <tr><td>Full Immersive Educator Bundle</td><td class="num">€199</td><td class="num">€749</td><td class="num">€1.500</td></tr>
+      <tr><td>Live tweedaagse (per groep)</td><td class="num">op aanvraag</td><td class="num">€2.400–3.600</td><td class="num">—</td></tr>
+      <tr><td>Erasmus+ KA1-plek (per deelnemer)</td><td class="num">€320–400</td><td class="num">—</td><td class="num">—</td></tr>
+    </tbody>
+  </table></div>
+  <p class="foot-note">Richtprijzen. Bundels en schoollicenties leveren de meeste waarde.</p>
+</div></section>
+
+<section><div class="wrap">
+  <div class="sec-head">
+    <span class="eyebrow">Voor wie</span>
+    <h2>Gemaakt voor de mensen die het draaien</h2>
+  </div>
+  <div class="aud">
+    <div class="a"><b>Scholen &amp; besturen</b><span>Een studiedag of een jaar-lang professionaliseringstraject.</span></div>
+    <div class="a"><b>Erasmus+-aanbieders</b><span>Een kant-en-klare, bewezen cursus voor je aanbod.</span></div>
+    <div class="a"><b>Cultuureducatie-hubs</b><span>Herbruikbaar materiaal voor de trainers die je inhuurt.</span></div>
+    <div class="a"><b>Individuele docenten</b><span>Draai het zelf, of scholing op eigen tempo.</span></div>
+  </div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+  <div class="closing">
+    <span class="eyebrow" style="color:var(--copper)">Aan de slag</span>
+    <h2>Breng het naar je team</h2>
+    <p>Download het volledige pakket, begin met één minicursus, of boek Kevin om het
+    live te geven. Vertel me je groep en je data en ik stel een passende vorm voor.</p>
+    <div class="cta-row" style="justify-content:center">
+      <a class="btn btn-primary" href="mailto:kevinstorm1980@gmail.com?subject=Gamification%20cursus%20aanvraag">Neem contact op</a>
+      <a class="btn btn-ghost" style="color:var(--paper);border-color:#3a4648" href="https://www.kevinstorm.eu">Bekijk kevinstorm.eu</a>
+    </div>
+  </div>
+</div></section>
+
+<footer><div class="wrap">
+  <span>StormStudio · Curriculum door Kevin Storm</span>
+  <span>Gamification &amp; Immersive Learning · 2026</span>
+</div></footer>

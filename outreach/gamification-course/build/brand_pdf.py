@@ -59,9 +59,16 @@ CALLL= st("calll",font="Sans-B",size=7.6,lead=10,color=GREEN,after=3)
 TH   = st("th",font="Sans-B",size=9,lead=12,color=colors.white)
 TD   = st("td",font="Sans",size=9,lead=12.5,color=INK)
 
-CALLOUT_COLORS = {
- "note":(GREEN,"NOTE"),"tip":(COPPER,"TIP"),"assignment":(INK,"ASSIGNMENT"),
- "step":(GREEN,"STEP"),"quote":(COPPER,"") ,"key":(COPPER,"KEY POINT")}
+import os as _os
+_LANG = _os.environ.get("PDF_LANG","en")
+if _LANG == "nl":
+    CALLOUT_COLORS = {
+     "note":(GREEN,"NB"),"tip":(COPPER,"TIP"),"assignment":(INK,"OPDRACHT"),
+     "step":(GREEN,"STAP"),"quote":(COPPER,"") ,"key":(COPPER,"KERN")}
+else:
+    CALLOUT_COLORS = {
+     "note":(GREEN,"NOTE"),"tip":(COPPER,"TIP"),"assignment":(INK,"ASSIGNMENT"),
+     "step":(GREEN,"STEP"),"quote":(COPPER,"") ,"key":(COPPER,"KEY POINT")}
 
 def inline(t):
     t=t.replace("&","&amp;").replace("<","&lt;").replace(">","&gt;")
