@@ -47,9 +47,9 @@ mode, so it always stays legible.
 ## Typography
 
 - **Display / headings:** Fraunces (a warm, editorial serif). Weights 600 and 900.
-  Google Fonts. Fallback: Georgia, "Times New Roman", serif.
+ Google Fonts. Fallback: Georgia, "Times New Roman", serif.
 - **Body / UI / labels:** Libre Franklin (a clean, humanist sans). Weights 400-700.
-  Fallback: -apple-system, "Segoe UI", sans-serif.
+ Fallback: -apple-system, "Segoe UI", sans-serif.
 - **Eyebrows / labels:** Libre Franklin, uppercase, letter-spacing .14em, in copper.
 - Body around 17px, line-height 1.6, running text max ~65 characters wide.
 
@@ -58,16 +58,16 @@ mode, so it always stays legible.
 ## Components
 
 - **Buttons:** solid green (primary) with white/near-black text; "ghost" is a
-  1px rule border with ink text. Radius 8px. Small lift on hover.
+ 1px rule border with ink text. Radius 8px. Small lift on hover.
 - **Cards:** white surface, 1px rule border, 14px radius, soft shadow. On hover,
-  lift slightly and turn the border green. Keep the workshop-card layout; just
-  apply these colours.
+ lift slightly and turn the border green. Keep the workshop-card layout; just
+ apply these colours.
 - **Eyebrow + rule:** a copper uppercase label above a short 54px copper rule,
-  above the heading. This is the signature section opener.
-- **Feature block:** ink background, paper text, green-deep CTA — for the one
-  thing you want to stand out per page (e.g. the curriculum).
+ above the heading. This is the signature section opener.
+- **Feature block:** ink background, paper text, green-deep CTA, for the one
+ thing you want to stand out per page (e.g. the curriculum).
 - **Hairlines:** use the rule token, never heavy borders. Let spacing separate
-  things, not boxes.
+ things, not boxes.
 
 ## Do / don't
 
@@ -75,18 +75,18 @@ mode, so it always stays legible.
 - Do use plenty of warm-paper space; let the layout breathe.
 - Do keep one accent per block; everything else quiet.
 - Don't use purple, neon, or gradient hero backgrounds.
-- Don't put a shadow and border and radius on every element — spend them by role.
+- Don't put a shadow and border and radius on every element, spend them by role.
 - Don't add emoji as section markers.
 
 ## Applying it to the site
 
 1. Set the colour tokens and the two fonts globally.
 2. Restyle the header/nav, hero, section headings (eyebrow + rule pattern),
-   buttons, and footer first — that carries 80% of the feel.
+ buttons, and footer first, that carries 80% of the feel.
 3. Recolour the workshop cards to the card style above; keep their layout.
 4. Use the ink feature block once per page for the key call to action.
 5. Leave "pip" and "plugins" as they are for now.
 6. Reference implementations: the homepage redesign and the product landing page
-   (both provided) are built exactly to this system — copy their CSS tokens.
+ (both provided) are built exactly to this system, copy their CSS tokens.
 
 > [!note] The PDFs use the same palette with Liberation Serif/Sans (print-safe stand-ins for Fraunces/Libre Franklin). Everything already matches; this guide just makes it repeatable on the web.

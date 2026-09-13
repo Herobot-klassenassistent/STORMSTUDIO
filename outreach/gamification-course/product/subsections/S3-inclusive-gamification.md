@@ -42,34 +42,34 @@ By the end, participants can:
 4. Manage sensory load, pace and predictability in game-based activities.
 5. Balance collaboration and competition so competition never crushes anyone.
 6. Use creative media (stop-motion, photography, building) as inclusive game
-   mechanics.
+ mechanics.
 
 ## The six inclusion moves
 
-> [!step] 1. Adjustable challenge — an easy path and a hard path to the same goal.
-> [!step] 2. Non-verbal success — a way to win that does not depend on words.
-> [!step] 3. Choice as self-regulation — let learners pick task, pace or role.
-> [!step] 4. Sensory control — a calmer option; manage sound, motion, overload.
-> [!step] 5. Collaboration over competition — team goals; shared, not zero-sum, wins.
-> [!step] 6. Predictable structure — clear steps, visible progress, no nasty surprises.
+> [!step] 1. Adjustable challenge, an easy path and a hard path to the same goal.
+> [!step] 2. Non-verbal success, a way to win that does not depend on words.
+> [!step] 3. Choice as self-regulation, let learners pick task, pace or role.
+> [!step] 4. Sensory control, a calmer option; manage sound, motion, overload.
+> [!step] 5. Collaboration over competition, team goals; shared, not zero-sum, wins.
+> [!step] 6. Predictable structure, clear steps, visible progress, no nasty surprises.
 
 ## Session plan (half day, ~3 hours)
 
 ### Part 1 · Who gets left out, and why (45 min)
 - Walk a normal gamified lesson through the eyes of your hardest-to-reach learner.
 - Name the barriers: reading load, speed, competition, sensory overload,
-  unpredictability.
+ unpredictability.
 
 ### Part 2 · The six moves, applied (75 min)
 - Teach each move with a real example.
 - Hands-on: take one gamified lesson and rebuild it with at least three moves
-  (Worksheet: the inclusion grid).
+ (Worksheet: the inclusion grid).
 
 > [!assignment] Take a game-based lesson you use (or one from the flagship course) and redesign it so your most-easily-excluded learner can fully take part and succeed. Name the three moves you used.
 
 ### Part 3 · Creative media as inclusive mechanics (40 min)
 - Stop-motion, photography and building as game elements: success is visible,
-  non-verbal, and paced by the learner.
+ non-verbal, and paced by the learner.
 - Kevin's case stories from special education.
 
 ### Part 4 · Make it routine (20 min)
@@ -90,16 +90,16 @@ Before you run any game-based lesson, check:
 
 - **Rare.** Most gamification training ignores inclusion; this leads with it.
 - **Funded.** It maps onto special-education budgets and the basisvaardigheden /
-  passend-onderwijs money.
+ passend-onderwijs money.
 - **Trusted.** It comes from someone who has actually taught these learners.
 
 ## Sources
 
-- Universal Design for Learning (UDL / CAST) — the engagement, representation,
-  expression framework.
-- Self-Determination Theory — autonomy, competence, relatedness.
+- Universal Design for Learning (UDL / CAST), the engagement, representation,
+ expression framework.
+- Self-Determination Theory, autonomy, competence, relatedness.
 - Kevin Storm's special-education practice (SO/VSO, mytyl/EMB, high-autonomy
-  settings).
+ settings).
 
 *Upsell path: Inclusive Gamification is the trust-builder. It opens doors in
 special education that then take the full suite and live team-trainings.*

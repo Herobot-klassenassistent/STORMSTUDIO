@@ -100,37 +100,37 @@ and classroom examples.
 ## Source list
 
 ### Delightex (game-design core)
-- Delightex Edu home — [edu.delightex.com](https://edu.delightex.com/)
-- About / AR & VR in education — [delightex.com/edu/about](https://www.delightex.com/edu/about)
-- Coding with CoBlocks — [delightex.com/edu/coding](https://www.delightex.com/edu/coding)
-- 3D creation toolbox — [delightex.com/edu/3d-creation](https://www.delightex.com/edu/3d-creation)
-- Pricing / school licences — [delightex.com/edu/pricing](https://www.delightex.com/edu/pricing)
-- Creating immersive VR/AR with CoSpaces (guide) — [delightex.com/news-events/creating-immersive-vr-ar-experiences-using-cospaces](https://www.delightex.com/news-events/creating-immersive-vr-ar-experiences-using-cospaces)
+- Delightex Edu home, [edu.delightex.com](https://edu.delightex.com/)
+- About / AR & VR in education, [delightex.com/edu/about](https://www.delightex.com/edu/about)
+- Coding with CoBlocks, [delightex.com/edu/coding](https://www.delightex.com/edu/coding)
+- 3D creation toolbox, [delightex.com/edu/3d-creation](https://www.delightex.com/edu/3d-creation)
+- Pricing / school licences, [delightex.com/edu/pricing](https://www.delightex.com/edu/pricing)
+- Creating immersive VR/AR with CoSpaces (guide), [delightex.com/news-events/creating-immersive-vr-ar-experiences-using-cospaces](https://www.delightex.com/news-events/creating-immersive-vr-ar-experiences-using-cospaces)
 
 ### Build tools
-- Twine (branching narrative) — twinery.org
-- Genially (interactive boards) — genially.com
-- Blooket — blooket.com · Gimkit — gimkit.com · Kahoot — kahoot.com
-- Scratch (optional coding) — scratch.mit.edu
-- Minecraft Education (optional) — education.minecraft.net
+- Twine (branching narrative), twinery.org
+- Genially (interactive boards), genially.com
+- Blooket, blooket.com · Gimkit, gimkit.com · Kahoot, kahoot.com
+- Scratch (optional coding), scratch.mit.edu
+- Minecraft Education (optional), education.minecraft.net
 
 ### Pedagogy & research (the "why")
-- Self-Determination Theory (Deci & Ryan) — autonomy, competence, relatedness.
-- Flow (Csikszentmihalyi) — challenge matched to skill.
+- Self-Determination Theory (Deci & Ryan), autonomy, competence, relatedness.
+- Flow (Csikszentmihalyi), challenge matched to skill.
 - Works on gamification of learning and motivation (Kapp; Deterding et al. on the
-  definition of gamification; Hamari et al. reviews on when it works).
-- Universal Design for Learning (UDL / CAST) — multiple means of engagement,
-  representation and expression: the backbone of the inclusion block.
+ definition of gamification; Hamari et al. reviews on when it works).
+- Universal Design for Learning (UDL / CAST), multiple means of engagement,
+ representation and expression: the backbone of the inclusion block.
 
 ### AI in education
 - Your AI assistant's own educator guides and prompt libraries.
 - National digital-literacy curricula for the "what to teach" (see the AI in
-  Education subsection).
+ Education subsection).
 
 ### Funding & delivery context (for providers)
-- Erasmus+ KA1 teacher mobility — 100% funded PD for EU school staff.
+- Erasmus+ KA1 teacher mobility, 100% funded PD for EU school staff.
 - CmK (Cultuureducatie met Kwaliteit) and the basisvaardigheden / digitale
-  geletterdheid budgets, for Dutch schools buying this in.
+ geletterdheid budgets, for Dutch schools buying this in.
 
 > [!note] Tools and links were correct at build time (2026). If a link moves, search the platform name plus "education". The pedagogy sources are stable classics.
 

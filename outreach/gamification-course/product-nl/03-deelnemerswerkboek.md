@@ -21,25 +21,25 @@ gebeurt; je certificaat hangt af van het afmaken ervan en van je les.
 
 - Elk blok in de cursus heeft hier een bijpassende pagina.
 - **Werkbladen A, B en C** dragen je project verder: ontwerp, inclusie, toetsing.
-  Doe ze op volgorde.
+ Doe ze op volgorde.
 - De **woordenlijst** is je snelle naslag. De **reflectie** en **feedbackkaart**
-  zijn voor het eind.
+ zijn voor het eind.
 - Alles wat je bouwt leeft in gratis of goedkope tools uit onderdeel 04.
 
 ## Kernideeën op één pagina
 
-**Gamification** — game-*elementen* (doelen, punten, levels, verhaal) toevoegen aan
-een gewone activiteit. **Game-based learning** — leren *door* een game te spelen.
-**Serious games** — volledige games om te leren. Jij gebruikt vooral gamification.
+**Gamification**, game-*elementen* (doelen, punten, levels, verhaal) toevoegen aan
+een gewone activiteit. **Game-based learning**, leren *door* een game te spelen.
+**Serious games**, volledige games om te leren. Jij gebruikt vooral gamification.
 
 **De zes hefbomen van betrokkenheid**
-1. **Heldere doelen** — de leerling weet altijd waar hij op mikt.
-2. **Snelle feedback** — hij weet snel of hij op koers ligt.
-3. **Zichtbare voortgang** — hij ziet hoe ver hij is.
-4. **Passende uitdaging** — moeilijk genoeg om te tellen, niet zo moeilijk dat hij
-   stopt (flow).
-5. **Autonomie / keuze** — hij heeft echte keuzes.
-6. **Betekenis / verhaal** — het gaat over iets waar hij om geeft.
+1. **Heldere doelen**, de leerling weet altijd waar hij op mikt.
+2. **Snelle feedback**, hij weet snel of hij op koers ligt.
+3. **Zichtbare voortgang**, hij ziet hoe ver hij is.
+4. **Passende uitdaging**, moeilijk genoeg om te tellen, niet zo moeilijk dat hij
+ stopt (flow).
+5. **Autonomie / keuze**, hij heeft echte keuzes.
+6. **Betekenis / verhaal**, het gaat over iets waar hij om geeft.
 
 **Intrinsiek verslaat extrinsiek.** Punten en badges starten motivatie maar houden
 haar niet vast. Autonomie, competentie en verbondenheid (zelfdeterminatietheorie)
@@ -53,7 +53,7 @@ Kies één echte les die je binnenkort geeft. Schrijf hem hier.
 
 **Mijn les / onderwerp:** ____________________________________________
 
-**Leerjaar / niveau:** ______________  **Vak:** _____________________
+**Leerjaar / niveau:** ______________ **Vak:** _____________________
 
 **Het leerdoel (wat moeten ze daarna kunnen):**
 _________________________________________________________________
@@ -88,11 +88,11 @@ opnieuw. Noteer je beste prompt:
 
 Kies één bouwspoor en maak een eerste versie:
 
-- **Branching game** in Twine — keuzes leiden naar verschillende paden.
-- **Questbord** in Genially — een interactieve kaart met taken.
-- **Quizprogressie** in Blooket / Gimkit / Kahoot — levels en punten.
+- **Branching game** in Twine, keuzes leiden naar verschillende paden.
+- **Questbord** in Genially, een interactieve kaart met taken.
+- **Quizprogressie** in Blooket / Gimkit / Kahoot, levels en punten.
 
-**Mijn spoor:** ____________  **Link naar mijn prototype:** __________
+**Mijn spoor:** ____________ **Link naar mijn prototype:** __________
 
 > [!assignment] Huiswerk na dag 1: speel het prototype van een klasgenoot. Schrijf één ding dat werkte en één idee dat je gaat stelen.
 
@@ -153,14 +153,14 @@ Speel je de les van een klasgenoot, geef feedback in deze vorm:
 
 ## Woordenlijst
 
-- **Mechaniek** — een regel of element dat het spel vormt (punten, levels, timer).
-- **Flow** — volledig opgaan; uitdaging afgestemd op vaardigheid.
-- **Extrinsieke motivatie** — gedreven door beloning of cijfers van buiten.
-- **Intrinsieke motivatie** — gedreven door interesse, meesterschap, betekenis.
-- **CoBlocks** — de visuele, blok-gebaseerde code in Delightex Edu.
-- **AR / VR** — augmented reality / virtual reality.
-- **Branching narrative** — een verhaal waarin keuzes tot andere uitkomsten leiden.
-- **Zelfdeterminatietheorie** — motivatie groeit uit autonomie, competentie en
-  verbondenheid.
+- **Mechaniek**, een regel of element dat het spel vormt (punten, levels, timer).
+- **Flow**, volledig opgaan; uitdaging afgestemd op vaardigheid.
+- **Extrinsieke motivatie**, gedreven door beloning of cijfers van buiten.
+- **Intrinsieke motivatie**, gedreven door interesse, meesterschap, betekenis.
+- **CoBlocks**, de visuele, blok-gebaseerde code in Delightex Edu.
+- **AR / VR**, augmented reality / virtual reality.
+- **Branching narrative**, een verhaal waarin keuzes tot andere uitkomsten leiden.
+- **Zelfdeterminatietheorie**, motivatie groeit uit autonomie, competentie en
+ verbondenheid.
 
 *Je tools, stap voor stap, staan in onderdeel 04 (Tutorials & bronnenlijst).*

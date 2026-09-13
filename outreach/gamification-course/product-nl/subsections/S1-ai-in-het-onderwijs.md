@@ -27,25 +27,25 @@ om, en de drempel is laag.
 
 Aan het eind kunnen deelnemers:
 1. Een AI-assistent gebruiken om lessen te plannen, te differentiëren en materiaal
-   te maken.
+ te maken.
 2. Prompts schrijven en verbeteren met een herbruikbaar patroon.
 3. AI-output kritisch beoordelen en de faalvormen herkennen.
 4. De basis van AI-geletterdheid aan leerlingen leren: wat het is, waar het faalt,
-   hoe je het eerlijk gebruikt.
+ hoe je het eerlijk gebruikt.
 5. Een simpel, eerlijk klasbeleid voor AI-gebruik opstellen.
 
 ## Sessieplan (dagdeel, ~3 uur)
 
 ### Deel 1 · AI als je onderwijsassistent (60 min)
 - Live demo: één leerdoel wordt in minuten een volledige les, een rubric en een
-  gedifferentieerd werkblad.
+ gedifferentieerd werkblad.
 - Zelf doen: elke docent maakt één materiaal dat hij deze week echt nodig heeft.
 
 > [!step] Het promptpatroon: (1) geef de AI een rol, (2) geef context en randvoorwaarden, (3) vraag om een specifieke output, (4) bekritiseer en genereer opnieuw. Leer deze lus; hij werkt in elke tool.
 
 ### Deel 2 · Snel materiaal maken (45 min)
 - Genereer: quizvragen, tekst op drie niveaus, een verhaalhaak, beelden,
-  feedback, oudermails.
+ feedback, oudermails.
 - Controleer altijd: feiten, bias, leesniveau, toon.
 
 > [!tip] De grootste tijdwinst voor docenten: differentiatie (dezelfde stof op drie niveaus), rubrics schrijven, en feedback opstellen. Begin daar; de winst is meteen zichtbaar.
@@ -69,7 +69,7 @@ Aan het eind kunnen deelnemers:
 - **Meteen bruikbaar.** Docenten gaan weg met echt materiaal en bespaarde tijd.
 - **In balans.** Geen hype en geen angst; het leert oordeel.
 - **Brug naar gamification.** AI is hoe je snel game-based lessen ontwerpt, dus dit
-  verkoopt de volledige cursus als vanzelf.
+ verkoopt de volledige cursus als vanzelf.
 
 ## Bronnen & tools
 

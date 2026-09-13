@@ -2,7 +2,7 @@
 kicker: Go-to-market
 title: Market & Campaign Report
 subtitle: Where this sells, at what price, and the plan to launch it
-doclabel: Strategy — internal
+doclabel: Strategy, internal
 ---
 
 ## The short version
@@ -10,16 +10,16 @@ doclabel: Strategy — internal
 There are four real markets for this product, in order of how proven and how
 well-matched they are to Kevin:
 
-1. **Erasmus+ KA1 teacher training** — teachers attend PD abroad, 100% funded by
-   the EU. This is where Kevin's course was born. Strongest fit, real money,
-   warm relationships already exist (GEC Academy).
-2. **Dutch funded in-school PD** — study days and professionalisering, paid from
-   CmK cultuurgeld and the structural basisvaardigheden / digitale-geletterdheid
-   budgets. Kevin is already inside this world through the school campaigns.
-3. **Self-hosted course sales** — sell the download from kevinstorm.eu with a
-   simple checkout. Best margin, full control, compounds over time.
-4. **Teacher-material marketplaces** — TPT / Gumroad style. Proven but crowded;
-   best used as a lead-generator and credibility signal, not the main income.
+1. **Erasmus+ KA1 teacher training**, teachers attend PD abroad, 100% funded by
+ the EU. This is where Kevin's course was born. Strongest fit, real money,
+ warm relationships already exist (GEC Academy).
+2. **Dutch funded in-school PD**, study days and professionalisering, paid from
+ CmK cultuurgeld and the structural basisvaardigheden / digitale-geletterdheid
+ budgets. Kevin is already inside this world through the school campaigns.
+3. **Self-hosted course sales**, sell the download from kevinstorm.eu with a
+ simple checkout. Best margin, full control, compounds over time.
+4. **Teacher-material marketplaces**, TPT / Gumroad style. Proven but crowded;
+ best used as a lead-generator and credibility signal, not the main income.
 
 The plan below builds a funnel that feeds all four from one landing page:
 **kevinstorm.eu/curriculum**.
@@ -35,12 +35,12 @@ bundled higher with accommodation). Providers such as Europass Teacher Academy r
 
 **How to enter.**
 - **Fastest:** deliver *through* an existing accredited provider (Kevin already
-  has GEC Academy). Offer them this ready-made course to add to their catalogue,
-  co-branded. They handle funding admin and recruitment; Kevin delivers and/or
-  licenses.
+ has GEC Academy). Offer them this ready-made course to add to their catalogue,
+ co-branded. They handle funding admin and recruitment; Kevin delivers and/or
+ licenses.
 - **Bigger later:** list courses on the European School Education Platform and
-  build direct provider relationships (iDevelop, Teacher Academy, Primera,
-  Teachersrise, Erasmus Learning Academy).
+ build direct provider relationships (iDevelop, Teacher Academy, Primera,
+ Teachersrise, Erasmus Learning Academy).
 
 **Price.** €320-400 per participant per delivered week, or a licence fee to the
 provider (see pricing). **Verdict:** highest-value, warmest, do first.
@@ -78,7 +78,7 @@ best margin and it compounds; build the page now, it underpins everything.
 
 ## Market 4 · Teacher-material marketplaces
 
-**Proof it pays — with a caveat.** Teachers Pay Teachers paid sellers an estimated
+**Proof it pays, with a caveat.** Teachers Pay Teachers paid sellers an estimated
 **$253M in 2024** across ~233k active sellers, but earnings are very uneven (most
 sellers earn little; the top 1% average ~$6,300/month).
 ([Wikipedia](https://en.wikipedia.org/wiki/Teachers_Pay_Teachers) ·
@@ -94,23 +94,23 @@ after the landing page is live.
 
 ## Positioning & differentiators
 
-- **Proven, not theoretical** — delivered to international teacher groups.
-- **They leave with a finished thing** — one real, playable lesson.
-- **AI + game design together** — exactly what schools ask for now.
-- **Inclusion / special needs** — genuinely rare; Kevin's signature and a moat.
-- **The touring maker** — a working musician who builds from the road. Nobody
-  else in this market has that story; it is marketing gold.
+- **Proven, not theoretical**, delivered to international teacher groups.
+- **They leave with a finished thing**, one real, playable lesson.
+- **AI + game design together**, exactly what schools ask for now.
+- **Inclusion / special needs**, genuinely rare; Kevin's signature and a moat.
+- **The touring maker**, a working musician who builds from the road. Nobody
+ else in this market has that story; it is marketing gold.
 
 ## The funnel
 
 One landing page, four markets, a clear ladder from free to high-value:
 
-- **Free lead magnet** — "The 6 Levers of Engagement" one-pager + a starter
-  AI-prompt pack. Collect emails.
-- **Tripwire** — a subsection (AI in Education) at €59 to turn a follower into a
-  first-time buyer.
-- **Core** — the full course (€149) or a live study day (€2,400+).
-- **High-value** — school licence, provider licence, live Erasmus delivery.
+- **Free lead magnet**, "The 6 Levers of Engagement" one-pager + a starter
+ AI-prompt pack. Collect emails.
+- **Tripwire**, a subsection (AI in Education) at €59 to turn a follower into a
+ first-time buyer.
+- **Core**, the full course (€149) or a live study day (€2,400+).
+- **High-value**, school licence, provider licence, live Erasmus delivery.
 
 kevinstorm.eu/curriculum is the hub; every channel points to it.
 
@@ -125,12 +125,12 @@ kevinstorm.eu/curriculum is the hub; every channel points to it.
 ### Phase 2 (weeks 3-6) · Warm sales first
 - Pitch **GEC Academy** (Aylin) the ready-made 2026 course for their catalogue.
 - Offer the study-day package to the warm school/SWV/Agora leads already in the
-  pipeline (bundle it with the team-trainings already in motion, e.g. OOE).
+ pipeline (bundle it with the team-trainings already in motion, e.g. OOE).
 - Approach 3-5 more Erasmus+ providers with the course one-pager.
 
 ### Phase 3 (weeks 6-10) · Content engine
 - Start the "onderwijs vanuit de tourbus" LinkedIn thread: short, honest posts on
-  building gamified lessons on the road, each ending at the landing page.
+ building gamified lessons on the road, each ending at the landing page.
 - Publish 3-4 marketplace resources (TPT/Gumroad) that point back to the course.
 - Ask early participants for testimonials; put them on the page.
 
@@ -154,4 +154,4 @@ kevinstorm.eu/curriculum is the hub; every channel points to it.
 4. Offer a study day to the warmest school/SWV lead in the pipeline.
 5. Post the first "tourbus" LinkedIn piece with the lead magnet.
 
-> [!note] Honest expectation-setting: marketplaces and self-hosted sales build slowly and compound. The fast money is Markets 1 and 2 — funded delivery through providers and schools — because the budget already exists and Kevin already has the relationships. Lead with those; let the digital products compound underneath.
+> [!note] Honest expectation-setting: marketplaces and self-hosted sales build slowly and compound. The fast money is Markets 1 and 2, funded delivery through providers and schools, because the budget already exists and Kevin already has the relationships. Lead with those; let the digital products compound underneath.

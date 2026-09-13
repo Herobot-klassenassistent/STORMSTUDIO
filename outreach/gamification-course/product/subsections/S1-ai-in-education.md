@@ -30,21 +30,21 @@ By the end, participants can:
 2. Write and improve prompts using a repeatable pattern.
 3. Judge AI output critically and spot its failure modes.
 4. Teach the basics of AI literacy to students: what it is, where it errs, how to
-   use it honestly.
+ use it honestly.
 5. Set a simple, fair classroom policy for AI use.
 
 ## Session plan (half day, ~3 hours)
 
 ### Part 1 · AI as your teaching assistant (60 min)
 - Live demo: one objective becomes a full lesson, a rubric, and a
-  differentiated worksheet in minutes.
+ differentiated worksheet in minutes.
 - Hands-on: each teacher produces one real material they need this week.
 
 > [!step] The prompting pattern: (1) give the AI a role, (2) give it the context and constraints, (3) ask for a specific output, (4) critique and regenerate. Teach this loop; it transfers to any tool.
 
 ### Part 2 · Producing materials fast (45 min)
 - Generate: quiz questions, reading at three levels, a story hook, images,
-  feedback comments, parent emails.
+ feedback comments, parent emails.
 - Always check: facts, bias, reading level, tone.
 
 > [!tip] The biggest time-savers for teachers: differentiation (same content at three levels), rubric writing, and feedback drafting. Start there; the wins are obvious.
@@ -68,7 +68,7 @@ By the end, participants can:
 - **Immediately useful.** Teachers leave with real materials and saved time.
 - **Balanced.** It is neither hype nor fear; it teaches judgement.
 - **Bridges to gamification.** AI is how you design and produce game-based lessons
-  fast, so this course naturally sells the flagship next.
+ fast, so this course naturally sells the flagship next.
 
 ## Sources & tools
 

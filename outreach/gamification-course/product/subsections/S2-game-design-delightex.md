@@ -22,14 +22,14 @@ problem-solving. One day live, or self-paced with the tutorials.
 ## Why Delightex
 
 - **Built for schools:** ready-made classes and assignments, teacher dashboard,
-  used in 150+ countries. ([edu.delightex.com](https://edu.delightex.com/))
+ used in 150+ countries. ([edu.delightex.com](https://edu.delightex.com/))
 - **Low floor, high ceiling:** CoBlocks is visual and Scratch-like for beginners,
-  but scripting is there for advanced students.
-  ([delightex.com/edu/coding](https://www.delightex.com/edu/coding))
+ but scripting is there for advanced students.
+ ([delightex.com/edu/coding](https://www.delightex.com/edu/coding))
 - **Immersive without a lab:** view creations in AR on any phone, or VR with a
-  headset. ([delightex.com/edu/about](https://www.delightex.com/edu/about))
+ headset. ([delightex.com/edu/about](https://www.delightex.com/edu/about))
 - **AI-enhanced 3D creation** and a big object library.
-  ([delightex.com/edu/3d-creation](https://www.delightex.com/edu/3d-creation))
+ ([delightex.com/edu/3d-creation](https://www.delightex.com/edu/3d-creation))
 
 ## Learning outcomes
 
@@ -43,7 +43,7 @@ By the end, participants can:
 
 ## The Delightex design approach (teach this, not just the tool)
 
-> [!step] 1. Start from one verb — collect, escape, guide, build, survive.
+> [!step] 1. Start from one verb, collect, escape, guide, build, survive.
 > [!step] 2. Build the smallest world that makes that verb fun (one room, one goal).
 > [!step] 3. Add one rule at a time: a reward, then an obstacle, then a choice.
 > [!step] 4. Play-test after every rule. If it is not fun or not clear, change one thing.
@@ -57,17 +57,17 @@ learn to iterate, not to chase perfection.
 ### Morning · Build the platform fluency
 - **Scene basics (45 min):** background, objects, camera, play.
 - **CoBlocks (75 min):** "when clicked", movement, variables (a score), win state.
-  Build a tiny complete game together.
+ Build a tiny complete game together.
 - **AR/VR (30 min):** view your game in AR on a phone; try VR if you have a
-  headset; set up the no-headset fallback.
+ headset; set up the no-headset fallback.
 
 ### Afternoon · Design a classroom project
 - **The brief (45 min):** design a tight student brief ("a 3-room escape that
-  teaches one fact per room"). Constraints make better games and easier marking.
+ teaches one fact per room"). Constraints make better games and easier marking.
 - **Build your exemplar (75 min):** you build the game you will ask students to
-  build, so you know the pitfalls.
+ build, so you know the pitfalls.
 - **Run it as an assignment (30 min):** set it in Delightex, plan peer play-test
-  and feedback, write the rubric.
+ and feedback, write the rubric.
 - **Share & reflect (30 min):** play each other's exemplars; plan your rollout.
 
 ## Assignment
@@ -79,7 +79,7 @@ learn to iterate, not to chase perfection.
 - **Coding / digital literacy:** CoBlocks, logic, variables, events.
 - **Literacy:** narrative, instructions, world-building.
 - **Any subject:** the game teaches the topic (a history escape room, a science
-  simulation, a maths puzzle world).
+ simulation, a maths puzzle world).
 - **21st-century skills:** collaboration, iteration, problem-solving.
 
 ## Inclusion note
@@ -91,11 +91,11 @@ Subsection S3 for the full inclusion toolkit.
 
 ## Sources & tutorials
 
-- Delightex Edu — [edu.delightex.com](https://edu.delightex.com/)
-- CoBlocks coding — [delightex.com/edu/coding](https://www.delightex.com/edu/coding)
-- AR & VR in education — [delightex.com/edu/about](https://www.delightex.com/edu/about)
-- 3D creation toolbox — [delightex.com/edu/3d-creation](https://www.delightex.com/edu/3d-creation)
-- School licences / pricing — [delightex.com/edu/pricing](https://www.delightex.com/edu/pricing)
+- Delightex Edu, [edu.delightex.com](https://edu.delightex.com/)
+- CoBlocks coding, [delightex.com/edu/coding](https://www.delightex.com/edu/coding)
+- AR & VR in education, [delightex.com/edu/about](https://www.delightex.com/edu/about)
+- 3D creation toolbox, [delightex.com/edu/3d-creation](https://www.delightex.com/edu/3d-creation)
+- School licences / pricing, [delightex.com/edu/pricing](https://www.delightex.com/edu/pricing)
 - Step-by-step build guide: Component 04, Tutorial 5.
 
 *Upsell path: Game Design with Delightex ↔ the full suite, where this becomes the

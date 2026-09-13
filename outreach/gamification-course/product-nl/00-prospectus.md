@@ -5,31 +5,40 @@ subtitle: Een complete, direct downloadbare docenten-training van Kevin Storm
 doclabel: Prospectus & pakketgids
 ---
 
-## Wat dit is
+## Even voorstellen
 
-Een complete, direct downloadbare nascholing voor docenten, gemaakt en gegeven
-door Kevin Storm (StormStudio). Het is voortgekomen uit de tweedaagse
-gamification-training die Kevin voor internationale docenten aan het Mediacollege
-Amsterdam gaf (binnen het Erasmus+ project "Digi-Eng"), en is voor 2026 opnieuw
-opgebouwd en uitgebreid.
+Hoi, ik ben Kevin. Ik ben via de muziek het onderwijs in gerold. Ik speel nog
+steeds met bands, en ergens onderweg werd ik verliefd op de klas en ben ik nooit
+meer weggegaan. De afgelopen elf jaar maak ik creatieve, praktische lessen voor
+scholen door heel Nederland, en ik voel me het meest thuis bij de kinderen die
+net niet in het standaardplaatje passen.
 
-Alles wat een school, een opleider of een individuele docent nodig heeft om de
-training te draaien zit in het pakket: trainershandleiding, presentatie,
-deelnemerswerkboek met opdrachten, stap-voor-stap tutorials, een bronnenlijst en
-deze gids. Je kunt het live geven, online of zelfstandig doorwerken.
+Ik heb deze cursus gemaakt omdat er naar de gamification-training die ik voor
+internationale docenten in Amsterdam gaf nog lang werd gevraagd. Dus heb ik hem
+opnieuw opgebouwd, aangescherpt, en alles wat ik echt doe in één doos gestopt die
+je zo kunt oppakken en draaien. Getest in echte klassen, geen praatje over theorie.
+
+## Wat er in de doos zit
+
+Alles wat een school, een opleider of een individuele docent nodig heeft om het te
+draaien: de trainershandleiding, de presentatie, een deelnemerswerkboek met
+opdrachten, stap-voor-stap tutorials, een bronnenlijst en deze gids. Live geven,
+online, of zelf doorwerken. Het komt voort uit de tweedaagse die ik aan het
+Mediacollege Amsterdam gaf (het Erasmus+ project "Digi-Eng"), opnieuw opgebouwd en
+uitgebreid voor 2026.
 
 > [!key] Eén aankoop, een hele cursus in een doos. Geen extra licenties nodig om het te draaien (behalve de gratis of goedkope tools die het leert gebruiken).
 
 ## Voor wie
 
 - **Scholen & besturen** die een studiedag of een jaar-lang
-  professionaliseringstraject voor hun team willen.
+ professionaliseringstraject voor hun team willen.
 - **Erasmus+ KA1-aanbieders** die een bewezen, kant-en-klare cursus aan hun
-  aanbod willen toevoegen (100% gefinancierd voor de deelnemende docenten).
+ aanbod willen toevoegen (100% gefinancierd voor de deelnemende docenten).
 - **Cultuureducatie- & nascholingsorganisaties** (CmK-coördinatoren, kunsthubs,
-  bibliotheeknetwerken) die trainers inhuren en herbruikbaar materiaal willen.
+ bibliotheeknetwerken) die trainers inhuren en herbruikbaar materiaal willen.
 - **Individuele docenten en trainers** die het zelf willen draaien of zich willen
-  bijscholen.
+ bijscholen.
 
 ## Wat er in het volledige pakket zit
 
@@ -53,30 +62,30 @@ spoor staat op zichzelf als kleiner product met een lagere prijs. Zo verkoop je
 aan verschillende budgetten en aan dezelfde klant opnieuw.
 
 ### Het vlaggenschip
-**Gamification & Immersive Learning** — de volledige tweedaagse cursus (onderdelen
+**Gamification & Immersive Learning**, de volledige tweedaagse cursus (onderdelen
 00-04). Live te geven, als 4 online dagdelen, of zelfstandig.
 
 ### Losse deelmodules
 Elk een op zichzelf staande minicursus met eigen slides, werkboekpagina's,
 tutorials en opdrachten, uit het vlaggenschip maar los verkoopbaar.
 
-- **AI in het onderwijs** — praktische AI voor docenten: sneller en beter lessen
-  ontwerpen, differentiëren en materiaal maken, plus AI-geletterdheid voor
-  leerlingen. Grote vraag, lage drempel, een sterk "eerste-aankoop"-product.
-- **Gamedesign met Delightex** — een compleet immersive spoor rond **Delightex**
-  (voorheen CoSpaces Edu): leerlingen bouwen 3D-werelden en games, coderen ze met
-  CoBlocks, en stappen erin via AR/VR. Inclusief tutorials en links naar de
-  Delightex-aanpak, en kant-en-klare lesontwerpen rond het programma.
-- **Inclusieve gamification** — game-based leren dat werkt voor het speciaal
-  onderwijs en gemengde groepen. Kevins handtekening; weinig concurrenten bieden dit.
+- **AI in het onderwijs**, praktische AI voor docenten: sneller en beter lessen
+ ontwerpen, differentiëren en materiaal maken, plus AI-geletterdheid voor
+ leerlingen. Grote vraag, lage drempel, een sterk "eerste-aankoop"-product.
+- **Gamedesign met Delightex**, een compleet immersive spoor rond **Delightex**
+ (voorheen CoSpaces Edu): leerlingen bouwen 3D-werelden en games, coderen ze met
+ CoBlocks, en stappen erin via AR/VR. Inclusief tutorials en links naar de
+ Delightex-aanpak, en kant-en-klare lesontwerpen rond het programma.
+- **Inclusieve gamification**, game-based leren dat werkt voor het speciaal
+ onderwijs en gemengde groepen. Kevins handtekening; weinig concurrenten bieden dit.
 
 ### Bundels
-- **Full Immersive Educator Bundle** — vlaggenschip + alle drie de deelmodules.
-- **School- / teamlicentie** — één prijs, het hele team mag het materiaal gebruiken.
-- **Aanbieder- / reseller-licentie** — een Erasmus+- of nascholingsaanbieder geeft
-  de cursus onder eigen naam (co-branded).
+- **Full Immersive Educator Bundle**, vlaggenschip + alle drie de deelmodules.
+- **School- / teamlicentie**, één prijs, het hele team mag het materiaal gebruiken.
+- **Aanbieder- / reseller-licentie**, een Erasmus+- of nascholingsaanbieder geeft
+ de cursus onder eigen naam (co-branded).
 
-## Richtprijzen (adviesprijs, EUR — pas aan per kanaal)
+## Richtprijzen (adviesprijs, EUR: pas aan per kanaal)
 
 | Product | Individueel | School / team | Aanbieder / reseller |
 |---|---|---|---|
@@ -91,16 +100,16 @@ tutorials en opdrachten, uit het vlaggenschip maar los verkoopbaar.
 ## Waarom het verkoopt
 
 - **Bewezen oorsprong.** Geen theorie; het is gegeven aan internationale
-  docentgroepen en hoog gewaardeerd.
+ docentgroepen en hoog gewaardeerd.
 - **Ze gaan met iets af naar huis.** Elke deelnemer bouwt één echte, speelbare
-  les. Dat is de reden dat het de eerste keer werkte.
+ les. Dat is de reden dat het de eerste keer werkte.
 - **Actueel + tijdloos.** AI en gamification zijn wat scholen nu vragen; de
-  didactiek eronder houdt het jarenlang bruikbaar.
+ didactiek eronder houdt het jarenlang bruikbaar.
 - **Een echt onderscheid.** De special-needs / inclusie-invalshoek is zeldzaam in
-  deze markt.
+ deze markt.
 - **Past bij bestaande budgetten.** Erasmus+ KA1, CmK-cultuurgeld en de
-  structurele middelen voor basisvaardigheden / digitale geletterdheid stromen al
-  precies deze kant op.
+ structurele middelen voor basisvaardigheden / digitale geletterdheid stromen al
+ precies deze kant op.
 
 ## Wat de koper nodig heeft om het te draaien
 

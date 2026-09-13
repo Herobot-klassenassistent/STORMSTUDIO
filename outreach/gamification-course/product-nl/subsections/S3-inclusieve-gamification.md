@@ -42,34 +42,34 @@ Aan het eind kunnen deelnemers:
 4. Prikkelbelasting, tempo en voorspelbaarheid beheren in game-based activiteiten.
 5. Samenwerking en competitie balanceren zodat competitie niemand verplettert.
 6. Creatieve media (stop-motion, fotografie, bouwen) als inclusieve mechaniek
-   gebruiken.
+ gebruiken.
 
 ## De zes inclusie-zetten
 
-> [!step] 1. Verstelbare uitdaging — een makkelijk en een moeilijk pad naar hetzelfde doel.
-> [!step] 2. Non-verbaal succes — een manier om te winnen die niet van woorden afhangt.
-> [!step] 3. Keuze als zelfregulatie — laat leerlingen taak, tempo of rol kiezen.
-> [!step] 4. Prikkelcontrole — een rustiger optie; beheer geluid, beweging, overload.
-> [!step] 5. Samenwerken boven competitie — teamdoelen; gedeelde, niet nulsom-winst.
-> [!step] 6. Voorspelbare structuur — heldere stappen, zichtbare voortgang, geen nare verrassingen.
+> [!step] 1. Verstelbare uitdaging, een makkelijk en een moeilijk pad naar hetzelfde doel.
+> [!step] 2. Non-verbaal succes, een manier om te winnen die niet van woorden afhangt.
+> [!step] 3. Keuze als zelfregulatie, laat leerlingen taak, tempo of rol kiezen.
+> [!step] 4. Prikkelcontrole, een rustiger optie; beheer geluid, beweging, overload.
+> [!step] 5. Samenwerken boven competitie, teamdoelen; gedeelde, niet nulsom-winst.
+> [!step] 6. Voorspelbare structuur, heldere stappen, zichtbare voortgang, geen nare verrassingen.
 
 ## Sessieplan (dagdeel, ~3 uur)
 
 ### Deel 1 · Wie valt buiten, en waarom (45 min)
 - Loop een gewone gamified les door de ogen van je moeilijkst bereikbare leerling.
 - Benoem de barrières: leeslast, tempo, competitie, prikkeloverload,
-  onvoorspelbaarheid.
+ onvoorspelbaarheid.
 
 ### Deel 2 · De zes zetten, toegepast (75 min)
 - Leer elke zet met een echt voorbeeld.
 - Zelf doen: neem één gamified les en herbouw hem met minstens drie zetten
-  (Werkblad: het inclusieraster).
+ (Werkblad: het inclusieraster).
 
 > [!assignment] Neem een game-based les die je gebruikt (of een uit de volledige cursus) en herontwerp hem zodat je snelst-buitengesloten leerling volledig kan meedoen en slagen. Benoem de drie zetten die je gebruikte.
 
 ### Deel 3 · Creatieve media als inclusieve mechaniek (40 min)
 - Stop-motion, fotografie en bouwen als game-element: succes is zichtbaar,
-  non-verbaal en op eigen tempo.
+ non-verbaal en op eigen tempo.
 - Kevins praktijkverhalen uit het speciaal onderwijs.
 
 ### Deel 4 · Maak het routine (20 min)
@@ -90,15 +90,15 @@ Voordat je een game-based les draait, check:
 
 - **Zeldzaam.** De meeste gamification-training negeert inclusie; deze leidt ermee.
 - **Gefinancierd.** Sluit aan op special-onderwijsbudgetten en de middelen voor
-  basisvaardigheden / passend onderwijs.
+ basisvaardigheden / passend onderwijs.
 - **Vertrouwd.** Het komt van iemand die deze leerlingen echt heeft lesgegeven.
 
 ## Bronnen
 
 - Universal Design for Learning (UDL / CAST).
-- Zelfdeterminatietheorie — autonomie, competentie, verbondenheid.
+- Zelfdeterminatietheorie, autonomie, competentie, verbondenheid.
 - Kevin Storms praktijk in het speciaal onderwijs (SO/VSO, mytyl/EMB, klassen met
-  veel eigen regie).
+ veel eigen regie).
 
 *Upsell-pad: Inclusieve Gamification is de vertrouwensbouwer. Het opent deuren in
 het speciaal onderwijs die daarna de volledige suite en live teamtrainingen afnemen.*

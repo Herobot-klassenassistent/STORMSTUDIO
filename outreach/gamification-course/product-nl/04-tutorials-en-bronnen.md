@@ -88,33 +88,33 @@ Zie de Delightex-links in de bronnenlijst voor hun eigen tutorials en voorbeelde
 ## Bronnenlijst
 
 ### Delightex (gamedesign-kern)
-- Delightex Edu — [edu.delightex.com](https://edu.delightex.com/)
-- Over / AR & VR in onderwijs — [delightex.com/edu/about](https://www.delightex.com/edu/about)
-- Coderen met CoBlocks — [delightex.com/edu/coding](https://www.delightex.com/edu/coding)
-- 3D-creatie — [delightex.com/edu/3d-creation](https://www.delightex.com/edu/3d-creation)
-- Prijzen / schoollicenties — [delightex.com/edu/pricing](https://www.delightex.com/edu/pricing)
+- Delightex Edu, [edu.delightex.com](https://edu.delightex.com/)
+- Over / AR & VR in onderwijs, [delightex.com/edu/about](https://www.delightex.com/edu/about)
+- Coderen met CoBlocks, [delightex.com/edu/coding](https://www.delightex.com/edu/coding)
+- 3D-creatie, [delightex.com/edu/3d-creation](https://www.delightex.com/edu/3d-creation)
+- Prijzen / schoollicenties, [delightex.com/edu/pricing](https://www.delightex.com/edu/pricing)
 
 ### Bouwtools
-- Twine (branching narrative) — twinery.org
-- Genially (interactieve borden) — genially.com
-- Blooket — blooket.com · Gimkit — gimkit.com · Kahoot — kahoot.com
-- Scratch (optioneel coderen) — scratch.mit.edu
-- Minecraft Education (optioneel) — education.minecraft.net
+- Twine (branching narrative), twinery.org
+- Genially (interactieve borden), genially.com
+- Blooket, blooket.com · Gimkit, gimkit.com · Kahoot, kahoot.com
+- Scratch (optioneel coderen), scratch.mit.edu
+- Minecraft Education (optioneel), education.minecraft.net
 
 ### Didactiek & onderzoek (het "waarom")
-- Zelfdeterminatietheorie (Deci & Ryan) — autonomie, competentie, verbondenheid.
-- Flow (Csikszentmihalyi) — uitdaging afgestemd op vaardigheid.
+- Zelfdeterminatietheorie (Deci & Ryan), autonomie, competentie, verbondenheid.
+- Flow (Csikszentmihalyi), uitdaging afgestemd op vaardigheid.
 - Werk over gamification van leren en motivatie (Kapp; Deterding e.a.; Hamari e.a.).
-- Universal Design for Learning (UDL / CAST) — de ruggengraat van het inclusieblok.
+- Universal Design for Learning (UDL / CAST), de ruggengraat van het inclusieblok.
 
 ### AI in het onderwijs
 - De eigen docentgidsen en promptbibliotheken van je AI-assistent.
 - Nationale kaders voor digitale geletterdheid en AI-geletterdheid.
 
 ### Financiering & context (voor aanbieders)
-- Erasmus+ KA1 — 100% gefinancierde nascholing voor EU-schoolpersoneel.
+- Erasmus+ KA1, 100% gefinancierde nascholing voor EU-schoolpersoneel.
 - CmK (Cultuureducatie met Kwaliteit) en de middelen voor basisvaardigheden /
-  digitale geletterdheid, voor Nederlandse scholen die dit inkopen.
+ digitale geletterdheid, voor Nederlandse scholen die dit inkopen.
 
 > [!note] Tools en links klopten bij het maken (2026). Verschuift een link, zoek dan de platformnaam plus "education". De didactiekbronnen zijn stabiele klassiekers.
 

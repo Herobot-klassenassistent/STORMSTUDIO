@@ -21,26 +21,26 @@ happens; the certificate depends on finishing them and your lesson.
 
 - Each block in the course has a matching page here.
 - **Worksheets A, B and C** carry your project forward: design, inclusion,
-  assessment. Do them in order.
+ assessment. Do them in order.
 - The **glossary** is your quick reference. The **reflection** and **feedback
-  card** are for the end.
+ card** are for the end.
 - Everything you build lives in free or low-cost tools listed in the Tutorials &
-  Source List (Component 04).
+ Source List (Component 04).
 
 ## Key ideas in one page
 
-**Gamification** — adding game *elements* (goals, points, levels, story) to a
-normal activity. **Game-based learning** — learning *through* playing a game.
-**Serious games** — full games built to teach. You will mostly use gamification,
+**Gamification**, adding game *elements* (goals, points, levels, story) to a
+normal activity. **Game-based learning**, learning *through* playing a game.
+**Serious games**, full games built to teach. You will mostly use gamification,
 with a taste of the others.
 
 **The six levers of engagement**
-1. **Clear goals** — the learner always knows what to aim for.
-2. **Fast feedback** — they find out quickly if they are on track.
-3. **Visible progression** — they can see how far they have come.
-4. **Right-sized challenge** — hard enough to matter, not so hard they quit (flow).
-5. **Autonomy / choice** — they have real decisions to make.
-6. **Meaning / story** — it is about something they care about.
+1. **Clear goals**, the learner always knows what to aim for.
+2. **Fast feedback**, they find out quickly if they are on track.
+3. **Visible progression**, they can see how far they have come.
+4. **Right-sized challenge**, hard enough to matter, not so hard they quit (flow).
+5. **Autonomy / choice**, they have real decisions to make.
+6. **Meaning / story**, it is about something they care about.
 
 **Intrinsic beats extrinsic.** Points and badges (extrinsic) start motivation but
 do not sustain it. Autonomy, competence and relatedness (Self-Determination
@@ -54,7 +54,7 @@ Pick one real lesson you teach in the next few weeks. Write it here.
 
 **My lesson / topic:** ______________________________________________
 
-**Year group / level:** ______________  **Subject:** _________________
+**Year group / level:** ______________ **Subject:** _________________
 
 **The learning goal (what they must be able to do afterwards):**
 _________________________________________________________________
@@ -90,14 +90,14 @@ _________________________________________________________________
 
 Choose one build track and make a first version of your lesson:
 
-- **Branching game** in Twine — choices lead to different paths.
-- **Quest board** in Genially — an interactive map of tasks.
-- **Quiz-driven progression** in Blooket / Gimkit / Kahoot — levels and points.
+- **Branching game** in Twine, choices lead to different paths.
+- **Quest board** in Genially, an interactive map of tasks.
+- **Quiz-driven progression** in Blooket / Gimkit / Kahoot, levels and points.
 
-**My track:** ____________  **Link to my prototype:** ________________
+**My track:** ____________ **Link to my prototype:** ________________
 
 > [!assignment] Homework after Day 1: play one classmate's prototype. Write one thing that worked and one idea you will steal.
-> Worked: ______________________  Steal: ______________________
+> Worked: ______________________ Steal: ______________________
 
 ---
 
@@ -158,15 +158,15 @@ When you play a classmate's lesson, give feedback in this shape:
 
 ## Glossary
 
-- **Mechanic** — a rule or element that shapes play (points, levels, a timer).
-- **Flow** — the state of being fully absorbed; challenge matched to skill.
-- **Extrinsic motivation** — driven by rewards or grades from outside.
-- **Intrinsic motivation** — driven by interest, mastery, meaning from inside.
-- **CoBlocks** — the visual, block-based coding used in Delightex Edu.
-- **AR / VR** — augmented reality (digital layered on the real world) / virtual
-  reality (a fully digital world you step into).
-- **Branching narrative** — a story where choices lead to different outcomes.
-- **Self-Determination Theory** — motivation grows from autonomy, competence and
-  relatedness.
+- **Mechanic**, a rule or element that shapes play (points, levels, a timer).
+- **Flow**, the state of being fully absorbed; challenge matched to skill.
+- **Extrinsic motivation**, driven by rewards or grades from outside.
+- **Intrinsic motivation**, driven by interest, mastery, meaning from inside.
+- **CoBlocks**, the visual, block-based coding used in Delightex Edu.
+- **AR / VR**, augmented reality (digital layered on the real world) / virtual
+ reality (a fully digital world you step into).
+- **Branching narrative**, a story where choices lead to different outcomes.
+- **Self-Determination Theory**, motivation grows from autonomy, competence and
+ relatedness.
 
 *Your tools, step by step, are in Component 04 (Tutorials & Source List).*

@@ -22,14 +22,14 @@ problemen oplossen. Een dag live, of zelfstandig met de tutorials.
 ## Waarom Delightex
 
 - **Gemaakt voor scholen:** kant-en-klare klassen en opdrachten, docentdashboard,
-  gebruikt in 150+ landen. ([edu.delightex.com](https://edu.delightex.com/))
+ gebruikt in 150+ landen. ([edu.delightex.com](https://edu.delightex.com/))
 - **Lage drempel, hoog plafond:** CoBlocks is visueel en Scratch-achtig voor
-  beginners, maar scripten kan voor gevorderden.
-  ([delightex.com/edu/coding](https://www.delightex.com/edu/coding))
+ beginners, maar scripten kan voor gevorderden.
+ ([delightex.com/edu/coding](https://www.delightex.com/edu/coding))
 - **Immersief zonder lab:** bekijk creaties in AR op elke telefoon, of VR met een
-  headset. ([delightex.com/edu/about](https://www.delightex.com/edu/about))
+ headset. ([delightex.com/edu/about](https://www.delightex.com/edu/about))
 - **AI-verrijkte 3D-creatie** en een grote objectbibliotheek.
-  ([delightex.com/edu/3d-creation](https://www.delightex.com/edu/3d-creation))
+ ([delightex.com/edu/3d-creation](https://www.delightex.com/edu/3d-creation))
 
 ## Leeruitkomsten
 
@@ -43,7 +43,7 @@ Aan het eind kunnen deelnemers:
 
 ## De Delightex-ontwerpaanpak (leer dit, niet alleen de tool)
 
-> [!step] 1. Start vanuit één werkwoord — verzamelen, ontsnappen, gidsen, bouwen, overleven.
+> [!step] 1. Start vanuit één werkwoord, verzamelen, ontsnappen, gidsen, bouwen, overleven.
 > [!step] 2. Bouw de kleinste wereld die dat werkwoord leuk maakt (één kamer, één doel).
 > [!step] 3. Voeg één regel per keer toe: een beloning, dan een obstakel, dan een keuze.
 > [!step] 4. Speeltest na elke regel. Niet leuk of niet helder? Verander één ding.
@@ -57,18 +57,18 @@ leren itereren, niet jagen op perfectie.
 ### Ochtend · Bouw platformvaardigheid
 - **Scène-basis (45 min):** achtergrond, objecten, camera, play.
 - **CoBlocks (75 min):** "als aangeklikt", beweging, variabelen (een score),
-  winstmoment. Bouw samen een mini complete game.
+ winstmoment. Bouw samen een mini complete game.
 - **AR/VR (30 min):** bekijk je game in AR op een telefoon; probeer VR bij een
-  headset; zet het no-headset-alternatief op.
+ headset; zet het no-headset-alternatief op.
 
 ### Middag · Ontwerp een klasproject
 - **De opdracht (45 min):** ontwerp een strakke leerling-opdracht ("een escape van
-  3 kamers die per kamer één feit leert"). Randvoorwaarden maken betere games en
-  makkelijker nakijken.
+ 3 kamers die per kamer één feit leert"). Randvoorwaarden maken betere games en
+ makkelijker nakijken.
 - **Bouw je voorbeeld (75 min):** bouw de game die je je leerlingen laat bouwen,
-  zodat je de valkuilen kent.
+ zodat je de valkuilen kent.
 - **Draai het als opdracht (30 min):** zet het in Delightex, plan peer-speeltest en
-  feedback, schrijf de rubric.
+ feedback, schrijf de rubric.
 - **Delen & reflecteren (30 min):** speel elkaars voorbeelden; plan je uitrol.
 
 ## Opdracht
@@ -80,7 +80,7 @@ leren itereren, niet jagen op perfectie.
 - **Coderen / digitale geletterdheid:** CoBlocks, logica, variabelen, events.
 - **Taal:** verhaal, instructies, wereldbouw.
 - **Elk vak:** de game leert het onderwerp (een geschiedenis-escape, een
-  natuurkundesimulatie, een rekenpuzzelwereld).
+ natuurkundesimulatie, een rekenpuzzelwereld).
 - **21e-eeuwse vaardigheden:** samenwerken, itereren, problemen oplossen.
 
 ## Inclusienotitie
@@ -92,11 +92,11 @@ deelmodule S3 voor de volledige inclusie-toolkit.
 
 ## Bronnen & tutorials
 
-- Delightex Edu — [edu.delightex.com](https://edu.delightex.com/)
-- CoBlocks coderen — [delightex.com/edu/coding](https://www.delightex.com/edu/coding)
-- AR & VR in onderwijs — [delightex.com/edu/about](https://www.delightex.com/edu/about)
-- 3D-creatie — [delightex.com/edu/3d-creation](https://www.delightex.com/edu/3d-creation)
-- Schoollicenties / prijzen — [delightex.com/edu/pricing](https://www.delightex.com/edu/pricing)
+- Delightex Edu, [edu.delightex.com](https://edu.delightex.com/)
+- CoBlocks coderen, [delightex.com/edu/coding](https://www.delightex.com/edu/coding)
+- AR & VR in onderwijs, [delightex.com/edu/about](https://www.delightex.com/edu/about)
+- 3D-creatie, [delightex.com/edu/3d-creation](https://www.delightex.com/edu/3d-creation)
+- Schoollicenties / prijzen, [delightex.com/edu/pricing](https://www.delightex.com/edu/pricing)
 - Stap-voor-stap bouwgids: onderdeel 04, Tutorial 5.
 
 *Upsell-pad: Gamedesign met Delightex ↔ de volledige suite, waar dit de immersive
