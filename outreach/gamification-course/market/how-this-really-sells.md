@@ -61,11 +61,16 @@ relationships.
 - Erasmus+ pays participants **€80/day** toward course fees (max €800/project), so
   a ~€400-560/week course sits right inside the grant.
 
-**The free discovery channel most people miss:**
-- **List the course yourself on the European School Education Platform**
-  (school-education.ec.europa.eu). Independent providers list on-site Erasmus+
-  courses **for free**; schools across Europe search it to build mobilities. No
-  gatekeeper, no fee. Register as an organisation, publish the course, pick dates.
+**Discovery channels (note the 2026 change):**
+- **Correction/verify:** the European School Education Platform
+  (school-education.ec.europa.eu) **stopped showing externally-published provider
+  courses around May 2026.** So the old "list your on-site course there for free"
+  route may be closed or changed. You can still register via EU Login (with
+  National Support Organisation validation) — but confirm current status before
+  relying on it. Treat it as "verify", not "guaranteed inbound".
+- Because of that, the **primary international route is through accredited
+  providers** (their own catalogues reach the teachers), plus your own channels
+  (site, LinkedIn, Delightex partner listing). Don't bank on free EU inbound.
 
 **How to actually close it:**
 - Two tracks in parallel: (a) **list on ESEP** for inbound, and (b) **pitch
@@ -156,7 +161,8 @@ in months, not weeks.
 ## Do-this-first (five actions)
 
 1. **Gumroad checkout live** for the full course + 3 mini-courses.
-2. **List on school-education.ec.europa.eu** (free Erasmus+ discovery).
+2. **Land one provider partnership** (Delightex/Europass/Primera) — the real
+   international door now that free ESEP self-listing is uncertain.
 3. **One study day booked** from a warm lead, funded from their PD budget.
 4. **Send the 3 provider drafts** + apply to Delightex Ambassador.
 5. **Lead magnet on the landing page**, start collecting emails.
