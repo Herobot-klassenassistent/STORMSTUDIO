@@ -3,10 +3,13 @@ organisation,type,land,waarom,email,contact_status,datum_concept,status,notitie
 Delightex Edu,platform/partnerprogramma,DE/internationaal,Training Partner + Ambassador; 150+ landen; kern van S2,info-edu@delightex.com,geverifieerd,2026-09-12,concept-in-gmail,partner/ambassador pitch rond Game Design with Delightex
 Europass Teacher Academy,Erasmus+ aanbieder (grootste),IT/EU (36 locaties),250+ cursussen; ~12k docenten/jr; trainer + catalogus,info@teacheracademy.eu,geverifieerd,2026-09-12,concept-in-gmail,trainer + course toevoegen; zij certificeren eigen trainers
 Primera,Erasmus+ aanbieder (5-ster),SI/EU,21e-eeuws lesgeven; trainer + catalogus,info@skupinaprimera.si,geverifieerd,2026-09-12,concept-in-gmail,trainer + course toevoegen
-# --- Volgende ronde / adres te verifieren ---
-Teachersrise,Erasmus+ aanbieder,IT (Padova),alleen contactformulier,,te bevestigen,,nog-versturen,email verifieren
-Erasmus Learning Academy (ELA),Erasmus+ aanbieder,IT (Bologna),catalogus 2026-27 IT/ES/PT/HR/GR; contactformulier,,te bevestigen,,nog-versturen,email verifieren
-iDevelop,Erasmus+ aanbieder,IE/EU,heeft al AI-in-education cursus; contactformulier,,te bevestigen,,nog-versturen,email verifieren
+Euneos,Erasmus+ aanbieder (sinds 2005),FI/EE,cursussen Finland/Estland; trainer + catalogus,courses@euneos.eu,geverifieerd,2026-09-14,concept-in-gmail,trainer + course toevoegen
+Spatia Teacher Academy,Erasmus+ aanbieder,PL/EU,SPATIA Foundation; staat op ESEP; trainer + catalogus,courses@spatiateacheracademy.eu,geverifieerd,2026-09-14,concept-in-gmail,trainer + course toevoegen
+# --- Formulier-only: gebruik Script 1 uit sales-playbook (Kevin plakt in hun contactformulier) ---
+Teachersrise,Erasmus+ aanbieder,IT (Padova),alleen contactformulier,,formulier,,script-klaar,Script 1 in sales-playbook
+Erasmus Learning Academy (ELA),Erasmus+ aanbieder,IT (Bologna),catalogus 2026-27 IT/ES/PT/HR/GR; contactformulier,,formulier,,script-klaar,Script 1 in sales-playbook
+iDevelop,Erasmus+ aanbieder,IE/EU,heeft al AI-in-education cursus; contactformulier,,formulier,,script-klaar,Script 1 in sales-playbook
+# --- Hogere-yield kanalen (zie sales-playbook: partnerships, spreken, LinkedIn) ---
 Ashoka Changemaker Schools,innovatief schoolnetwerk,wereldwijd,gelooft in changemaking/vernieuwend onderwijs,,te bevestigen,,nog-versturen,via ashoka.org programmateam
 HundrED,onderwijsinnovatie-spotlight,FI/wereldwijd,cursus laten featuren = bereik + geloofwaardigheid,,te bevestigen,,nog-versturen,indienen via hundred.org
 CIS / ECIS / COBIS,internationale-scholen-associaties,EU/wereldwijd,PD + congressen; boeken externe trainers,,te bevestigen,,nog-versturen,workshop pitchen op congres
