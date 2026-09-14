@@ -22,7 +22,6 @@ def fix(text):
     # tidy doubles created
     text = re.sub(r",\s*,", ",", text)
     text = re.sub(r"[ \t]{2,}", " ", text)
-    text = re.sub(r",\s*\.", ".", text)
     text = re.sub(r"\(\s*,\s*", "(", text)
     return text
 
