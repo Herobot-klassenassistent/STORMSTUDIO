@@ -11,8 +11,7 @@ A standalone course on designing game-based learning that includes the learners
 who are usually left out: special-needs, mixed-ability, and neurodivergent
 students. It is Kevin Storm's signature strength, built on years of real work in
 special education, from stop-motion with multiple-disability learners to
-high-autonomy classrooms. Few competitors offer this; it is a genuine
-differentiator.
+high-autonomy classrooms.
 
 Half a day live, or self-paced. It assumes only that you have, or want, a gamified
 lesson to make inclusive.
@@ -100,6 +99,3 @@ Before you run any game-based lesson, check:
 - Self-Determination Theory, autonomy, competence, relatedness.
 - Kevin Storm's special-education practice (SO/VSO, mytyl/EMB, high-autonomy
  settings).
-
-*Upsell path: Inclusive Gamification is the trust-builder. It opens doors in
-special education that then take the full suite and live team-trainings.*

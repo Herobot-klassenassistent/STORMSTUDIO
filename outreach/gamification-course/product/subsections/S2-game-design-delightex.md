@@ -97,6 +97,3 @@ Subsection S3 for the full inclusion toolkit.
 - 3D creation toolbox, [delightex.com/edu/3d-creation](https://www.delightex.com/edu/3d-creation)
 - School licences / pricing, [delightex.com/edu/pricing](https://www.delightex.com/edu/pricing)
 - Step-by-step build guide: Component 04, Tutorial 5.
-
-*Upsell path: Game Design with Delightex ↔ the full suite, where this becomes the
-immersive core of a broader gamified-learning practice.*

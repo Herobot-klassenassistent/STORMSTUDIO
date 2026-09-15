@@ -30,7 +30,7 @@ boven alles. Loop je uit, schrap dan theorie, nooit het bouwen.
 |---|---|---|
 | Live 2 dagen | 2 × 6 uur | Erasmus+ mobiliteit, studiedagen |
 | Online 4 × dagdeel | 4 × 2,5 uur | Teams op afstand, hybride Erasmus |
-| Zelfstandig + kliniek | eigen tempo + 1 live uur | Individuele docenten, licenties |
+| Zelfstandig + kliniek | eigen tempo + 1 live uur | Individuele docenten |
 
 ## Wat je op de dag nodig hebt
 
@@ -100,7 +100,7 @@ boven alles. Loop je uit, schrap dan theorie, nooit het bouwen.
 - **Zelf doen (30 min).** Elke deelnemer past het prototype aan voor inclusie
  (Werkblad B).
 
-> [!key] Het inclusieblok is wat kopers onthouden. Geef het volle gewicht; laat het niet wegdrukken door een uitlopend Blok 3.
+> [!key] Het inclusieblok is wat deelnemers het meest onthouden. Geef het volle gewicht; laat het niet wegdrukken door een uitlopend Blok 3.
 
 ### Blok 6 · Immersie en media als mechaniek (11:00-12:30)
 - Laagdrempelige AR/VR en stop-motion als game-element.

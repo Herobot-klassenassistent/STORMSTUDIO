@@ -12,9 +12,6 @@ hun eigen werk sneller en beter doen met AI, en leerlingen leren AI verstandig t
 gebruiken (AI-geletterdheid). Getrokken uit de grotere suite, maar volledig los te
 gebruiken. Een dagdeel live, of zelfstandig.
 
-Dit is de makkelijkste "eerste verkoop" van de hele suite: elke school vraagt er nu
-om, en de drempel is laag.
-
 > [!key] Belofte: in één sessie ga je van "AI maakt me nerveus" naar "AI bespaart me een uur per dag en ik kan mijn leerlingen leren het verantwoord te gebruiken."
 
 ## Voor wie
@@ -68,8 +65,8 @@ Aan het eind kunnen deelnemers:
 
 - **Meteen bruikbaar.** Docenten gaan weg met echt materiaal en bespaarde tijd.
 - **In balans.** Geen hype en geen angst; het leert oordeel.
-- **Brug naar gamification.** AI is hoe je snel game-based lessen ontwerpt, dus dit
- verkoopt de volledige cursus als vanzelf.
+- **Brug naar gamification.** AI is hoe je snel game-based lessen ontwerpt, een
+ natuurlijke brug naar de rest van de cursus.
 
 ## Bronnen & tools
 
@@ -77,5 +74,3 @@ Aan het eind kunnen deelnemers:
 - Nationale kaders voor digitale geletterdheid / AI-geletterdheid.
 - Sluit direct aan op Tutorial 1 in onderdeel 04.
 
-*Upsell-pad: AI in het Onderwijs → de volledige cursus Gamification & Immersive
-Learning, waar AI de motor wordt om speelbare lessen te ontwerpen.*

@@ -12,9 +12,6 @@ AI to do their own work faster and better, and how to teach students to use AI
 wisely (AI literacy). It is drawn from the flagship Gamification & Immersive
 Learning suite but stands entirely on its own. Half a day live, or self-paced.
 
-This is the easiest "first sale" in the whole suite: every school is asking for it
-right now, and the barrier to entry is low.
-
 > [!key] Promise: in one session you go from "AI makes me nervous" to "AI saves me an hour a day and I can teach my students to use it responsibly."
 
 ## Who it is for
@@ -68,13 +65,10 @@ By the end, participants can:
 - **Immediately useful.** Teachers leave with real materials and saved time.
 - **Balanced.** It is neither hype nor fear; it teaches judgement.
 - **Bridges to gamification.** AI is how you design and produce game-based lessons
- fast, so this course naturally sells the flagship next.
+ fast, so it's a natural bridge to the rest of the course.
 
 ## Sources & tools
 
 - Your AI assistant of choice (ChatGPT, Claude, or similar) and its educator guide.
 - National digital-literacy / AI-literacy frameworks for the student-facing part.
 - Pairs directly with Tutorial 1 in Component 04 (Tutorials & Source List).
-
-*Upsell path: AI in Education → the full Gamification & Immersive Learning course,
-where AI becomes the engine for designing playable lessons.*

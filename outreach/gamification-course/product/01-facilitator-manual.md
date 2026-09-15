@@ -36,7 +36,7 @@ build time above all. If you run short, cut theory, never the building.
 |---|---|---|
 | Live 2-day | 2 × 6 hrs | Erasmus+ mobility, school study days |
 | Online 4 × half-day | 4 × 2.5 hrs | Remote teams, hybrid Erasmus |
-| Self-paced + clinic | own pace + 1 live hr | Individual teachers, licences |
+| Self-paced + clinic | own pace + 1 live hr | Individual teachers |
 
 ## What you need on the day
 
@@ -126,7 +126,7 @@ lines are the usual failure points and how to save them.
 - **Hands-on (30 min).** Each participant adapts their prototype for inclusion
  using Worksheet B.
 
-> [!key] The inclusion block is what makes buyers remember this course. Give it full weight; do not let it get squeezed by an over-running Block 3.
+> [!key] The inclusion block is what participants remember most. Give it full weight; do not let it get squeezed by an over-running Block 3.
 
 ### Block 6 · Immersive and media as mechanics (11:00-12:30)
 **Goal:** add one immersive or media moment any school can actually run.

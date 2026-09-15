@@ -11,8 +11,7 @@ Een op zichzelf staande cursus over het ontwerpen van game-based leren dat juist
 leerlingen meeneemt die meestal buiten de boot vallen: speciaal onderwijs, gemengde
 niveaus en neurodivergente leerlingen. Het is Kevin Storms handtekening, gebouwd op
 jaren echte praktijk in het speciaal onderwijs: van stop-motion met meervoudig
-gehandicapten tot klassen met veel eigen regie. Weinig concurrenten bieden dit; het
-is een echt onderscheid.
+gehandicapten tot klassen met veel eigen regie.
 
 Een dagdeel live, of zelfstandig. Het gaat er alleen van uit dat je een gamified
 les hebt, of wilt maken, en die inclusief wilt maken.
@@ -100,5 +99,3 @@ Voordat je een game-based les draait, check:
 - Kevin Storms praktijk in het speciaal onderwijs (SO/VSO, mytyl/EMB, klassen met
  veel eigen regie).
 
-*Upsell-pad: Inclusieve Gamification is de vertrouwensbouwer. Het opent deuren in
-het speciaal onderwijs die daarna de volledige suite en live teamtrainingen afnemen.*

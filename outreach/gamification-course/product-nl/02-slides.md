@@ -77,7 +77,7 @@ subtitle: Een tweedaagse cursus voor docenten: Kevin Storm
 - Een game met keuze, verstelbare uitdaging en non-verbale winst is al inclusief
 - Basis: Universal Design for Learning (betrokkenheid, representatie, expressie)
 - Pas nu je prototype aan, Werkblad B
-> Geef dit vol gewicht. Dit onthouden kopers.
+> Geef dit vol gewicht. Dit onthouden deelnemers.
 
 ## Immersie & media als mechaniek
 - Laagdrempelige AR/VR die elke school kan draaien

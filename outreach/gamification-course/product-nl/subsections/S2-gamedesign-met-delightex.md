@@ -99,5 +99,3 @@ deelmodule S3 voor de volledige inclusie-toolkit.
 - Schoollicenties / prijzen, [delightex.com/edu/pricing](https://www.delightex.com/edu/pricing)
 - Stap-voor-stap bouwgids: onderdeel 04, Tutorial 5.
 
-*Upsell-pad: Gamedesign met Delightex ↔ de volledige suite, waar dit de immersive
-kern wordt van een bredere gamified-onderwijspraktijk.*

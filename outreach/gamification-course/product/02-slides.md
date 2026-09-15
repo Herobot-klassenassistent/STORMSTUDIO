@@ -77,7 +77,7 @@ subtitle: A two-day course for teachers: Kevin Storm
 - A game with choice, adjustable challenge and non-verbal wins is already inclusive
 - Backbone: Universal Design for Learning (engagement, representation, expression)
 - Now adapt your prototype, Worksheet B
-> Give this full weight. It is what buyers remember.
+> Give this full weight. It is what participants remember.
 
 ## Immersive & media as mechanics
 - Light-touch AR/VR any school can run
