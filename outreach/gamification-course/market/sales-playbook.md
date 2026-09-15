@@ -71,15 +71,16 @@ regional edtech events, Delightex/CoSpaces community events). Most run an open
 > build one real, playable lesson for your own classroom, using AI to design it fast,
 > Delightex to make it immersive, and a simple inclusion method so no learner is left
 > out. You leave with something you can teach on Monday, not a theory of engagement.
-> Led by Kevin Storm, a teacher, teacher-trainer and touring musician who has taught
-> everything from stop-motion with multiple-disability learners to game design in
-> mainstream classrooms.
+> Led by Kevin Storm, a qualified special-needs teacher and teacher-trainer with more
+> than twenty years in the classroom, who has taught everything from stop-motion with
+> multiple-disability learners to game design in mainstream classrooms.
 
 **Speaker bio (short):**
-> Kevin Storm is a Dutch teacher, curriculum developer and international
-> teacher-trainer with a home in special education, and a touring musician. He has
-> delivered gamification training for international teachers through Erasmus+ and
-> builds courses that leave something behind: kevinstorm.eu.
+> Kevin Storm is a qualified Dutch teacher with more than twenty years in the
+> classroom, most of it in special education, and a curriculum developer and
+> international teacher-trainer. Music is his second career. He has delivered
+> gamification training for international teachers through Erasmus+ and builds courses
+> that leave something behind: kevinstorm.eu.
 
 **Where to submit:** search "[conference name] call for proposals 2026". Prioritise
 BETT (London), ISTE (US), regional edtech conferences near your tour routes, and

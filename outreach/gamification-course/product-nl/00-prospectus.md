@@ -7,11 +7,11 @@ doclabel: Welkom & cursusgids
 
 ## Even voorstellen
 
-Hoi, ik ben Kevin. Ik ben via de muziek het onderwijs in gerold. Ik speel nog
-steeds met bands, en ergens onderweg werd ik verliefd op de klas en ben ik nooit
-meer weggegaan. De afgelopen elf jaar maak ik creatieve, praktische lessen voor
-scholen door heel Nederland, en ik voel me het meest thuis bij de kinderen die
-net niet in het standaardplaatje passen.
+Hoi, ik ben Kevin. Ik sta al ruim twintig jaar voor de klas, het grootste deel
+daarvan in het speciaal onderwijs, en ik voel me het meest thuis bij de kinderen
+die net niet in het standaardplaatje passen. Ik ben opgeleid als docent en het is
+mijn levenswerk; muziek kwam later, een tweede carrière waarin ik nog steeds toer,
+maar de klas is de constante.
 
 Ik heb deze cursus gemaakt omdat er naar de gamification-training die ik voor
 internationale docenten in Amsterdam gaf nog lang werd gevraagd. Dus heb ik hem

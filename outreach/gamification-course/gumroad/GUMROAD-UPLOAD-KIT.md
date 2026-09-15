@@ -31,11 +31,11 @@ serves the Dutch home market and the international market at once.
  > Creative, new-media learning that reaches every child. Courses in gamification,
  > AI and game design, by teacher and teacher-trainer Kevin Storm.
 - **Short bio (profile "About", ~60 words):**
- > I'm Kevin Storm: teacher, curriculum developer and international teacher-trainer,
- > and a touring musician. For over a decade I've built creative, new-media learning
- > for schools across the Netherlands and beyond, with a home in special education.
- > These are my ready-to-run courses in gamification, AI and immersive game design,
- > so any teacher or team can pick them up and go.
+ > I'm Kevin Storm: a qualified teacher with more than twenty years in the classroom,
+ > most of it in special education, and a curriculum developer and international
+ > teacher-trainer. Music is my second career, and I still tour. These are my
+ > ready-to-run courses in gamification, AI and immersive game design, so any teacher
+ > or team can pick them up and go.
 - **Links to add:** `kevinstorm.eu` · `linkedin.com/in/stormkevin`
 - **Profile category:** Education
 - **Payout:** confirm your bank/PayPal is set (you already have the account).

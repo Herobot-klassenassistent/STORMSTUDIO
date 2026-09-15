@@ -7,11 +7,10 @@ doclabel: Welcome & course guide
 
 ## A quick hello
 
-Hi, I'm Kevin. I came into teaching sideways, through music. I still tour with
-bands, and somewhere along the way I fell hard for the classroom and never left.
-For the last eleven years I've made creative, hands-on lessons for schools all
-over the Netherlands, and I'm at my happiest with the kids who don't quite fit the
-standard mould.
+Hi, I'm Kevin. I've been a teacher for more than twenty years, most of it in
+special education, and I'm at my happiest with the kids who don't quite fit the
+standard mould. I trained as a teacher and it has been my life's work; music came
+later, a second career I still tour with, but the classroom is the constant.
 
 I wrote this course because the gamification training I gave for international
 teachers in Amsterdam kept getting asked for long after it was over. So I rebuilt
