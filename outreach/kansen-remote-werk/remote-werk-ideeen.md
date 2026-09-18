@@ -127,3 +127,50 @@ Low-effort ways to earn and stay visible between the big projects.
 Say which of these you want to move on and I will build it out: draft the course
 outline, set up the product/sales page copy, write the marketplace profiles, or
 draft the outreach - same rules and voice as the school campaigns.
+
+---
+
+## UPDATE (Sept 2026): the course is LIVE, so here is where paid work comes next
+
+The product side is done (Gumroad store live). These are income streams that pay
+YOU, remotely, and fit a touring life. Ordered by how fast the money arrives.
+
+### A. AI-training expert work (native-Dutch education SME) - fastest cash, best fit
+Platforms pay subject-matter experts to train and evaluate AI models. Fully
+remote, you pick your hours, and they specifically want native-language experts
+and domain experts. You are a native Dutch teacher with a special-needs and
+creative-media specialism - exactly their profile for Dutch-language and
+education-domain work. Pay ranges roughly 25-100+ euro/hr for SMEs.
+- Apply to: **Mercor** (highest pay, expert network), **Outlier / Scale AI**
+  (30+ languages incl. Dutch), **Mindrift**, **Alignerr (Labelbox)**,
+  **HiredBuddy** (Europe rollout 2026). NL portal: **jazzer.nl** ai-training-jobs.
+- First action: a tight "expert profile" + CV emphasising education, Dutch, special
+  needs, curriculum design. This is the single most touring-compatible income here.
+
+### B. Cognitive-accessibility & plain-language consulting (your begrijpelijk niche)
+"Het onbegrijpelijke begrijpelijk maken", applied to digital products. You review
+websites, apps, forms and lesmateriaal for the people who do not get it by default -
+your special-needs lens as a paid remote service. Buyers: gemeenten, DUO/UWV
+suppliers, health orgs, edtech, and agencies doing WCAG / begrijpelijke taal.
+- First action: a one-page "begrijpelijkheids- en toegankelijkheidsscan" service +
+  outreach to a first ten targets.
+
+### C. Freelance curriculum / instructional design for NL edtech & publishers
+Remote-first authoring and leerlijn work. They always need freelance auteurs.
+- Targets: Malmberg, Noordhoff, ThiemeMeulenhoff, Blink, Prowise, Gynzy, LessonUp,
+  Squla, Codename Future, Cambium, Dedact.
+- First action: a one-page freelance auteur/curriculumontwerper profile + warm
+  intros to their content teams.
+
+### D. AI-literacy train-the-trainer for corporate L&D (online)
+You already built the AI module. Companies are scrambling to upskill staff. Deliver
+it online as a paid webinar/strippenkaart. Targets: L&D teams, sprekersbureaus,
+AI-training aanbieders.
+
+### E. Creative crossover (only you have this)
+Library music / sound design for educational media (remote), and a paid newsletter
+"onderwijs vanuit de tourbus" that compounds into inbound work.
+
+> My pick to start: **A** (fast, flexible, pays now) run in parallel with **B**
+> (higher day-rate, uses your rarest strength). Say the word and I build the
+> profile/one-pager/outreach for whichever you choose.
