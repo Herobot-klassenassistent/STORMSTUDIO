@@ -7,8 +7,9 @@ or on stage where you can; a face doubles the reach. Post the English ones to yo
 international network; translate the ones you like for the Dutch network, or reuse the
 Dutch launch post already in linkedin-posts.md.
 
-The store link for first comments: your Gumroad, and the free guide at
-stormintheclass.gumroad.com/l/six-levers.
+Links for first comments: the free guide at stormintheclass.gumroad.com/l/six-levers,
+the store at stormintheclass.gumroad.com, and the one-page overview at
+claude.ai/artifact/1icKRgBexkRyLz22GxqorE.
 
 ---
 
@@ -28,7 +29,7 @@ with the six things that actually pull a room in. It is in the first comment.
 
 What is the last lesson that genuinely had your class leaning in?
 
-**First comment:** Here is the free one page guide, no strings: [free guide link].
+**First comment:** Here is the free one page guide, no strings: stormintheclass.gumroad.com/l/six-levers.
 
 ## Post 2 - The kid who checks out
 
@@ -46,7 +47,7 @@ game based learning that works for every learner. More in the first comment.
 
 Who was the kid that changed how you teach?
 
-**First comment:** The course, and a free taste of it: [free guide link].
+**First comment:** The course, and a free taste of it: stormintheclass.gumroad.com/l/six-levers.
 
 ## Post 3 - AI gave me my evening back
 
@@ -63,7 +64,7 @@ a little nervous, start there. Link in the first comment.
 
 What is the one teaching task you would hand to AI tomorrow if you trusted it?
 
-**First comment:** The AI module and the free guide: [free guide link].
+**First comment:** The AI module and the free guide: stormintheclass.gumroad.com/l/six-levers.
 
 ## Post 4 - I came to this from the road
 
@@ -80,7 +81,7 @@ I poured all of that into a course on gamification and immersive learning. If yo
 education and any of this rings true, I would genuinely love to connect. And there is a
 free guide in the first comment.
 
-**First comment:** Free one page guide here: [free guide link].
+**First comment:** Free one page guide here: stormintheclass.gumroad.com/l/six-levers.
 
 ## Post 5 - For the people who plan the study days
 
@@ -96,7 +97,7 @@ Erasmus plus, and there is a school licence so your whole team can use the mater
 If that is the kind of study day you are after, I would love to talk. Details in the
 first comment, or just reply here.
 
-**First comment:** What it is and how it runs: [sales page or store link].
+**First comment:** What it is and how it runs: the one-page overview at claude.ai/artifact/1icKRgBexkRyLz22GxqorE.
 
 ## Post 6 - Let your students build a game
 
@@ -113,7 +114,7 @@ a low tech fallback for when the wifi has other plans. Link in the first comment
 
 What would your students build first if you gave them the tools?
 
-**First comment:** The game design module: [store link].
+**First comment:** The game design module: stormintheclass.gumroad.com.
 
 ## Post 7 - The free thing, plainly
 
@@ -128,7 +129,7 @@ it did its job. Take it, use it with your team, pass it on.
 It is in the first comment. If you want the full course afterwards, that is there too, but
 honestly the free page stands on its own.
 
-**First comment:** Free guide, no strings: [free guide link].
+**First comment:** Free guide, no strings: stormintheclass.gumroad.com/l/six-levers.
 
 ## Post 8 - Where this came from
 
@@ -143,7 +144,7 @@ up and run, in English or Dutch.
 That is the whole story. Tested first, packaged second. If you would like to see it, the
 link is in the first comment, and I am always happy to bring it to your school.
 
-**First comment:** The course, and a free taste: [free guide link].
+**First comment:** The course, and a free taste: stormintheclass.gumroad.com/l/six-levers.
 
 ---
 

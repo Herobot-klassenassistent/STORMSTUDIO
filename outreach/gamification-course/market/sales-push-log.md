@@ -8,8 +8,11 @@ Running record of the "sell the course" mission, so follow-ups know what already
   Kevin must set it to "anyone with the link" via the Share menu to make it public.
 - **Gumroad store:** stormintheclass.gumroad.com (6 products live).
 - **Free lead magnet:** stormintheclass.gumroad.com/l/six-levers (email capture).
-- Content calendar: `market/content-calendar.md` (8 LinkedIn posts, 2 weeks).
+- Content calendar: `market/content-calendar.md` (8 LinkedIn posts, live links wired).
+- Profile assets: `market/profile-assets.md` (LinkedIn headline + About, email
+  signature, a reel script). Always-on selling once pasted.
 - Sell sheet, closing playbook, sales playbook, conference CFP: in `market/`.
+- Sales page is PUBLIC (anyone with the link), as of 2026-09-19.
 
 ## Outreach sent as Gmail drafts (Kevin sends, verify addresses first)
 
@@ -18,6 +21,12 @@ Teacher colleges (licence for students / gastcollege): Marnix Academie, KPZ,
 iPabo, Hogeschool de Kempel, Driestar educatief, Fontys Kind en Educatie.
 Consultancies (provider licence / catalogue): CPS, Cedin, Expertis (Twente),
 Marant. All Dutch, warm intro + course pitch. Addresses on info@, verify.
+
+### 2026-09-19 · International schools batch (10, new targets)
+English PD pitch (live training / team licence): AICS Amsterdam, IST Twente,
+ISE Eindhoven, ISH The Hague, ISU Utrecht, IS Hilversum, Rivers Arnhem,
+IS Groningen, IS Delft, IS Breda. Addresses on info@, verify (aim for Head of
+School / PD lead).
 
 ### 2026-09-18 · AI-geletterdheid webinar batch (20, new targets)
 See `outreach/kansen-remote-werk/D-outreach-20-drafts.md`. Warm intro style.
