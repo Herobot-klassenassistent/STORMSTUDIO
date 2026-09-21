@@ -14,6 +14,23 @@ Running record of the "sell the course" mission, so follow-ups know what already
 - Sell sheet, closing playbook, sales playbook, conference CFP: in `market/`.
 - Sales page is PUBLIC (anyone with the link), as of 2026-09-19.
 
+## Weekly cadence log
+
+### 2026-09-21 (week 1)
+Replies in:
+- **Saxion**: warm, forwarded internally to AI-in-education colleagues. Drafted a
+  thank-you reply with the overview + free-guide links for the colleagues.
+- **Hogeschool de Kempel** (Cindy Winckens): polite decline, they train this
+  themselves. Drafted a gracious thank-you leaving the free guide. DO NOT RECONTACT.
+Auto-replies (no action, processing): Cubiss, gemeente Almelo, Saxion.
+- **Studytube**: info@ is read weekly and not for opleiders. Correct address is
+  opleidersupport@studytube.nl. Re-drafted the pitch to that address.
+Second touches: not due yet (batches only 1 to 3 days old, over a weekend).
+Fresh batch drafted (10, new targets): CED-Groep, Bazalt, KPC Groep, OnderwijsAdvies,
+HCO, Timpaan Onderwijs (NL consultancies); International School of Amsterdam, IS
+Almere, IS Haarlem, Optimist International School (English PD pitch). Addresses info@,
+verify.
+
 ## Outreach sent as Gmail drafts (Kevin sends, verify addresses first)
 
 ### 2026-09-19 · B2B course-licence batch (10, new targets)
@@ -35,7 +52,8 @@ See `outreach/kansen-remote-werk/D-outreach-20-drafts.md`. Warm intro style.
 See `international-leads.csv`. Some sent from Kevin's phone.
 
 ## Do-not-recontact
-GEC Academy. Plus everyone in the earlier campaign folders (HANDOFF-samenvatting.txt).
+GEC Academy. Hogeschool de Kempel (declined 2026-09-21, trains this themselves).
+Plus everyone in the earlier campaign folders (HANDOFF-samenvatting.txt).
 
 ## Next actions for the cadence
 1. Check Gmail for replies to the two batches; draft closing-playbook responses.
