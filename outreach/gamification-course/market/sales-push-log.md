@@ -16,6 +16,15 @@ Running record of the "sell the course" mission, so follow-ups know what already
 
 ## Weekly cadence log
 
+### 2026-09-22 (Erasmus+ provider follow-up)
+The 11 international providers went out 09-14. Status:
+- **Euneos**: declined (no new courses); Kevin already replied warmly. Closed.
+- **Delightex**: auto-ack only; on the November calendar (november-leads.ics).
+- **9 silent** (Europass, Primera, Spatia, ITC, Erasmus Courses Croatia,
+  Platform21, English Matters, ShipCon, Cervantes): one-time "floating this back"
+  second touch drafted on each thread. In Gmail drafts.
+international-leads.csv statuses updated.
+
 ### 2026-09-21 (week 1)
 Replies in:
 - **Saxion**: warm, forwarded internally to AI-in-education colleagues. Drafted a
