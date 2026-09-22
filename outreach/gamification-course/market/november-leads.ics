@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//StormStudio//Course sales leads//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cps-bob-coenraats-2026@stormstudio
+DTSTAMP:20260922T090000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Follow up: CPS - Bob Coenraats (gamification & AI course)
+DESCRIPTION:Warm lead from your sales outreach.\n\nWHO: CPS (onderwijsadvies). Their office forwarded your email to their colleague BOB COENRAATS\, who said he would contact you.\n\nWHAT: Your pitch to add the gamification & AI course to their PD offer / a provider licence. Email subject: "Een geteste cursus over gamification en AI voor jullie aanbod" (info@cps.nl).\n\nNEXT STEP: Check your inbox for a message from Bob. Reply and propose a short call. A friendly holding reply is already in your Gmail drafts.
+BEGIN:VALARM
+TRIGGER:PT9H
+ACTION:DISPLAY
+DESCRIPTION:Follow up: CPS - Bob Coenraats
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:saxion-ai-colleagues-2026@stormstudio
+DTSTAMP:20260922T090000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Follow up: Saxion - AI in education colleagues (course)
+DESCRIPTION:Warm lead from your sales outreach.\n\nWHO: Saxion Hogeschool. Reception forwarded your email to colleagues who work on AI in education and at work\; if interested they will respond.\n\nWHAT: Your warm intro and the gamification & AI course. Email subject: "Even kennismaken?" (info@saxion.nl).\n\nNEXT STEP: Check for a reply from their colleagues\, then propose a short call. A thank-you reply with the overview and free guide is already in your Gmail drafts.
+BEGIN:VALARM
+TRIGGER:PT9H
+ACTION:DISPLAY
+DESCRIPTION:Follow up: Saxion
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:delightex-partner-2026@stormstudio
+DTSTAMP:20260922T090000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Follow up: Delightex - training partner pitch
+DESCRIPTION:Warm lead from your sales outreach.\n\nWHO: Delightex (the game-design platform in your course). You pitched a training partnership.\n\nWHAT: A teacher course built around Delightex\, plus their Training Partner / Ambassador programme. Email subject: "Training partner? A teacher course built around Delightex" (info-edu@delightex.com). Their team said they would look into it within 3 working days.\n\nNEXT STEP: If no personal reply came while you were away\, send a short friendly nudge.
+BEGIN:VALARM
+TRIGGER:PT9H
+ACTION:DISPLAY
+DESCRIPTION:Follow up: Delightex
+END:VALARM
+END:VEVENT
+END:VCALENDAR
