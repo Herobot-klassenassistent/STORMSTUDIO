@@ -16,6 +16,14 @@ Running record of the "sell the course" mission, so follow-ups know what already
 
 ## Weekly cadence log
 
+### 2026-09-26 (mid-week check + goals doc + X plan)
+New replies: Bazalt (forwarded to colleagues, will come back; thank-you drafted),
+Cubiss (filed for future, no action), CED-Groep (wrong address -> re-drafted to
+info@cedgroep.nl), CPS (confirmed forwarding to Bob Coenraats; Kevin already replied).
+Found an earlier warm thread: eduScrum / Willy Wijnands wants an online call (HOT).
+Created MISSION.md (master goals), market/monday-catchup.md (Kevin's return list),
+market/x-strategy.md (X/Twitter plan + starter content).
+
 ### 2026-09-22 (Erasmus+ provider follow-up)
 The 11 international providers went out 09-14. Status:
 - **Euneos**: declined (no new courses); Kevin already replied warmly. Closed.
