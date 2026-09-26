@@ -1,80 +1,147 @@
-# StormStudio, the gamification mission
+# StormStudio mission, the whole picture
 
-The single source of truth for what we are doing and why. Read this first.
+The single anchor so we never lose sight of what we are doing, or of everything we
+already built. Read this first. Detailed trackers are linked at the bottom.
 
-## The goal
+## Who Kevin is, and why it wins
 
-Sell the Gamification & Immersive Learning course, and build a steady income around
-it. Two revenue lines:
-1. **Product sales** (Gumroad): self-paced downloads and school/provider licences.
-2. **Live and licensed delivery**: training days, Erasmus+ catalogue placements,
-   provider and reseller licences, guest lectures.
+Kevin Storm: qualified teacher (bevoegd docent speciaal basisonderwijs), more than
+twenty years in education, most of it in special education. Curriculum and
+lesmateriaal designer, teacher-trainer, and maker of new-media and creative lessons
+(gamedesign, online safety, digital design, drawing, music). Music is a second
+career; he still tours. Lives in Enter, Twente.
 
-Kevin is a qualified special-needs teacher and curriculum designer, 20+ years,
-music a second career. That, plus the inclusion angle, is the wedge nobody else has.
+**The special-needs approach is the wedge.** Kevin designs for the learners who do
+not get it by default: an easier path, a non-verbal way to succeed, a quieter
+option, room for their own regulation. That lens, applied to any subject or product,
+is what almost no competitor has. It makes lessons and tools better for everyone, not
+only the child they were built for. Lead with it everywhere.
 
-## What we are selling
+## The voice, and the warm coffee email
 
-- **Complete Course** (from EUR 149, school licence 549) - the flagship two-day course.
-- **Full Bundle** (from EUR 199, school 749) - complete course + 3 mini-courses.
-- **Mini-courses** (EUR 59 each, school 249): AI in Education, Game Design with
-  Delightex, Inclusive Gamification.
-- **The 6 Levers of Engagement** (free) - the lead magnet that collects emails.
-- **Live delivery** from EUR 2,400 / group; Erasmus+ seat EUR 320-400.
-- Store: stormintheclass.gumroad.com. Everything is in English and Dutch.
+Everything sounds like Kevin: warm, personal, short, nuchter. Never salesy. The
+signature move is the low-pressure invitation, not a pitch:
 
-## Live assets (already built and public)
+> "Ik zou het leuk vinden om een keer een verkennend gesprek te hebben, zonder
+> verwachtingen, gewoon om te kijken of we iets voor elkaar kunnen betekenen. En dat
+> hoeft niet altijd financieel te zijn. Heeft u een momentje in de komende weken?"
 
-- **Sales page:** https://claude.ai/artifact/1icKRgBexkRyLz22GxqorE (public).
-- **Gumroad store** live with all 6 products.
-- **Curriculum page block** to paste into kevinstorm.eu (curriculum-courses-embed.html).
-- **Content calendar:** market/content-calendar.md (8 LinkedIn posts).
-- **Profile assets:** market/profile-assets.md (LinkedIn headline + About, signature, reel).
-- **Sell sheet, closing playbook, sales playbook, conference CFP:** market/.
+The reusable warm intro (the "kop koffie" email), the shape we reuse across campaigns:
 
-## Channels (how we reach buyers)
+> Beste mensen van [organisatie],
+> Mijn naam is Kevin Storm en ik stel me graag even aan jullie voor. Ik ben bevoegd
+> docent speciaal basisonderwijs en geef ruim twintig jaar les, de laatste jaren als
+> zelfstandige. Ik ontwikkel lesmateriaal en curriculum en werk voor uiteenlopende
+> organisaties, onder andere Facet in Emmen, de bibliotheek regio Oost-Achterhoek,
+> Kleinkunstig en Kaliber. Ik heb me gespecialiseerd in nieuwe media, maar ook de
+> goede oude technieken zoals tekenen en muziek maken.
+> [persoonlijke alinea: waarom juist deze organisatie, oprechte interesse]
+> [de warme afsluiting hierboven]
+> Vriendelijke groet, Kevin Storm
 
-1. **Direct email outreach** (warm, Kevin's voice) - the main engine right now.
-   Segments: NL schools/PABOs, education consultancies, gemeenten, libraries,
-   cultuur/museums, corporate L&D, international schools, Erasmus+ providers.
-2. **LinkedIn** - Kevin posts the content calendar; profile tuned to convert.
-3. **The free guide** - lead magnet across every channel; builds an email list.
-4. **X / Twitter** - PLANNED, to reach the edtech and teacher community (see below).
-5. **Partnerships** - Delightex ambassador programme; eduScrum (Willy Wijnands, warm).
-6. **Conferences** - CFP pack ready (Bett, FETC, ISTE, regional).
+Hard writing rules live in `../SCHRIJFREGELS.md`: no em/en dashes, no smart quotes,
+no AI markers or marketing filler, clean visible links, sign-off without a dash.
+Draft only, Kevin sends.
 
-## The cadence (how it keeps running)
+## The two goals
 
-- **Weekly, Monday:** I check Gmail for replies, draft same-day responses from the
-  closing playbook, send second touches to quiet leads, add a fresh batch of new
-  targets, update the log, and report. Routine trig_013SRFUkL64ffrgGQyNVy9tB.
-- Time-sensitive things that land while Kevin tours go onto his calendar so nothing
-  slips (november-leads.ics).
-- Tracking: market/sales-push-log.md (running log), international-leads.csv,
-  market/monday-catchup.md (what Kevin does when back).
+1. **A steady freelance pipeline** through warm, personal outreach across education,
+   culture, libraries, social and care sectors (the campaigns below).
+2. **Sell the Gamification & Immersive Learning course** and build recurring income
+   around it (product sales + live and licensed delivery). This is the current spearhead.
+
+---
+
+## Spearhead: the gamification course
+
+**What we sell** (store: stormintheclass.gumroad.com, everything EN + NL):
+- Complete Course (from EUR 149, school licence 549), the flagship two-day course.
+- Full Bundle (from EUR 199, school 749), course + 3 mini-courses.
+- Mini-courses (EUR 59 each, school 249): AI in Education, Game Design with Delightex,
+  Inclusive Gamification.
+- The 6 Levers of Engagement (free), the lead magnet that collects emails.
+- Live delivery from EUR 2,400 / group; Erasmus+ seat EUR 320-400.
+
+**Live assets:** public sales page (https://claude.ai/artifact/1icKRgBexkRyLz22GxqorE),
+Gumroad store, website block (product/curriculum-courses-embed.html), content
+calendar, profile assets, sell sheet, closing playbook, sales playbook, conference
+CFP, X strategy. All in `market/` and `product/`.
+
+**Channels:** direct warm email (main engine), LinkedIn, the free guide as lead
+magnet, X/Bluesky (planned, see market/x-strategy.md), partnerships (Delightex
+ambassador; eduScrum/Willy Wijnands), conferences (CFP ready).
+
+**Cadence:** weekly Monday routine (trig_013SRFUkL64ffrgGQyNVy9tB) checks replies,
+drafts responses from the closing playbook, sends second touches, adds fresh targets,
+logs and reports. Time-sensitive items go to Kevin's calendar (november-leads.ics).
+
+**Trackers:** market/sales-push-log.md, international-leads.csv, market/monday-catchup.md.
+
+---
+
+## The wider body of work (do not lose these)
+
+All under `outreach/`. Each folder has a README, a leads/targets file, a mails/
+folder, and its own tracker. The master status board for these is
+`../status-overzicht.md` (warm leads, meetings, declines).
+
+- **bijzondere-scholen, basisscholen** - primary and special-education schools; the
+  warm coffee intro, region-first (Overijssel, Gelderland, Drenthe, Twente).
+- **agora-scholen** - Agora schools, warm tip from Wendy Mazer (Vereniging Agora) to
+  approach schools directly.
+- **financiele-educatie** - schools and boards with financial-education funding; warm
+  lead Wijzer in geldzaken (Femke Boerkamp); geldlessen.nl self-listing.
+- **subsidie-scholen, subsidiepartners-cmk, subsidiegevers-overzicht.md** - funded
+  schools and cultuureducatie (CmK) partners as leads.
+- **vo-cultuurscholen** - secondary culture-profile schools.
+- **ai-literacy** - AI-geletterdheid and building tools with AI; PABO's, funds,
+  speaker bureaus, big orgs.
+- **begrijpelijk** - making the incomprehensible clear (government, low-literacy,
+  financial). Kevin's plain-language niche.
+- **sociaal** - vulnerable groups and staff resilience (refugees, VG, special needs).
+  Top match De Vrolijkheid (Wesley/Ron), train-de-trainer.
+- **zorg** - sensory and accessible design for care (VG, dementia).
+- **vluchtelingenwerk** - train-de-trainer new media + curriculum per AZC location.
+- **nolai-maakonderwijs** - the NOLAI open call application (Kevin passed on it; kept
+  for reference).
+- **kansen-remote-werk** - remote income streams (AI-training expert work, corporate
+  AI-literacy webinar, curriculum authoring); materials drafted.
+
+**Warm leads across campaigns (from status-overzicht.md, keep alive):** Cultuur Oost
+(Joke Veenstra-Rutjes), De Vrolijkheid (Ron), Wijzer in geldzaken (Femke), K&C
+(Bas Hendrickx), IMPAKT (Arjon), Rijnbrink (Elise), Stadkamer, Kunstcircuit Deventer
+(Lee Pieket). Full detail and declines: `../status-overzicht.md`.
 
 ## What only Kevin can do
 
-- Send the sitting Gmail drafts (verify addresses first).
-- Post the LinkedIn content and, once set up, the X content.
-- Take the calls and close.
-- Make the sales page public (done), keep the website block live.
+Send the sitting Gmail drafts (verify addresses), post the LinkedIn and X content,
+take the calls and close, keep the website block live, make/keep the sales page public.
 
-## The rules (voice and quality)
+## Rules and constraints
 
-- Warm, personal, low pressure. "Verkennend gesprek, en dat hoeft niet altijd
-  financieel te zijn." Never salesy.
-- No em dashes, no AI markers, no lists inside emails. Clean links
-  (kevinstorm.eu, linkedin.com/in/stormkevin), consistent everywhere.
-- Bio: qualified special-needs teacher, 20+ years, music second career.
-- Draft only in email; Kevin sends. Never take credentials. Do not recontact anyone
-  in HANDOFF-samenvatting.txt, GEC Academy, de Kempel, or Euneos (closed).
+- Voice and writing rules: `../SCHRIJFREGELS.md`. Bio: qualified special-needs
+  teacher, 20+ years, music second career. Special-needs lens up front.
+- I draft, Kevin sends. I never take credentials, never post to LinkedIn/X directly,
+  cannot submit web forms or reach his machine or website. Some .nl sites and gumroad
+  and netlify are blocked from my side.
+- Do not recontact: everyone in `../HANDOFF-samenvatting.txt`'s declined list, GEC
+  Academy, de Kempel, Euneos, Aveleijn, and the status-overzicht declines.
+
+## Where everything lives (index)
+
+- This master: `gamification-course/MISSION.md`.
+- Broad-campaign status board: `../status-overzicht.md`.
+- Full history and profile: `../HANDOFF-samenvatting.txt`.
+- Writing rules: `../SCHRIJFREGELS.md`.
+- Course sales log: `market/sales-push-log.md`. Monday list: `market/monday-catchup.md`.
+- International providers: `international-leads.csv`. Calendar: `market/november-leads.ics`.
 
 ## Current status (2026-09-26)
 
-Three outreach batches out plus the Erasmus+ providers. First replies in: one
-declined (de Kempel), one closed politely (Euneos, Kevin replied warmly), several
-warm forwards (Saxion, CPS -> Bob Coenraats, Bazalt), one hot open lead (eduScrum /
-Willy Wijnands wants a call), a few "filed for later" (Cubiss), and address fixes
-(CED -> cedgroep.nl, Studytube -> opleidersupport). Second touches drafted for the
-nine silent providers. Next frontier: X / Twitter.
+Gamification push live: three outreach batches out plus the Erasmus+ providers.
+Replies so far: warm forwards (Saxion, CPS to Bob Coenraats, Bazalt), one hot open
+lead (eduScrum / Willy Wijnands wants a call), address fixes (CED to cedgroep.nl,
+Studytube to opleidersupport), polite declines (de Kempel, Euneos, Cubiss filed for
+later). Second touches drafted for nine silent providers. Next frontier: X / Bluesky.
+The wider campaigns run in parallel; their warm leads are listed above and tracked in
+status-overzicht.md.

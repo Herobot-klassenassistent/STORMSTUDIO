@@ -1,5 +1,9 @@
 # Statusoverzicht outreach — Kevin Storm
 
+> Het grote geheel (wie we zijn, de aanpak, de coffee-mail, alle campagnes en de
+> gamification-verkoop) staat in `gamification-course/MISSION.md`. Dit bestand is het
+> gedetailleerde statusbord van de bredere campagnes.
+
 **Laatste update: 9 september 2026** (bijgewerkt na mailcheck).
 Dit is het levende overzicht over alle campagnes heen. De losse
 `respons-tracker.csv`'s per campagne blijven ook bestaan.
