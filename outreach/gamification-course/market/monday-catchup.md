@@ -31,8 +31,10 @@ These came back "address not found" or "domain not found." The message never
 arrived. Find the right address (their website contact page) or use their web form.
 I can hunt for correct addresses if you want, just say go.
 
-- [ ] **International School Twente** (info@istwente.nl bounced) - your local one, worth
-  getting right.
+- [x] **International School Twente** - FIXED. Domain is istwente.org, not .nl.
+  Principal Jason Wilson (jason.wilson@istwente.org, inferred from the confirmed
+  firstname.lastname pattern; fallback els.weir@istwente.org / +31 53 206 8035). A
+  custom warm email (guitarist path + gamification + coffee request) is drafted.
 - [ ] **International School of The Hague** (info@ishthehague.nl bounced).
 - [ ] **International School Haarlem** (info@ishaarlem.nl bounced).
 - [ ] **Optimist International School** (domain optimistinternationalschool.nl not
