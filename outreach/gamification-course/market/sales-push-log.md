@@ -16,6 +16,11 @@ Running record of the "sell the course" mission, so follow-ups know what already
 
 ## Weekly cadence log
 
+### 2026-09-26 (cleanup)
+Kevin asked to delete the 9 Erasmus+ provider second-touch follow-up drafts; done.
+Marked those providers "geen-opvolging-verwijderd-0926" in international-leads.csv so
+the cadence does NOT re-draft them. The IST Twente email to Jason Wilson is kept.
+
 ### 2026-09-26 (full inbox cross-check, bounces found)
 Swept for delivery failures. BOUNCED (never arrived), need correct address or web form:
 - Address/domain not found: IS Twente (istwente.nl), IS The Hague (ishthehague.nl),
