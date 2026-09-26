@@ -8,8 +8,18 @@ already built. Read this first. Detailed trackers are linked at the bottom.
 Kevin Storm: qualified teacher (bevoegd docent speciaal basisonderwijs), more than
 twenty years in education, most of it in special education. Curriculum and
 lesmateriaal designer, teacher-trainer, and maker of new-media and creative lessons
-(gamedesign, online safety, digital design, drawing, music). Music is a second
-career; he still tours. Lives in Enter, Twente.
+(gamedesign, online safety, digital design, drawing, music). Lives in Enter, Twente.
+
+**The path, get this exact order right (Kevin has corrected it twice):**
+1. He TRAINED as a primary teacher and STARTED his career with special-needs children.
+2. He did that for about TEN years, employed.
+3. THEN his professional music/touring career took off (bands, several tours a year).
+4. Because no school could keep him on staff with that touring schedule, he made his
+   teaching SELF-EMPLOYED, so he could keep both worlds going at once.
+Teaching came first and is the through line (20+ years total). Music is the SECOND
+career that arrived after a decade of teaching, and the freelance status is a
+consequence of touring. NEVER write it as "musician who fell into teaching" or
+"came to teaching through music". Teacher first, always.
 
 **The special-needs approach is the wedge.** Kevin designs for the learners who do
 not get it by default: an easier path, a non-verbal way to succeed, a quieter
