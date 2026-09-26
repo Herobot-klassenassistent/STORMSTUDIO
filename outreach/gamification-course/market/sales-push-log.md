@@ -16,6 +16,17 @@ Running record of the "sell the course" mission, so follow-ups know what already
 
 ## Weekly cadence log
 
+### 2026-09-26 (full inbox cross-check, bounces found)
+Swept for delivery failures. BOUNCED (never arrived), need correct address or web form:
+- Address/domain not found: IS Twente (istwente.nl), IS The Hague (ishthehague.nl),
+  IS Haarlem (ishaarlem.nl), Optimist International (optimistinternationalschool.nl),
+  Novel-T (novelt.com).
+- Message blocked / server refused Gmail: gemeente Wierden, gemeente Hengelo, Marant,
+  IS Delft (isdelft.nl), IS Breda (isbreda.nl).
+Also found earlier warm leads still live: Bredagora (Bob Clerx, wants a call after
+the tour) and Choochem (Christijn Snippe, offered a call). Added to monday-catchup.md.
+Fresh declines logged: NMV, NIVOZ, Bureau Talent (all polite no, closed).
+
 ### 2026-09-26 (mid-week check + goals doc + X plan)
 New replies: Bazalt (forwarded to colleagues, will come back; thank-you drafted),
 Cubiss (filed for future, no action), CED-Groep (wrong address -> re-drafted to
