@@ -77,9 +77,12 @@ Gumroad store, website block (product/curriculum-courses-embed.html), content
 calendar, profile assets, sell sheet, closing playbook, sales playbook, conference
 CFP, X strategy. All in `market/` and `product/`.
 
-**Channels:** direct warm email (main engine), LinkedIn, the free guide as lead
-magnet, X/Bluesky (planned, see market/x-strategy.md), partnerships (Delightex
-ambassador; eduScrum/Willy Wijnands), conferences (CFP ready).
+**Channels:** direct warm email (being wound down, low yield), LinkedIn, the free
+guide as lead magnet, X/Bluesky (planned, see market/x-strategy.md), partnerships
+(Delightex ambassador; eduScrum/Willy Wijnands), conferences (CFP ready). **The real
+growth plan beyond cold email is `market/new-channels.md`:** a free webinar funnel,
+podcast guesting, AI-edtech ambassador/co-marketing (MagicSchool, Curipod), Gumroad
+affiliates, teacher marketplaces (TpT, LessonUp), SEO/YouTube, and communities.
 
 **Cadence:** weekly Monday routine (trig_013SRFUkL64ffrgGQyNVy9tB) checks replies,
 drafts responses from the closing playbook, sends second touches, adds fresh targets,
