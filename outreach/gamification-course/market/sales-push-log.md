@@ -16,6 +16,13 @@ Running record of the "sell the course" mission, so follow-ups know what already
 
 ## Weekly cadence log
 
+### 2026-09-28 (weekly run)
+No new replies and no new bounces since 09-26 (only the Bazalt thread, where Kevin
+already sent the thank-you). Per Kevin's steer, did NOT draft any cold batches or
+second touches. Retuned the weekly routine (trig_013SRFUkL64ffrgGQyNVy9tB): it now
+responds to replies and advances one new channel per week from new-channels.md,
+instead of generating cold email. Next run 2026-10-05.
+
 ### 2026-09-26 (cleanup)
 Kevin asked to delete the 9 Erasmus+ provider second-touch follow-up drafts; done.
 Marked those providers "geen-opvolging-verwijderd-0926" in international-leads.csv so
