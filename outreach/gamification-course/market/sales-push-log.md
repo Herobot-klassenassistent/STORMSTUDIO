@@ -16,6 +16,24 @@ Running record of the "sell the course" mission, so follow-ups know what already
 
 ## Weekly cadence log
 
+### 2026-10-05 (weekly run)
+Replies checked across the inbox (last 9 days). Two genuine threads:
+- **Orizont / Oradea (Adina Caradan)**: warm reply to Kevin's three-years-on note.
+  They remember the course well and will discuss a NEW Erasmus+ project built around
+  AI with colleagues. Kevin already replied himself ("that would be wonderful"), so
+  no draft needed. HOT warm lead, keep alive for a 2027 Erasmus+ AI project. (A CC
+  address, lacrisipos@yahoo.com, bounced inbox-full; not a target, no action.)
+- **LKCA (Karin van Dijk)**: gracious, informative reply. The 8 Oct GO
+  (gespecialiseerd onderwijs) network meeting is for sharing national developments,
+  not for presenting offerings, so not a pitch venue. Drafted a warm thank-you that
+  respects that and leaves the door open, no pitch (draftId r-2826742155732405506).
+No cold batches and no silence second-touches (per Kevin's steer). No new bounces in
+the delivery-failure sweep. New channel advanced this week: wrote five ready-to-send,
+show-specific **podcast guest pitches** (market/podcast-pitches.md) for House of
+#EdTech, The EdTech Podcast, AmpED to 11, The AI in Education Podcast and EdTechnical,
+story-first with the corrected teacher-first bio. Kevin verifies host names and the
+current guest-submission method, then sends. Next run 2026-10-12.
+
 ### 2026-09-28 (weekly run)
 No new replies and no new bounces since 09-26 (only the Bazalt thread, where Kevin
 already sent the thank-you). Per Kevin's steer, did NOT draft any cold batches or
