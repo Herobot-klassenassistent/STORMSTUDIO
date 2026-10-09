@@ -7,7 +7,8 @@
     /* sector hues (categorical, deliberate) */
     --s-music:#c2453d; --s-edtech:#1f8f84; --s-education:#3a6ea5; --s-primary:#5aa9e6;
     --s-special:#7b6cb8; --s-culture:#d08a1f; --s-libraries:#4e8d5b; --s-media:#e07a3f;
-    --s-social:#c56b8e; --s-care:#4f8893; --s-government:#9a7b4f; --s-me:#1b2a30;
+    --s-social:#c56b8e; --s-care:#4f8893; --s-government:#9a7b4f;
+    --s-band:#5e60ce; --s-friends:#7d8c38; --s-me:#1b2a30;
     --canvas:#efece6;
   }
   @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
@@ -105,8 +106,10 @@
     <div class="grp-title" style="margin-top:14px">Filter by warmth</div>
     <div class="chips" id="warmChips"></div>
     <div class="rail-actions">
-      <button class="btn primary" id="reset">Show everything</button>
+      <button class="btn primary" id="add">+ Add contact</button>
+      <button class="btn" id="reset">Show all</button>
       <button class="btn" id="fit">Recenter</button>
+      <button class="btn" id="export" title="Copy contacts you added, to send back for the master file">Copy my additions</button>
     </div>
     <div class="count" id="count"></div>
     <div class="legend-note">Seeded from your mail and our working files, so it holds the relationships I could verify. It is meant to grow: tell me a new contact, a job change, or how a connection really works, and I will add it. <span id="asof"></span></div>
@@ -141,6 +144,8 @@ const SECTORS = {
   media:{label:"Media & literacy", color:getCss('--s-media')},
   social:{label:"Social & refugees", color:getCss('--s-social')},
   government:{label:"Government & funding", color:getCss('--s-government')},
+  band:{label:"Band & musicians", color:getCss('--s-band')},
+  friends:{label:"Friends & personal", color:getCss('--s-friends')},
 };
 const WARMTH = {
   hot:{label:"Hot lead", color:"#d9534f"},
@@ -204,7 +209,64 @@ const PEOPLE = [
   {n:"Netwerk Mediawijsheid (Simone Koens)",org:"Media-literacy network",sectors:["media","education"],warmth:"warm",loc:"NL",mail:"",how:"Kennismaking as a network partner around AI literacy.",net:"Network",note:""},
   {n:"Stichting Lezen en Schrijven (Jurre Doeve)",org:"Literacy foundation",sectors:["libraries","social"],warmth:"contact",loc:"NL",mail:"",how:"Tip: approach the language networks.",net:"Referrer",note:""},
   {n:"Rijssens Museum (Anny Kastenberg)",org:"Local museum",sectors:["culture"],warmth:"warm",loc:"Rijssen, NL",mail:"",how:"Local coffee / collaboration idea. Concept sent.",net:"Local",note:""},
+
+  // MUSIC INDUSTRY (management, labels, gear, stores)
+  {n:"Anne Swallow",org:"Feat First Management",sectors:["music"],warmth:"collab",loc:"Germany",mail:"aswallow@featfirstmanagement.com",how:"Your booking and tour management. Arranges flights, trains and tickets and settles the bills for your session tours (Baden in Blut, Samhain, Greece and more).",net:"Direct, core",note:"Key logistics person on the road."},
+  {n:"Skull Strings (Gwen)",org:"Tolito SAS",sectors:["music"],warmth:"collab",loc:"France",mail:"tolito.strings@gmail.com",how:"Your string endorsement. Custom gauges and windings for your artist sets; you post content in return.",net:"Endorsement",note:"Gwen is your contact; Tolito SAS makes Skull Strings."},
+  {n:"Archaic Sound / Records",org:"Metal label",sectors:["music"],warmth:"collab",loc:"EU",mail:"demos@archaic-sound.com",how:"Label releasing Fleetburner (Alexithymia). Release partner.",net:"Label",note:""},
+  {n:"PIAS (Clemence Simon)",org:"Label / distribution",sectors:["music"],warmth:"contact",loc:"Brussels, BE",mail:"Clemence.Simon@pias.com",how:"Label and distribution contact; showcase invites.",net:"Scene",note:""},
+  {n:"Supreme Chaos Records (Robby)",org:"Metal label",sectors:["music"],warmth:"contact",loc:"Germany",mail:"robby@supremechaos.de",how:"German metal label contact.",net:"Scene",note:""},
+  {n:"Klundert Music (Dennis)",org:"Music store / backline",sectors:["music"],warmth:"contact",loc:"NL",mail:"dennis@klundertmusic.nl",how:"Music store and backline contact.",net:"Scene",note:""},
+  {n:"Megatron Music",org:"Booking / music",sectors:["music"],warmth:"contact",loc:"",mail:"megatronmusic@yahoo.com",how:"Music submission and booking contact.",net:"Scene",note:""},
+
+  // BAND & MUSICIANS
+  {n:"Baden in Blut",org:"Band (session)",sectors:["band"],warmth:"collab",loc:"Germany",mail:"",how:"German band you fly out to play with as session guitarist.",net:"Via Feat First",note:""},
+  {n:"Der Weg einer Freiheit",org:"Band",sectors:["band"],warmth:"collab",loc:"Germany",mail:"derwegeinerfreiheit@googlemail.com",how:"Band you tour and collaborate with (lyric books for the Bochum show).",net:"Scene / session",note:""},
+  {n:"Nils Groth",org:"Musician / bandmate",sectors:["band"],warmth:"collab",loc:"Germany",mail:"nils_groth86@yahoo.de",how:"Bandmate (Raingazer and shared shows). You covered his flight for Baden in Blut.",net:"Bandmate",note:""},
+  {n:"Tomas Myklebust",org:"Musician",sectors:["band"],warmth:"collab",loc:"Norway",mail:"tomas.k.myklebust@gmail.com",how:"Norwegian musician you work with.",net:"Scene",note:"Confirm band."},
+  {n:"Pawel Banski",org:"Stage visuals / musician",sectors:["band"],warmth:"contact",loc:"Poland",mail:"pawel.banski1984@gmail.com",how:"Stage visuals (VisualCore) and collaborator.",net:"Scene",note:""},
+  {n:"Vincent Padrutt",org:"Musician",sectors:["band"],warmth:"contact",loc:"",mail:"vincentpadrutt@gmail.com",how:"Musician contact.",net:"Scene",note:""},
+  {n:"Hestnaes",org:"Musician",sectors:["band"],warmth:"contact",loc:"Norway",mail:"hestnaes@gmail.com",how:"Norwegian musician contact.",net:"Scene",note:"Confirm name."},
+  {n:"Simen (via Hakon Grav)",org:"Musician",sectors:["band"],warmth:"contact",loc:"Norway",mail:"",how:"Introduced via Hakon Grav around Fleetburner.",net:"Referral",note:"Email unknown; Hakon Grav connects."},
+  {n:"vidiomb",org:"Fleetburner collaborator",sectors:["band","friends"],warmth:"collab",loc:"",mail:"vidiomb@gmail.com",how:"Close Fleetburner collaborator; shares mixes and exports, checks in warmly.",net:"Fleetburner",note:"Confirm real name."},
+
+  // MEDIA & MAGAZINES
+  {n:"Erk (Gitarist / De Bassist)",org:"K18 Media",sectors:["media"],warmth:"collab",loc:"NL",mail:"Erk@k18.nl",how:"Your editor. You write a monthly column for Gitarist / De Bassist and feature in their guitar videos and conventions.",net:"Direct, regular",note:"Strong, standing media relationship."},
+  {n:"EdTech Digest (Victor)",org:"EdTech media",sectors:["media","edtech"],warmth:"contact",loc:"US",mail:"victor@edtechdigest.blog",how:"EdTech media and blog contact.",net:"Media",note:""},
+  {n:"Layered Reality (Lily)",org:"Immersive experiences",sectors:["edtech","culture"],warmth:"contact",loc:"London, UK",mail:"lily@layered-reality.com",how:"Immersive-experience company contact.",net:"Immersive",note:""},
+
+  // EDUCATION / SPECIAL NEEDS / CULTURE / LIBRARIES
+  {n:"RENN4 (M. Knegt)",org:"Special education (cluster 4)",sectors:["special"],warmth:"warm",loc:"North NL",mail:"m.knegt@renn4.nl",how:"Special-education organisation, ongoing contact.",net:"Direct",note:""},
+  {n:"Punt Speciaal (M. Theunissen)",org:"Special education",sectors:["special"],warmth:"contact",loc:"Gelderland, NL",mail:"m.theunissen@puntspeciaal.nl",how:"Special-education organisation.",net:"Outreach",note:""},
+  {n:"Praktikon (L. Geijsen)",org:"Youth-care research",sectors:["special"],warmth:"contact",loc:"Nijmegen, NL",mail:"l.geijsen@praktikon.nl",how:"Youth-care research organisation.",net:"Outreach",note:""},
+  {n:"DJI (Jimmy Dekkers)",org:"Justice / youth education",sectors:["special"],warmth:"warm",loc:"NL",mail:"jimmy.dekkers@dji.minjus.nl",how:"Teaching in justice and youth settings (DJI).",net:"Direct",note:"Also E. Koppelaar and VSO Ginneken within DJI."},
+  {n:"G. Schinkel",org:"OOZ (ex Ambelt)",sectors:["special","education"],warmth:"warm",loc:"Zwolle, NL",mail:"g.schinkel@ooz.nl",how:"Special and public education. Moved from Ambelt (special ed) to OOZ (Openbaar Onderwijs Zwolle).",net:"Direct",note:"JOB CHANGE: Ambelt to OOZ. Old address g.schinkel@ambelt.nl."},
+  {n:"OOE (M. Wieringa)",org:"Public education",sectors:["education"],warmth:"contact",loc:"Emmen, NL",mail:"m.wieringa@ooe.nl",how:"Public education contact.",net:"Outreach",note:""},
+  {n:"H3O (Slagrouw-Molenaar)",org:"Childcare / primary",sectors:["primary","education"],warmth:"contact",loc:"Dordrecht, NL",mail:"slagrouw-molenaar@h3o.nl",how:"Childcare and primary-education organisation.",net:"Outreach",note:""},
+  {n:"JTC Roosendaal",org:"Youth justice training",sectors:["special"],warmth:"contact",loc:"Roosendaal, NL",mail:"mkr@jtc-roosendaal.nl",how:"Youth justice training centre.",net:"Outreach",note:""},
+  {n:"Het ICO (Akke Feenstra)",org:"Cultuureducatie",sectors:["culture","education"],warmth:"warm",loc:"Drenthe, NL",mail:"akke.feenstra@methetico.nl",how:"Culture-education organisation.",net:"Culture",note:""},
+  {n:"Concordia (Marlyn)",org:"Culture centre",sectors:["culture"],warmth:"warm",loc:"Enschede, NL",mail:"marlyn@concordia.nl",how:"Culture organisation; came via Cultuureducatie Enschede.",net:"Referral",note:""},
+  {n:"Bibliotheek Twente (R. van t Hullenaar)",org:"Regional library",sectors:["libraries"],warmth:"warm",loc:"Twente, NL",mail:"r.vanthullenaar@bibliotheektwente.nl",how:"Regional library, guitar-video features and relationship.",net:"Libraries",note:""},
+  {n:"Suzan Wenke",org:"Facet Emmen",sectors:["culture","education"],warmth:"collab",loc:"Emmen, NL",mail:"suzan.wenke@facet-emmen.nl",how:"Colleague at Facet on erfgoededucatie and workshops.",net:"Via Facet",note:"Sigrid Koster and Ramona Kocks also at Facet."},
+
+  // FRIENDS & PERSONAL
+  {n:"Claudine de Voogt",org:"Family",sectors:["friends"],warmth:"contact",loc:"NL",mail:"claudinedevoogt@gmail.com",how:"Family. Wrote the Onze Metal Zoon column about you.",net:"Family",note:"Your mother."},
+  {n:"Arletta Wawrzyniak",org:"Friend",sectors:["friends"],warmth:"contact",loc:"",mail:"arletta.wawrzyniak@hotmail.com",how:"Personal friend.",net:"Personal",note:""},
+  {n:"Sarah Elisabeth Evers",org:"Friend / collaborator",sectors:["friends"],warmth:"contact",loc:"",mail:"sarahelisabeth.evers@gmail.com",how:"Friend and collaborator (vibecoding, building things together).",net:"Personal",note:""},
+  {n:"Sarah Brid",org:"Design collaborator",sectors:["friends"],warmth:"contact",loc:"",mail:"sarahbrid59@gmail.com",how:"Friend and design collaborator (brand book Vango Andorra, cauldron file).",net:"Personal",note:""},
+  {n:"Mirte de Hart",org:"Personal contact",sectors:["friends"],warmth:"contact",loc:"",mail:"mirtedehart@gmail.com",how:"Personal contact.",net:"Personal",note:""},
+  {n:"M. Bos",org:"Friend / STORMDRIVEN tester",sectors:["friends"],warmth:"contact",loc:"NL",mail:"mbos1@hetnet.nl",how:"Friend who tests your STORMDRIVEN release.",net:"Personal",note:""},
 ];
+
+// ---- Contacts you add on this device (saved locally, merged with the seed) ----
+const LS_KEY="storm_net_additions_v1";
+function loadAdditions(){
+  try{const r=localStorage.getItem(LS_KEY);const a=r?JSON.parse(r):[];return Array.isArray(a)?a:[];}
+  catch(e){return [];}
+}
+function saveAdditions(arr){try{localStorage.setItem(LS_KEY,JSON.stringify(arr));}catch(e){}}
+let ADDED=loadAdditions();
+ADDED.forEach(a=>{a._added=true;PEOPLE.push(a);});
 
 // ---- Build graph ----
 const nodes = new vis.DataSet();
@@ -357,6 +419,80 @@ network.on("click",params=>{
     else detail.classList.remove('open');
   }else detail.classList.remove('open');
 });
+
+// ---- Add a person live ----
+function renderPerson(p){
+  const i=PEOPLE.indexOf(p);const id="p:"+i;p._id=id;
+  p.sectors.forEach(s=>{ if(usedSectors[s] && !nodes.get("hub:"+s)){
+    nodes.add({id:"hub:"+s,label:SECTORS[s].label,group:"hub",sector:s,value:26,shape:"hexagon",
+      color:{background:SECTORS[s].color,border:SECTORS[s].color},
+      font:{color:"#fff",size:14,face:"Libre Franklin",strokeWidth:0}});
+    edges.add({from:ME,to:"hub:"+s,length:150,color:{color:getCss('--line')},width:1.5});
+  }});
+  nodes.add({id,label:p.n,group:p.sectors[0],sectors:p.sectors,warmth:p.warmth,person:p,value:warmSize(p.warmth),
+    shape:"dot",color:nodeColor(p),font:{color:getCss('--fg'),size:13,face:"Libre Franklin"}});
+  p.sectors.forEach((s,si)=>edges.add({from:"hub:"+s,to:id,length:120,
+    color:{color:SECTORS[s].color,opacity:si===0?0.55:0.28},width:si===0?2:1,dashes:si!==0}));
+}
+
+// ---- Add / export overlay ----
+const ov=document.createElement('div');
+ov.id="overlay";ov.hidden=true;
+ov.style.cssText="position:absolute;inset:0;z-index:20;background:rgba(15,22,25,.55);display:flex;align-items:flex-start;justify-content:center;overflow:auto;padding:24px 12px";
+ov.innerHTML='<div id="ovcard" style="background:var(--panel);color:var(--fg);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);width:min(480px,94vw);padding:18px;margin:auto 0"></div>';
+document.getElementById('app').appendChild(ov);
+const ovcard=document.getElementById('ovcard');
+ov.addEventListener('click',e=>{if(e.target===ov)ov.hidden=true;});
+function fieldRow(label,inner){return '<label style="display:block;margin:9px 0"><span style="display:block;font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:600;margin-bottom:4px">'+label+'</span>'+inner+'</label>';}
+const istyle="width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--panel-2);color:var(--fg);font-size:14px;font-family:inherit";
+
+document.getElementById('add').onclick=()=>{
+  const secBoxes=Object.keys(SECTORS).map(s=>'<label style="display:inline-flex;align-items:center;gap:5px;font-size:12.5px;margin:2px 8px 2px 0"><input type="checkbox" value="'+s+'" class="secbox"><span class="dot" style="display:inline-block;width:9px;height:9px;border-radius:50%;background:'+SECTORS[s].color+'"></span>'+SECTORS[s].label+'</label>').join('');
+  const warmOpts=Object.keys(WARMTH).map(w=>'<option value="'+w+'">'+WARMTH[w].label+'</option>').join('');
+  ovcard.innerHTML='<h2 style="font-family:Fraunces,serif;font-size:20px;margin:0 0 2px">Add a contact</h2>'
+    +'<div style="color:var(--muted);font-size:12.5px;margin-bottom:8px">Saved on this device and shown straight away. Use Copy my additions to send them back for the master file.</div>'
+    +fieldRow('Name','<input id="f-n" style="'+istyle+'" placeholder="Person or organisation">')
+    +fieldRow('Organisation','<input id="f-org" style="'+istyle+'">')
+    +fieldRow('Sectors (pick one or more)','<div style="display:flex;flex-wrap:wrap">'+secBoxes+'</div>')
+    +fieldRow('Warmth','<select id="f-warm" style="'+istyle+'">'+warmOpts+'</select>')
+    +fieldRow('How you worked together','<textarea id="f-how" rows="2" style="'+istyle+'"></textarea>')
+    +fieldRow('Network / introduced via','<input id="f-net" style="'+istyle+'">')
+    +fieldRow('Based','<input id="f-loc" style="'+istyle+'">')
+    +fieldRow('Email','<input id="f-mail" style="'+istyle+'">')
+    +fieldRow('Note','<input id="f-note" style="'+istyle+'">')
+    +'<div style="display:flex;gap:8px;margin-top:12px"><button class="btn primary" id="f-save">Add to map</button><button class="btn" id="f-cancel">Cancel</button><span id="f-err" style="color:#d9534f;font-size:12px;align-self:center"></span></div>';
+  ov.hidden=false;
+  document.getElementById('f-cancel').onclick=()=>ov.hidden=true;
+  document.getElementById('f-save').onclick=()=>{
+    const name=document.getElementById('f-n').value.trim();
+    const secs=[...document.querySelectorAll('.secbox:checked')].map(b=>b.value);
+    if(!name){document.getElementById('f-err').textContent="Name is required.";return;}
+    if(!secs.length){document.getElementById('f-err').textContent="Pick at least one sector.";return;}
+    const p={n:name,org:document.getElementById('f-org').value.trim(),sectors:secs,
+      warmth:document.getElementById('f-warm').value,loc:document.getElementById('f-loc').value.trim(),
+      mail:document.getElementById('f-mail').value.trim(),how:document.getElementById('f-how').value.trim(),
+      net:document.getElementById('f-net').value.trim(),note:document.getElementById('f-note').value.trim(),_added:true};
+    ADDED.push(p);saveAdditions(ADDED);PEOPLE.push(p);renderPerson(p);
+    applyFilter();ov.hidden=false;ov.hidden=true;
+    network.selectNodes([p._id]);network.focus(p._id,{scale:1.05,animation:true});openDetail(p);
+  };
+};
+
+document.getElementById('export').onclick=()=>{
+  if(!ADDED.length){ovcard.innerHTML='<h2 style="font-family:Fraunces,serif;font-size:20px;margin:0 0 8px">Nothing added yet</h2><div style="color:var(--muted);font-size:13px">Use + Add contact first. Anything you add here can then be copied and sent back so it goes into the permanent master file.</div><div style="margin-top:12px"><button class="btn" id="f-cancel">Close</button></div>';ov.hidden=false;document.getElementById('f-cancel').onclick=()=>ov.hidden=true;return;}
+  const json=JSON.stringify(ADDED,null,2);
+  ovcard.innerHTML='<h2 style="font-family:Fraunces,serif;font-size:20px;margin:0 0 4px">Your added contacts</h2>'
+    +'<div style="color:var(--muted);font-size:12.5px;margin-bottom:8px">'+ADDED.length+' added on this device. Copy this and paste it to Kevin’s assistant to fold them into the master map for good.</div>'
+    +'<textarea id="f-json" readonly style="'+istyle+';height:200px;font-family:ui-monospace,monospace;font-size:12px">'+json.replace(/</g,'&lt;')+'</textarea>'
+    +'<div style="display:flex;gap:8px;margin-top:10px"><button class="btn primary" id="f-copy">Copy</button><button class="btn" id="f-cancel">Close</button></div>';
+  ov.hidden=false;
+  document.getElementById('f-cancel').onclick=()=>ov.hidden=true;
+  document.getElementById('f-copy').onclick=function(){
+    const ta=document.getElementById('f-json');ta.select();
+    const ok=()=>{this.textContent="Copied";this.classList.add('ok');};
+    if(navigator.clipboard)navigator.clipboard.writeText(json).then(ok).catch(ok);else{try{document.execCommand('copy');ok();}catch(e){}}
+  };
+};
 
 document.getElementById('asof').textContent="As of "+new Date().toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'})+".";
 applyFilter();
