@@ -19,58 +19,52 @@ from this tour. A real from-the-road shot beats a polished one, it matches the
 honesty. · First comment: kevinstorm.eu
 
 ENGLISH:
-So here is a thing I have never really done: let people watch me work.
+Writing this from the tour bus, somewhere in Germany I think.
 
-I am writing this from the road. The band is out across Europe for the next three
-weeks, and in the gaps between soundchecks, in hotel rooms and on the bus, I am
-quietly doing the other half of my life. Designing curriculum. Building little tools
-for teachers. Sketching lessons on the back of a setlist.
+The band is out for three weeks and I've got my laptop open between soundchecks, doing
+the thing a lot of people don't know I do. I design curriculum and build little tools
+for teachers. Have done for years, right alongside the music.
 
-For years I kept those two worlds in separate pockets. The teacher in one, the
-musician in the other. But honestly they have been talking to each other the whole
-time, and I am done pretending they are strangers. So for a while I am going to show
-the work as it actually happens. The messy drafts. The thing I build and then throw
-away. The school visits when I get home. What lands, and what quietly flops.
+I've always kind of kept those two apart. Not on purpose, it just never really came
+up. But I'm making a lot of stuff lately and I thought, ah why not just show it. The
+half-finished lessons. The tool I'm building and keep rebuilding. The schools I visit
+when I'm home. The things that work and the things I quietly bin.
 
-A bit about me if we have not met. I have been a teacher for more than twenty years,
-most of that in special education, with a soft spot for the kid who checks out early
-because the lesson was never really built for them. Music came later and I still tour
-with it, but the classroom has always been the constant.
+Most of my twenty-odd years of teaching has been in special education, with the kids
+who don't get it the easy way. That's still the part I care about most, and it sneaks
+into everything I make.
 
-If you work in education, I would genuinely love for you to follow along. And tell me
-where it hurts in your week, because that is usually where the best ideas start.
+Anyway. If you teach, or you're anywhere near education, say hi. I just like talking to
+people who do this work.
 
-What is the one thing in your teaching week you wish someone would just build for you?
+Kevin
 
-First comment: More about what I make over at kevinstorm.eu. Always happy to connect.
+First comment: bit more about what I make here if you're curious, kevinstorm.eu
 
-Hashtags: #buildinpublic #onderwijs #education #edtech #speciaalonderwijs
+Hashtags: #onderwijs #education #speciaalonderwijs #edtech (keep it light, 3 or 4 max)
 
 DUTCH:
-Dit heb ik eigenlijk nog nooit gedaan: mensen laten meekijken terwijl ik werk.
+Even een berichtje vanuit de tourbus, ergens in Duitsland geloof ik.
 
-Ik schrijf dit vanuit de tourbus. De band is drie weken door Europa onderweg, en in
-de gaten tussen de soundchecks, op hotelkamers en in de bus, doe ik stilletjes de
-andere helft van mijn leven. Curriculum ontwerpen. Kleine tools bouwen voor docenten.
-Lessen schetsen op de achterkant van een setlist.
+De band is drie weken onderweg en ik heb mijn laptop open tussen de soundchecks door,
+bezig met het ding dat veel mensen niet van me weten. Ik ontwerp curriculum en bouw
+kleine tools voor docenten. Doe ik al jaren, gewoon naast de muziek.
 
-Jarenlang hield ik die twee werelden in aparte zakken. De docent in de ene, de
-muzikant in de andere. Maar eerlijk gezegd praten ze de hele tijd al met elkaar, en ik
-ben klaar met doen alsof ze vreemden zijn. Dus de komende tijd laat ik het werk zien
-zoals het echt gaat. De rommelige schetsen. Het ding dat ik bouw en daarna weer
-weggooi. De schoolbezoeken als ik thuis ben. Wat werkt, en wat zachtjes mislukt.
+Die twee heb ik altijd een beetje apart gehouden. Niet expres, het kwam gewoon nooit
+ter sprake. Maar ik maak de laatste tijd zo veel dat ik dacht, ach waarom laat ik het
+niet gewoon zien. De half af lessen. De tool die ik bouw en steeds opnieuw verbouw. De
+scholen waar ik langsga als ik thuis ben. Wat werkt en wat ik stilletjes weggooi.
 
-Even voorstellen als we elkaar nog niet kennen. Ik sta al ruim twintig jaar voor de
-klas, het grootste deel in het speciaal onderwijs, met een zwak voor de leerling die
-vroeg afhaakt omdat de les nooit echt voor hem bedacht was. De muziek kwam later en ik
-toer er nog steeds mee, maar de klas is altijd de constante geweest.
+Het grootste deel van mijn twintig jaar voor de klas zat ik in het speciaal onderwijs,
+bij de kinderen die het niet vanzelf meekrijgen. Dat is nog steeds het stukje waar ik
+het meest om geef, en het sluipt in alles wat ik maak.
 
-Werk je in het onderwijs? Dan zou ik het echt leuk vinden als je meekijkt. En vertel
-me waar het schuurt in jouw week, want daar beginnen meestal de beste ideeen.
+Goed. Werk je in het onderwijs, of zit je er een beetje tegenaan, zeg gerust hoi. Ik
+vind het gewoon leuk om mensen te spreken die dit werk doen.
 
-Wat is dat ene ding in je lesweek waarvan je wou dat iemand het gewoon voor je bouwde?
+Kevin
 
-Eerste reactie: Meer over wat ik maak op kevinstorm.eu. Altijd leuk om te verbinden.
+Eerste reactie: iets meer over wat ik maak, mocht je nieuwsgierig zijn, kevinstorm.eu
 
 ## R2 - The Oradea reconnection (real, just happened)
 Pillar 1 + 2 · Language: English · Photo: a photo from the 2023 Oradea course if you
