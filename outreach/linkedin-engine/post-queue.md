@@ -12,46 +12,65 @@ site kevinstorm.eu.
 READY TO POST
 ====================================================================
 
-## R1 - Series kickoff: building in public, from the road
-Pillar 4 + 3 · Language: English (make a Dutch version too, below the hashtags) ·
-Photo: you with a laptop open backstage or on the tour bus, or a stage shot from this
-tour. · First comment: kevinstorm.eu
+## R1 - Series kickoff: building in public, from the road  [FINAL, Kevin tone]
+Pillar 4 + 3 · Language: English + Dutch (both final below) ·
+Photo: you with a laptop or notebook open backstage or on the bus, or a stage shot
+from this tour. A real from-the-road shot beats a polished one, it matches the
+honesty. · First comment: kevinstorm.eu
 
-I am writing this from the road. The band is on a European tour for the next three
-weeks, and in the gaps between soundchecks I am doing the other half of my life:
-designing curriculum and building tools for teachers.
+ENGLISH:
+So here is a thing I have never really done: let people watch me work.
 
-I have decided to stop keeping those two worlds separate, at least here. So for a
-while I am going to show the work as it happens. The leerlijn I am sketching in a
-hotel room. The classroom tool I am building. The school visits when I get home. The
-things that work and the things that flop.
+I am writing this from the road. The band is out across Europe for the next three
+weeks, and in the gaps between soundchecks, in hotel rooms and on the bus, I am
+quietly doing the other half of my life. Designing curriculum. Building little tools
+for teachers. Sketching lessons on the back of a setlist.
 
-I have been a teacher for more than twenty years, most of it in special education, and
-music came later. These days I design learning that pulls a room in, with a soft spot
-for the kid who usually checks out. If you work in education, I would love for you to
-follow along and tell me what you are wrestling with.
+For years I kept those two worlds in separate pockets. The teacher in one, the
+musician in the other. But honestly they have been talking to each other the whole
+time, and I am done pretending they are strangers. So for a while I am going to show
+the work as it actually happens. The messy drafts. The thing I build and then throw
+away. The school visits when I get home. What lands, and what quietly flops.
+
+A bit about me if we have not met. I have been a teacher for more than twenty years,
+most of that in special education, with a soft spot for the kid who checks out early
+because the lesson was never really built for them. Music came later and I still tour
+with it, but the classroom has always been the constant.
+
+If you work in education, I would genuinely love for you to follow along. And tell me
+where it hurts in your week, because that is usually where the best ideas start.
 
 What is the one thing in your teaching week you wish someone would just build for you?
 
+First comment: More about what I make over at kevinstorm.eu. Always happy to connect.
+
 Hashtags: #buildinpublic #onderwijs #education #edtech #speciaalonderwijs
-Tags: none for this one.
 
-Dutch version:
-Ik schrijf dit vanuit de tourbus. De band is drie weken op tournee door Europa, en in
-de gaten tussen de soundchecks doe ik de andere helft van mijn leven: curriculum
-ontwerpen en tools bouwen voor docenten.
+DUTCH:
+Dit heb ik eigenlijk nog nooit gedaan: mensen laten meekijken terwijl ik werk.
 
-Ik ga die twee werelden niet langer gescheiden houden, in elk geval niet hier. Dus de
-komende tijd laat ik het werk zien terwijl het ontstaat. De leerlijn die ik in een
-hotelkamer schets. De tool die ik bouw. De schoolbezoeken als ik thuis ben. Wat werkt
-en wat mislukt.
+Ik schrijf dit vanuit de tourbus. De band is drie weken door Europa onderweg, en in
+de gaten tussen de soundchecks, op hotelkamers en in de bus, doe ik stilletjes de
+andere helft van mijn leven. Curriculum ontwerpen. Kleine tools bouwen voor docenten.
+Lessen schetsen op de achterkant van een setlist.
 
-Ik sta al ruim twintig jaar voor de klas, het grootste deel in het speciaal onderwijs,
-en de muziek kwam daarna. Tegenwoordig ontwerp ik onderwijs dat een klas echt meeneemt,
-met een zwak voor de leerling die normaal afhaakt. Werk je in het onderwijs? Volg mee
-en vertel me waar jij mee worstelt.
+Jarenlang hield ik die twee werelden in aparte zakken. De docent in de ene, de
+muzikant in de andere. Maar eerlijk gezegd praten ze de hele tijd al met elkaar, en ik
+ben klaar met doen alsof ze vreemden zijn. Dus de komende tijd laat ik het werk zien
+zoals het echt gaat. De rommelige schetsen. Het ding dat ik bouw en daarna weer
+weggooi. De schoolbezoeken als ik thuis ben. Wat werkt, en wat zachtjes mislukt.
+
+Even voorstellen als we elkaar nog niet kennen. Ik sta al ruim twintig jaar voor de
+klas, het grootste deel in het speciaal onderwijs, met een zwak voor de leerling die
+vroeg afhaakt omdat de les nooit echt voor hem bedacht was. De muziek kwam later en ik
+toer er nog steeds mee, maar de klas is altijd de constante geweest.
+
+Werk je in het onderwijs? Dan zou ik het echt leuk vinden als je meekijkt. En vertel
+me waar het schuurt in jouw week, want daar beginnen meestal de beste ideeen.
 
 Wat is dat ene ding in je lesweek waarvan je wou dat iemand het gewoon voor je bouwde?
+
+Eerste reactie: Meer over wat ik maak op kevinstorm.eu. Altijd leuk om te verbinden.
 
 ## R2 - The Oradea reconnection (real, just happened)
 Pillar 1 + 2 · Language: English · Photo: a photo from the 2023 Oradea course if you
