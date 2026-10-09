@@ -98,7 +98,7 @@
 
   <div id="rail">
     <h1>Storm Network Map</h1>
-    <div class="sub">Everyone in Kevin's orbit, by sector. Click a node for who they are and how you worked together. Tap a sector to filter. Drag to rearrange, scroll to zoom.</div>
+    <div class="sub">Everyone in Kevin's orbit, by sector. Click a node for who they are, how you worked together, and your next move. A glowing ring means you have something coming up. Tap a sector to filter, drag to rearrange, scroll to zoom.</div>
     <div class="search">
       <input id="q" type="text" placeholder="Search a name or organisation" aria-label="Search">
       <button class="btn" id="clearq" title="Clear">×</button>
@@ -109,12 +109,13 @@
     <div class="chips" id="warmChips"></div>
     <div class="rail-actions">
       <button class="btn primary" id="add">+ Add contact</button>
+      <button class="btn" id="agenda">What's coming</button>
       <button class="btn" id="reset">Show all</button>
       <button class="btn" id="fit">Recenter</button>
       <button class="btn" id="export" title="Copy contacts you added, to send back for the master file">Copy my additions</button>
     </div>
     <div class="count" id="count"></div>
-    <div class="legend-note">Seeded from your mail and our working files, so it holds the relationships I could verify. It is meant to grow: tell me a new contact, a job change, or how a connection really works, and I will add it. <span id="asof"></span></div>
+    <div class="legend-note">A glowing ring means you have an appointment or a call coming up with that person. Seeded from your mail and our working files. It is meant to grow: tell me a new contact, a job change, an appointment, or how a connection really works, and I will add it. <span id="asof"></span></div>
   </div>
 
   <div id="detail" aria-live="polite">
@@ -123,6 +124,8 @@
     <div class="d-org" id="dorg"></div>
     <div class="warm" id="dwarm"></div>
     <div class="tagrow" id="dtags"></div>
+    <div class="d-row" id="dappt-row"><div class="d-label">Coming up</div><div class="d-val" id="dappt"></div></div>
+    <div class="d-row" id="dnext-row"><div class="d-label">Your next move</div><div class="d-val" id="dnext"></div></div>
     <div class="d-row" id="dhow-row"><div class="d-label">How you worked together</div><div class="d-val" id="dhow"></div></div>
     <div class="d-row" id="dnet-row"><div class="d-label">Network / introduced via</div><div class="d-val" id="dnet"></div></div>
     <div class="d-row" id="dloc-row"><div class="d-label">Based</div><div class="d-val" id="dloc"></div></div>
@@ -270,6 +273,31 @@ function saveAdditions(arr){try{localStorage.setItem(LS_KEY,JSON.stringify(arr))
 let ADDED=loadAdditions();
 ADDED.forEach(a=>{a._added=true;PEOPLE.push(a);});
 
+// ---- Action layer: next move + upcoming appointments (appt => glowing ring) ----
+const ACTION_LABEL={reconnect:"Reconnect, a warm check-in",chase:"Chase / follow up",
+  "intro-ask":"Ask them for an introduction",referral:"Ask for a referral",
+  appointment:"Appointment coming up",active:"Active client, no outreach needed",nurture:"Keep warm"};
+const ACTIONS={
+  "Bibian Welbergen":{action:"active"},
+  "Suzan Wenke":{action:"active"},
+  "Kaliber":{action:"active"},
+  "Kleinkunstig":{action:"active"},
+  "Bibliotheek Oost-Achterhoek":{action:"reconnect",note:"Nice past job you enjoyed. Check whether something is available now."},
+  "CPS (Bob Coenraats)":{action:"appointment",appt:"Around 3 Nov, intro call (from your planning)"},
+  "Saxion":{action:"appointment",appt:"Around 3 Nov, AI-in-education intro (from your planning)"},
+  "Delightex":{action:"appointment",appt:"Around 3 Nov, partner call (from your planning)"},
+  "eduScrum (Willy Wijnands)":{action:"chase",appt:"Online call to arrange, he is keen"},
+  "Bredagora (Bob Clerx)":{action:"chase",appt:"Call after the tour"},
+  "Cultuur Oost (Joke Veenstra-Rutjes)":{action:"chase"},
+  "De Vrolijkheid (Ron / Wesley)":{action:"chase"},
+  "K&C (Bas Hendrickx)":{action:"chase"},
+  "Orizont / CSEI (Adina Caradan)":{action:"nurture"},
+  "Erk (Gitarist / De Bassist)":{action:"intro-ask"},
+  "Anne Swallow":{action:"intro-ask"},
+  "Karin van Dijk":{action:"intro-ask"},
+};
+PEOPLE.forEach(p=>{const a=ACTIONS[p.n];if(a){if(a.action)p.action=a.action;if(a.appt)p.appt=a.appt;if(a.note)p.note=a.note;}});
+
 // ---- Build graph ----
 const nodes = new vis.DataSet();
 const edges = new vis.DataSet();
@@ -317,6 +345,26 @@ const network=new vis.Network(container,{nodes,edges},{
   edges:{smooth:{type:"continuous"}},
 });
 network.on("stabilizationIterationsDone",()=>network.setOptions({physics:{enabled:true}}));
+
+// ---- Glowing ring for upcoming appointments ----
+function apptIds(){return PEOPLE.filter(p=>p.appt&&p._id&&!(nodes.get(p._id)||{}).hidden).map(p=>p._id);}
+network.on("afterDrawing",ctx=>{
+  const ids=apptIds();if(!ids.length)return;
+  const pos=network.getPositions(ids);
+  const t=Date.now()/550;const pulse=(Math.sin(t)+1)/2;
+  ctx.save();
+  ids.forEach(id=>{
+    const p=pos[id];if(!p)return;
+    const nd=nodes.get(id);const base=(nd&&nd.value?nd.value:18)*0.6+16;
+    const r=base+5+pulse*11;
+    ctx.beginPath();ctx.arc(p.x,p.y,r,0,Math.PI*2);
+    ctx.fillStyle='rgba(181,101,46,'+(0.05+pulse*0.09)+')';ctx.fill();
+    ctx.beginPath();ctx.arc(p.x,p.y,r,0,Math.PI*2);
+    ctx.strokeStyle='rgba(247,197,159,'+(0.3+pulse*0.5)+')';ctx.lineWidth=3;ctx.stroke();
+  });
+  ctx.restore();
+});
+setInterval(()=>{if(apptIds().length)network.redraw();},60);
 
 // ---- Filtering ----
 let activeSectors=new Set();
@@ -390,6 +438,8 @@ function openDetail(p){
   document.getElementById('dwarm').innerHTML='<span class="wd" style="background:'+w.color+'"></span>'+w.label;
   document.getElementById('dtags').innerHTML=p.sectors.map(s=>
     '<span class="tag" style="background:'+SECTORS[s].color+'">'+SECTORS[s].label+'</span>').join('');
+  setRow('dappt-row','dappt',p.appt);
+  setRow('dnext-row','dnext',p.action?(ACTION_LABEL[p.action]||p.action):'');
   setRow('dhow-row','dhow',p.how);
   setRow('dnet-row','dnet',p.net);
   setRow('dloc-row','dloc',p.loc);
@@ -462,6 +512,8 @@ document.getElementById('add').onclick=()=>{
     +fieldRow('Based','<input id="f-loc" style="'+istyle+'">')
     +fieldRow('Email','<input id="f-mail" style="'+istyle+'">')
     +fieldRow('Note','<input id="f-note" style="'+istyle+'">')
+    +fieldRow('Coming up (optional, makes the node glow)','<input id="f-appt" style="'+istyle+'" placeholder="e.g. 12 Nov, intro call">')
+    +fieldRow('Next move','<select id="f-action" style="'+istyle+'"><option value="">None</option><option value="reconnect">Reconnect</option><option value="chase">Chase / follow up</option><option value="intro-ask">Ask for introduction</option><option value="referral">Ask for referral</option><option value="appointment">Appointment coming up</option><option value="active">Active client</option></select>')
     +'<div style="display:flex;gap:8px;margin-top:12px"><button class="btn primary" id="f-save">Add to map</button><button class="btn" id="f-cancel">Cancel</button><span id="f-err" style="color:#d9534f;font-size:12px;align-self:center"></span></div>';
   ov.hidden=false;
   document.getElementById('f-cancel').onclick=()=>ov.hidden=true;
@@ -473,7 +525,8 @@ document.getElementById('add').onclick=()=>{
     const p={n:name,org:document.getElementById('f-org').value.trim(),sectors:secs,
       warmth:document.getElementById('f-warm').value,loc:document.getElementById('f-loc').value.trim(),
       mail:document.getElementById('f-mail').value.trim(),how:document.getElementById('f-how').value.trim(),
-      net:document.getElementById('f-net').value.trim(),note:document.getElementById('f-note').value.trim(),_added:true};
+      net:document.getElementById('f-net').value.trim(),note:document.getElementById('f-note').value.trim(),
+      appt:document.getElementById('f-appt').value.trim(),action:document.getElementById('f-action').value,_added:true};
     ADDED.push(p);saveAdditions(ADDED);PEOPLE.push(p);renderPerson(p);
     applyFilter();ov.hidden=false;ov.hidden=true;
     network.selectNodes([p._id]);network.focus(p._id,{scale:1.05,animation:true});openDetail(p);
@@ -494,6 +547,29 @@ document.getElementById('export').onclick=()=>{
     const ok=()=>{this.textContent="Copied";this.classList.add('ok');};
     if(navigator.clipboard)navigator.clipboard.writeText(json).then(ok).catch(ok);else{try{document.execCommand('copy');ok();}catch(e){}}
   };
+};
+
+// ---- What's coming (agenda + next moves) ----
+document.getElementById('agenda').onclick=()=>{
+  const appts=PEOPLE.filter(p=>p.appt);
+  const moves={};PEOPLE.forEach(p=>{if(p.action&&p.action!=='active'){(moves[p.action]=moves[p.action]||[]).push(p);}});
+  const lbl='font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:600;margin:14px 0 6px';
+  let html='<h2 style="font-family:Fraunces,serif;font-size:20px;margin:0">What’s coming</h2>';
+  html+='<div style="'+lbl+'">Glowing on the map, upcoming</div>';
+  html+= appts.length? appts.map(p=>'<div class="agi" data-id="'+p._id+'" style="padding:7px 9px;border:1px solid var(--line);border-radius:9px;margin-bottom:6px;cursor:pointer"><b>'+p.n+'</b><div style="color:var(--muted);font-size:12.5px">'+p.appt+'</div></div>').join('')
+    : '<div style="color:var(--muted);font-size:13px">Nothing flagged yet. Add an appointment on any contact to make it glow.</div>';
+  const order=["reconnect","intro-ask","chase","referral","nurture"];
+  html+='<div style="'+lbl+'">Suggested next moves</div>';
+  let any=false;
+  order.forEach(k=>{if(moves[k]){any=true;html+='<div style="margin-bottom:8px"><div style="font-weight:600;font-size:13px">'+ACTION_LABEL[k]+'</div><div style="color:var(--muted);font-size:12.5px">'+moves[k].map(p=>p.n).join(', ')+'</div></div>';}});
+  if(!any)html+='<div style="color:var(--muted);font-size:13px">No moves flagged yet.</div>';
+  html+='<div style="margin-top:12px"><button class="btn" id="f-cancel">Close</button></div>';
+  ovcard.innerHTML=html;ov.hidden=false;
+  document.getElementById('f-cancel').onclick=()=>ov.hidden=true;
+  [...document.querySelectorAll('.agi')].forEach(el=>el.onclick=()=>{
+    const id=el.getAttribute('data-id');const nd=nodes.get(id);
+    ov.hidden=true;if(nd&&nd.person){network.selectNodes([id]);network.focus(id,{scale:1.05,animation:true});openDetail(nd.person);}
+  });
 };
 
 document.getElementById('asof').textContent="As of "+new Date().toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'})+".";
