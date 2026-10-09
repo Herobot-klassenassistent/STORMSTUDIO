@@ -1,0 +1,363 @@
+<title>Storm Network Map</title>
+<style>
+  /* Layout: full-bleed network canvas, floating control rail top-left, slide-in detail panel right. */
+  :root{
+    --bg:#f4f2ee; --panel:#ffffff; --panel-2:#faf8f4; --fg:#1b2a30; --muted:#5d6b72;
+    --line:#e2ddd4; --accent:#2e6e4e; --accent-ink:#245a40; --shadow:0 6px 24px rgba(27,42,48,.12);
+    /* sector hues (categorical, deliberate) */
+    --s-music:#c2453d; --s-edtech:#1f8f84; --s-education:#3a6ea5; --s-primary:#5aa9e6;
+    --s-special:#7b6cb8; --s-culture:#d08a1f; --s-libraries:#4e8d5b; --s-media:#e07a3f;
+    --s-social:#c56b8e; --s-care:#4f8893; --s-government:#9a7b4f; --s-me:#1b2a30;
+    --canvas:#efece6;
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --bg:#121a1e; --panel:#1a252b; --panel-2:#151f24; --fg:#eef2f0; --muted:#9fb0b4;
+    --line:#2a3940; --accent:#5fb98a; --accent-ink:#8fd3ad; --shadow:0 8px 28px rgba(0,0,0,.45);
+    --canvas:#0f1619; color-scheme:dark;
+  }}
+  :root[data-theme="dark"]{
+    --bg:#121a1e; --panel:#1a252b; --panel-2:#151f24; --fg:#eef2f0; --muted:#9fb0b4;
+    --line:#2a3940; --accent:#5fb98a; --accent-ink:#8fd3ad; --shadow:0 8px 28px rgba(0,0,0,.45);
+    --canvas:#0f1619; color-scheme:dark;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{margin:0;background:var(--bg);color:var(--fg);
+    font-family:"Libre Franklin",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    overflow:hidden}
+  h1,h2,h3{font-family:"Fraunces","Iowan Old Style",Georgia,serif;font-weight:600;margin:0}
+  #app{position:relative;width:100%;height:100%}
+  #net{position:absolute;inset:0;background:var(--canvas)}
+  /* control rail */
+  #rail{position:absolute;top:env(safe-area-inset-top,0px);left:0;z-index:5;
+    width:min(340px,86vw);max-height:calc(100% - 16px);overflow:auto;margin:12px;
+    background:var(--panel);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);
+    padding:14px 14px 16px}
+  #rail h1{font-size:19px;letter-spacing:.2px;line-height:1.1}
+  .sub{color:var(--muted);font-size:12.5px;margin:4px 0 12px;line-height:1.45}
+  .search{display:flex;gap:8px;margin-bottom:12px}
+  .search input{flex:1;min-width:0;padding:9px 11px;border:1px solid var(--line);border-radius:9px;
+    background:var(--panel-2);color:var(--fg);font-size:14px}
+  .search input:focus{outline:2px solid var(--accent);outline-offset:1px}
+  .grp-title{font-size:11px;text-transform:uppercase;letter-spacing:.09em;color:var(--muted);
+    margin:14px 0 7px;font-weight:600}
+  .chips{display:flex;flex-wrap:wrap;gap:6px}
+  .chip{display:inline-flex;align-items:center;gap:6px;padding:5px 10px;border-radius:999px;
+    border:1px solid var(--line);background:var(--panel-2);color:var(--fg);font-size:12.5px;
+    cursor:pointer;user-select:none;transition:all .12s}
+  .chip .dot{width:9px;height:9px;border-radius:50%;flex:none}
+  .chip[aria-pressed="true"]{border-color:transparent;color:#fff;font-weight:600}
+  .chip:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+  .rail-actions{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
+  .btn{padding:7px 12px;border-radius:9px;border:1px solid var(--line);background:var(--panel-2);
+    color:var(--fg);font-size:12.5px;cursor:pointer}
+  .btn.primary{background:var(--accent);border-color:transparent;color:#fff;font-weight:600}
+  .count{font-size:12px;color:var(--muted);margin-top:10px}
+  .legend-note{font-size:11.5px;color:var(--muted);margin-top:12px;line-height:1.45;
+    border-top:1px solid var(--line);padding-top:10px}
+  /* detail panel */
+  #detail{position:absolute;top:env(safe-area-inset-top,0px);right:0;z-index:6;
+    width:min(360px,90vw);max-height:calc(100% - 16px);overflow:auto;margin:12px;
+    background:var(--panel);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);
+    padding:16px;transform:translateX(calc(100% + 24px));transition:transform .22s ease;}
+  #detail.open{transform:none}
+  #detail .close{float:right;border:none;background:transparent;color:var(--muted);font-size:20px;
+    cursor:pointer;line-height:1;padding:2px 4px}
+  #detail h2{font-size:21px;line-height:1.12;padding-right:28px}
+  .d-org{color:var(--muted);font-size:13px;margin-top:3px}
+  .tagrow{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+  .tag{font-size:11px;padding:3px 9px;border-radius:999px;color:#fff;font-weight:600}
+  .warm{display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--muted);margin-bottom:10px}
+  .warm .wd{width:9px;height:9px;border-radius:50%}
+  .d-row{margin:11px 0}
+  .d-label{font-size:10.5px;text-transform:uppercase;letter-spacing:.09em;color:var(--muted);
+    font-weight:600;margin-bottom:3px}
+  .d-val{font-size:13.5px;line-height:1.5}
+  .email{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .email code{background:var(--panel-2);border:1px solid var(--line);border-radius:7px;padding:4px 8px;
+    font-size:12.5px;word-break:break-all}
+  .copy{border:1px solid var(--line);background:var(--panel-2);color:var(--fg);border-radius:7px;
+    padding:4px 8px;font-size:11.5px;cursor:pointer}
+  .copy.ok{color:var(--accent);border-color:var(--accent)}
+  .hint{position:absolute;bottom:env(safe-area-inset-bottom,0px);left:50%;transform:translateX(-50%);
+    z-index:4;margin-bottom:12px;background:var(--panel);border:1px solid var(--line);border-radius:999px;
+    box-shadow:var(--shadow);padding:7px 15px;font-size:12px;color:var(--muted);max-width:90vw;text-align:center}
+  @media (max-width:560px){
+    #rail{width:calc(100% - 24px)}
+    .hint{display:none}
+  }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Libre+Franklin:wght@400;500;600&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.9/standalone/umd/vis-network.min.js"></script>
+
+<div id="app">
+  <div id="net"></div>
+
+  <div id="rail">
+    <h1>Storm Network Map</h1>
+    <div class="sub">Everyone in Kevin's orbit, by sector. Click a node for who they are and how you worked together. Tap a sector to filter. Drag to rearrange, scroll to zoom.</div>
+    <div class="search">
+      <input id="q" type="text" placeholder="Search a name or organisation" aria-label="Search">
+      <button class="btn" id="clearq" title="Clear">×</button>
+    </div>
+    <div class="grp-title">Filter by sector</div>
+    <div class="chips" id="chips"></div>
+    <div class="grp-title" style="margin-top:14px">Filter by warmth</div>
+    <div class="chips" id="warmChips"></div>
+    <div class="rail-actions">
+      <button class="btn primary" id="reset">Show everything</button>
+      <button class="btn" id="fit">Recenter</button>
+    </div>
+    <div class="count" id="count"></div>
+    <div class="legend-note">Seeded from your mail and our working files, so it holds the relationships I could verify. It is meant to grow: tell me a new contact, a job change, or how a connection really works, and I will add it. <span id="asof"></span></div>
+  </div>
+
+  <div id="detail" aria-live="polite">
+    <button class="close" id="dclose" aria-label="Close">×</button>
+    <h2 id="dname"></h2>
+    <div class="d-org" id="dorg"></div>
+    <div class="warm" id="dwarm"></div>
+    <div class="tagrow" id="dtags"></div>
+    <div class="d-row" id="dhow-row"><div class="d-label">How you worked together</div><div class="d-val" id="dhow"></div></div>
+    <div class="d-row" id="dnet-row"><div class="d-label">Network / introduced via</div><div class="d-val" id="dnet"></div></div>
+    <div class="d-row" id="dloc-row"><div class="d-label">Based</div><div class="d-val" id="dloc"></div></div>
+    <div class="d-row" id="dnote-row"><div class="d-label">Note</div><div class="d-val" id="dnote"></div></div>
+    <div class="d-row" id="dmail-row"><div class="d-label">Email</div><div class="d-val email"><code id="dmail"></code><button class="copy" id="dcopy">Copy</button></div></div>
+  </div>
+
+  <div class="hint">Tip: filter to one sector, then click a node to see the relationship.</div>
+</div>
+
+<script>
+// ---- Sector definitions ----
+const SECTORS = {
+  music:{label:"Music industry", color:getCss('--s-music')},
+  edtech:{label:"EdTech & international", color:getCss('--s-edtech')},
+  education:{label:"Education / PD", color:getCss('--s-education')},
+  primary:{label:"Primary & schools", color:getCss('--s-primary')},
+  special:{label:"Special needs & care", color:getCss('--s-special')},
+  culture:{label:"Culture & arts", color:getCss('--s-culture')},
+  libraries:{label:"Libraries", color:getCss('--s-libraries')},
+  media:{label:"Media & literacy", color:getCss('--s-media')},
+  social:{label:"Social & refugees", color:getCss('--s-social')},
+  government:{label:"Government & funding", color:getCss('--s-government')},
+};
+const WARMTH = {
+  hot:{label:"Hot lead", color:"#d9534f"},
+  collab:{label:"Worked together", color:"#2e8b57"},
+  warm:{label:"Warm / in talks", color:"#d0952b"},
+  contact:{label:"Known contact", color:"#6b7b82"},
+  declined:{label:"Door left open", color:"#9aa7ac"},
+};
+function getCss(v){return getComputedStyle(document.documentElement).getPropertyValue(v).trim();}
+
+// ---- The network data (seeded from verified relationships) ----
+// sectors[] = sector tags (first is primary for colour). warmth = relationship temperature.
+const PEOPLE = [
+  // MUSIC INDUSTRY
+  {n:"Neural DSP",org:"Guitar modeller (Quad Cortex)",sectors:["music"],warmth:"collab",loc:"Helsinki, FI",mail:"support@neuraldsp.com",how:"Gear you tour with. Sent an express replacement mid-tour, legendary support. You are making content about it.",net:"Direct",note:"Warm brand relationship, content angle open."},
+  {n:"Tobias Euler",org:"Sharkoon Technologies",sectors:["music"],warmth:"collab",loc:"Pohlheim, DE",mail:"te@sharkoon.com",how:"Gear sponsor. Sent you a chair and studio gear, you post tour content in return.",net:"Direct endorsement",note:"Active sponsor, keep posting tagged content."},
+  {n:"Killstar (Carrie / Maya)",org:"Alt fashion label",sectors:["music"],warmth:"collab",loc:"UK",mail:"affiliates@killstar.com",how:"Apparel partner. You wear and tag them on tour, menswear launch pending for you.",net:"Affiliate programme",note:"Carrie handles launches, Maya timing."},
+  {n:"Arozzi",org:"Studio / gaming furniture",sectors:["music"],warmth:"declined",loc:"Sweden",mail:"pr@arozzi.se",how:"Endorsement approach. Polite no for now, left door open for future studio opportunities.",net:"Cold, warmed",note:"Revisit when they expand studio advertising."},
+  {n:"Waveshare",org:"Hardware maker",sectors:["music"],warmth:"declined",loc:"Shenzhen, CN",mail:"sales@waveshare.com",how:"Endorsement request for a touring device. Declined, parted warmly.",net:"Cold",note:"You still build with their product."},
+  {n:"Alex Bailey",org:"Allotment Productions",sectors:["music"],warmth:"collab",loc:"UK",mail:"alex@allotmentproductions.com",how:"Ran fleetburner.com and the merch store. Handled the webshop and ring drop-shipping.",net:"Band infrastructure",note:"Holds old Fleetburner store order records (e.g. the Aura Mirea ring)."},
+  {n:"Rachel Norris",org:"Allotment Productions",sectors:["music"],warmth:"collab",loc:"UK",mail:"rachel@allotmentproductions.com",how:"Merch and ring fulfilment for Fleetburner, drop-ship coordination.",net:"Band infrastructure",note:"Also holds store order history."},
+  {n:"Artem (varvar.jewelry)",org:"Jeweller, ex Viking Workshop",sectors:["music"],warmth:"collab",loc:"EU",mail:"hello@varvar.jewelry",how:"Made your Fleetburner rings and the guitar-string ring. Reached out to reconnect.",net:"Maker",note:"Has ship-to records for every ring made (Aura Mirea lead)."},
+  {n:"Grand Sounds PR (Oleks)",org:"Metal PR agency",sectors:["music"],warmth:"contact",loc:"EU",mail:"grandsoundsmetal@gmail.com",how:"Press / PR contact in the metal scene.",net:"Scene",note:""},
+  {n:"Stefan Hayes",org:"Bertus (distribution)",sectors:["music"],warmth:"contact",loc:"NL",mail:"Stefan.Hayes@bertus.com",how:"Music distribution contact.",net:"Scene",note:""},
+  {n:"Heretoir",org:"Band (current tour)",sectors:["music"],warmth:"collab",loc:"DE",mail:"",how:"Headlining tour you are currently playing as session guitarist.",net:"Session work",note:"Live touring relationship right now."},
+  {n:"Victor Viwo",org:"Fleetburner supporter",sectors:["music"],warmth:"contact",loc:"",mail:"victor.viwo@gmail.com",how:"Bought a Fleetburner ring. Fan / customer.",net:"Merch buyer",note:""},
+
+  // EDTECH & INTERNATIONAL
+  {n:"Orizont / CSEI (Adina Caradan)",org:"Special school, Oradea",sectors:["edtech","special"],warmth:"hot",loc:"Oradea, RO",mail:"adinacaradan@gmail.com",how:"You taught a gamification course there in 2023, made an e-book together. Just reconnected; they want a new Erasmus+ project around AI.",net:"Erasmus+",note:"HOT. New AI project under discussion. Keep warm."},
+  {n:"Erasmus Learning Academy",org:"Erasmus+ course provider",sectors:["edtech"],warmth:"warm",loc:"Bologna, IT",mail:"info@erasmuslearningacademy.eu",how:"You applied to join as trainer / curriculum developer in AI and gamification.",net:"Direct application",note:"Awaiting reply."},
+  {n:"eduScrum (Willy Wijnands)",org:"eduScrum founder",sectors:["edtech","education"],warmth:"hot",loc:"NL",mail:"",how:"Wants an online call. Potential partnership around agile / gamified learning.",net:"Warm reply",note:"HOT, arrange the call."},
+  {n:"Delightex",org:"3D/AR classroom tool (ex CoSpaces)",sectors:["edtech"],warmth:"warm",loc:"DE",mail:"",how:"You teach with their tool; partner / ambassador thread open.",net:"Partner",note:"Aim for resource-hub feature."},
+  {n:"Saxion",org:"University of applied sciences",sectors:["edtech","education"],warmth:"warm",loc:"Enschede/Deventer, NL",mail:"",how:"Warm: forwarded you internally to AI-in-education colleagues.",net:"Course outreach",note:""},
+  {n:"CPS (Bob Coenraats)",org:"Education consultancy",sectors:["education"],warmth:"warm",loc:"NL",mail:"",how:"Forwarded your course to Bob Coenraats; wants to talk.",net:"Course outreach",note:""},
+  {n:"Bazalt",org:"Education consultancy / publisher",sectors:["education"],warmth:"warm",loc:"NL",mail:"",how:"Forwarded to colleagues, will come back. Thank-you sent.",net:"Course outreach",note:""},
+
+  // CURRENT CLIENTS / COLLABORATORS
+  {n:"Bibian Welbergen",org:"Facet Emmen",sectors:["culture","education"],warmth:"collab",loc:"Emmen, NL",mail:"bibian.welbergen@facet-emmen.nl",how:"Client. You run workshops via Facet (Carmel College Emmen, CKV weeks, erfgoededucatie).",net:"Direct client",note:"Suzan Wenke also a contact here."},
+  {n:"Kleinkunstig",org:"Culture / booking agency",sectors:["culture"],warmth:"collab",loc:"NL",mail:"boekingen@kleinkunstig.nl",how:"Books you for workshops and projects. Ongoing options and confirmations.",net:"Direct client",note:"Named client in your bio."},
+  {n:"Kaliber",org:"Kaliber Kunstenschool",sectors:["culture","education"],warmth:"collab",loc:"NL",mail:"",how:"Named client in your bio. Arts education work.",net:"Direct client",note:""},
+  {n:"Bibliotheek Oost-Achterhoek",org:"Regional library",sectors:["libraries"],warmth:"collab",loc:"Achterhoek, NL",mail:"",how:"Named client in your bio. New-media / curriculum work.",net:"Direct client",note:""},
+  {n:"Bart-Jan",org:"Maxmusic",sectors:["education","media"],warmth:"collab",loc:"Dedemsvaart, NL",mail:"bart-jan@maxmusic.nl",how:"Books your nepnieuws (fake news) media-literacy workshops.",net:"Direct client",note:""},
+
+  // WARM / IN TALKS (education, culture, libraries, social, gov)
+  {n:"Leonardo Dordrecht",org:"School (gifted education)",sectors:["primary","special"],warmth:"warm",loc:"Dordrecht, NL",mail:"",how:"Kennismakingsgesprek in progress.",net:"Outreach",note:""},
+  {n:"DJI Den Hey-Acker",org:"Youth justice institution",sectors:["special","education"],warmth:"warm",loc:"Breda, NL",mail:"",how:"Kennismaking about teaching in a justice/youth setting.",net:"Outreach",note:"Out-of-the-ordinary teaching location."},
+  {n:"Dilek Plandsoen",org:"Cultuurzaam",sectors:["culture","special"],warmth:"warm",loc:"NL",mail:"",how:"Interview for adviseur cultuuronderwijs SO (special education).",net:"Vacancy",note:"Role track as well as partner."},
+  {n:"Karin van Dijk",org:"LKCA",sectors:["culture","education"],warmth:"warm",loc:"Utrecht, NL",mail:"KarinvanDijk@lkca.nl",how:"National culture-education centre. Helpful exchange about the GO network.",net:"Knowledge institute",note:"Marie-Jose Kommers also a contact."},
+  {n:"Cultuur Oost (Joke Veenstra-Rutjes)",org:"Provincial culture org",sectors:["culture"],warmth:"hot",loc:"Gelderland, NL",mail:"",how:"Positive: wants to meet via Teams, asked your availability.",net:"September campaign",note:"HOT, propose dates."},
+  {n:"Vereniging Agora (Wendy Mazer)",org:"Agora schools network",sectors:["education","primary"],warmth:"warm",loc:"NL",mail:"",how:"Warm tip: approach Agora schools directly. Sparked the Agora campaign.",net:"Referrer",note:""},
+  {n:"Bredagora (Bob Clerx)",org:"Agora school",sectors:["education","primary"],warmth:"hot",loc:"Breda, NL",mail:"",how:"Wants a call after the tour.",net:"Via Agora tip",note:"HOT."},
+  {n:"Choochem (Christijn Snippe)",org:"Gifted-education org",sectors:["special","education"],warmth:"warm",loc:"NL",mail:"",how:"Offered a call.",net:"Outreach",note:"Hoogbegaafdheid."},
+  {n:"Labyrint VO (Emile van Doorn)",org:"Secondary school",sectors:["education"],warmth:"warm",loc:"NL",mail:"",how:"Put your mail to the coaches for a workshop group.",net:"Campaign",note:""},
+  {n:"K&C (Bas Hendrickx)",org:"Kunst & Cultuur Drenthe",sectors:["culture","government"],warmth:"warm",loc:"Drenthe, NL",mail:"",how:"Nice reply, hinted at a vacancy he will send you.",net:"Campaign",note:"Chase the vacancy."},
+  {n:"IMPAKT (Arjon)",org:"Media-art platform",sectors:["culture","media"],warmth:"warm",loc:"Utrecht, NL",mail:"",how:"You translate IMPAKT projects into educational content. Meet at an opening.",net:"Culture",note:""},
+  {n:"De Vrolijkheid (Ron / Wesley)",org:"Arts for refugee children",sectors:["social","special"],warmth:"hot",loc:"NL",mail:"ron@vrolijkheid.nl",how:"Had a good talk. Ron asked for a note on train-de-trainer for their coordinators and volunteers.",net:"Direct",note:"TOP MATCH, follow up."},
+  {n:"Wijzer in geldzaken (Femke Boerkamp)",org:"Ministry of Finance programme",sectors:["government","education"],warmth:"warm",loc:"Den Haag, NL",mail:"f.boerkamp@minfin.nl",how:"Good meeting. On the waitlist for the Financial-education teacher day. Shared funding leads.",net:"Direct",note:"Financial literacy angle."},
+  {n:"Rijnbrink (Elise Nieuwhof)",org:"Library / education network",sectors:["libraries","education"],warmth:"warm",loc:"Overijssel/Gelderland, NL",mail:"",how:"Met about the library and education network.",net:"Network",note:""},
+  {n:"Kunstcircuit Deventer (Lee Pieket)",org:"Culture / library",sectors:["libraries","culture"],warmth:"warm",loc:"Deventer, NL",mail:"",how:"Cultuureducatie, met to plan a date.",net:"Network",note:""},
+  {n:"Stadkamer (Anneke Renting)",org:"Library Zwolle",sectors:["libraries","culture"],warmth:"warm",loc:"Zwolle, NL",mail:"",how:"Cultuureducatie PO. Joris Bakhuis also involved.",net:"Network",note:"Log outcome of the talk."},
+  {n:"Netwerk Mediawijsheid (Simone Koens)",org:"Media-literacy network",sectors:["media","education"],warmth:"warm",loc:"NL",mail:"",how:"Kennismaking as a network partner around AI literacy.",net:"Network",note:""},
+  {n:"Stichting Lezen en Schrijven (Jurre Doeve)",org:"Literacy foundation",sectors:["libraries","social"],warmth:"contact",loc:"NL",mail:"",how:"Tip: approach the language networks.",net:"Referrer",note:""},
+  {n:"Rijssens Museum (Anny Kastenberg)",org:"Local museum",sectors:["culture"],warmth:"warm",loc:"Rijssen, NL",mail:"",how:"Local coffee / collaboration idea. Concept sent.",net:"Local",note:""},
+];
+
+// ---- Build graph ----
+const nodes = new vis.DataSet();
+const edges = new vis.DataSet();
+const ME = "me:kevin";
+nodes.add({id:ME,label:"Kevin Storm",group:"me",value:60,shape:"dot",
+  color:{background:getCss('--s-me'),border:getCss('--accent'),highlight:{background:getCss('--s-me'),border:getCss('--accent')}},
+  font:{color:getCss('--fg'),size:20,face:"Fraunces, serif"},fixed:false});
+
+// sector hub nodes
+const usedSectors = {};
+PEOPLE.forEach(p=>p.sectors.forEach(s=>usedSectors[s]=true));
+Object.keys(SECTORS).filter(s=>usedSectors[s]).forEach(s=>{
+  nodes.add({id:"hub:"+s,label:SECTORS[s].label,group:"hub",sector:s,value:26,shape:"hexagon",
+    color:{background:SECTORS[s].color,border:SECTORS[s].color},
+    font:{color:"#fff",size:14,face:"Libre Franklin",strokeWidth:0}});
+  edges.add({from:ME,to:"hub:"+s,length:150,color:{color:getCss('--line')},width:1.5});
+});
+
+// people nodes
+PEOPLE.forEach((p,i)=>{
+  const id="p:"+i; p._id=id;
+  const primary=p.sectors[0];
+  nodes.add({id,label:p.n,group:primary,sectors:p.sectors,warmth:p.warmth,person:p,value:warmSize(p.warmth),
+    shape:"dot",color:nodeColor(p),
+    font:{color:getCss('--fg'),size:13,face:"Libre Franklin"}});
+  p.sectors.forEach((s,si)=>{
+    edges.add({from:"hub:"+s,to:id,length:120,
+      color:{color:SECTORS[s].color,opacity:si===0?0.55:0.28},
+      width:si===0?2:1,dashes:si!==0});
+  });
+});
+function warmSize(w){return w==="hot"?26:w==="collab"?22:w==="warm"?18:14;}
+function nodeColor(p){
+  const c=SECTORS[p.sectors[0]].color;
+  const border=p.warmth==="hot"?"#d9534f":(p.warmth==="collab"?getCss('--accent-ink'):c);
+  return {background:c,border:border,highlight:{background:c,border:getCss('--fg')}};
+}
+
+const container=document.getElementById('net');
+const network=new vis.Network(container,{nodes,edges},{
+  physics:{barnesHut:{gravitationalConstant:-7000,springLength:130,springConstant:0.03,damping:0.5},
+    stabilization:{iterations:260}},
+  interaction:{hover:true,tooltipDelayed:120,navigationButtons:false,keyboard:false},
+  nodes:{borderWidth:2,shadow:false,scaling:{min:12,max:34}},
+  edges:{smooth:{type:"continuous"}},
+});
+network.on("stabilizationIterationsDone",()=>network.setOptions({physics:{enabled:true}}));
+
+// ---- Filtering ----
+let activeSectors=new Set();
+let activeWarmth=new Set();
+function applyFilter(){
+  const sAll=activeSectors.size===0, wAll=activeWarmth.size===0;
+  let shown=0;
+  PEOPLE.forEach(p=>{
+    const sOk=sAll||p.sectors.some(s=>activeSectors.has(s));
+    const wOk=wAll||activeWarmth.has(p.warmth);
+    const vis_=sOk&&wOk;
+    nodes.update({id:p._id,hidden:!vis_});
+    if(vis_)shown++;
+  });
+  // hub visible if its sector is active (or no sector filter) and has any visible child
+  Object.keys(SECTORS).filter(s=>usedSectors[s]).forEach(s=>{
+    const sectorActive=sAll||activeSectors.has(s);
+    const hasChild=PEOPLE.some(p=>p.sectors.includes(s)&&!nodes.get(p._id).hidden);
+    nodes.update({id:"hub:"+s,hidden:!(sectorActive&&hasChild)});
+  });
+  document.getElementById('count').textContent=shown+" of "+PEOPLE.length+" contacts shown";
+}
+
+// ---- Chips ----
+const chipsEl=document.getElementById('chips');
+Object.keys(SECTORS).filter(s=>usedSectors[s]).forEach(s=>{
+  const b=document.createElement('button');
+  b.className='chip';b.setAttribute('aria-pressed','false');
+  b.innerHTML='<span class="dot" style="background:'+SECTORS[s].color+'"></span>'+SECTORS[s].label;
+  b.onclick=()=>{const on=b.getAttribute('aria-pressed')==='true';
+    b.setAttribute('aria-pressed',String(!on));
+    b.style.background=!on?SECTORS[s].color:'';
+    if(on)activeSectors.delete(s);else activeSectors.add(s);applyFilter();};
+  chipsEl.appendChild(b);
+});
+const warmEl=document.getElementById('warmChips');
+Object.keys(WARMTH).forEach(w=>{
+  const b=document.createElement('button');
+  b.className='chip';b.setAttribute('aria-pressed','false');
+  b.innerHTML='<span class="dot" style="background:'+WARMTH[w].color+'"></span>'+WARMTH[w].label;
+  b.onclick=()=>{const on=b.getAttribute('aria-pressed')==='true';
+    b.setAttribute('aria-pressed',String(!on));
+    b.style.background=!on?WARMTH[w].color:'';
+    if(on)activeWarmth.delete(w);else activeWarmth.add(w);applyFilter();};
+  warmEl.appendChild(b);
+});
+
+document.getElementById('reset').onclick=()=>{
+  activeSectors.clear();activeWarmth.clear();
+  document.querySelectorAll('.chip').forEach(c=>{c.setAttribute('aria-pressed','false');c.style.background='';});
+  document.getElementById('q').value='';applyFilter();network.fit({animation:true});
+};
+document.getElementById('fit').onclick=()=>network.fit({animation:true});
+
+// ---- Search ----
+const q=document.getElementById('q');
+q.addEventListener('input',()=>{
+  const t=q.value.trim().toLowerCase();
+  if(!t)return;
+  const hit=PEOPLE.find(p=>p.n.toLowerCase().includes(t)||(p.org||'').toLowerCase().includes(t));
+  if(hit){network.selectNodes([hit._id]);network.focus(hit._id,{scale:1.1,animation:true});openDetail(hit);}
+});
+document.getElementById('clearq').onclick=()=>{q.value='';q.focus();};
+
+// ---- Detail panel ----
+const detail=document.getElementById('detail');
+function openDetail(p){
+  document.getElementById('dname').textContent=p.n;
+  document.getElementById('dorg').textContent=p.org||'';
+  const w=WARMTH[p.warmth];
+  document.getElementById('dwarm').innerHTML='<span class="wd" style="background:'+w.color+'"></span>'+w.label;
+  document.getElementById('dtags').innerHTML=p.sectors.map(s=>
+    '<span class="tag" style="background:'+SECTORS[s].color+'">'+SECTORS[s].label+'</span>').join('');
+  setRow('dhow-row','dhow',p.how);
+  setRow('dnet-row','dnet',p.net);
+  setRow('dloc-row','dloc',p.loc);
+  setRow('dnote-row','dnote',p.note);
+  const mailRow=document.getElementById('dmail-row');
+  if(p.mail){mailRow.hidden=false;document.getElementById('dmail').textContent=p.mail;}
+  else mailRow.hidden=true;
+  detail.classList.add('open');
+}
+function setRow(rowId,valId,val){
+  const r=document.getElementById(rowId);
+  if(val&&String(val).trim()){r.hidden=false;document.getElementById(valId).textContent=val;}
+  else r.hidden=true;
+}
+document.getElementById('dclose').onclick=()=>{detail.classList.remove('open');network.unselectAll();};
+document.getElementById('dcopy').onclick=function(){
+  const m=document.getElementById('dmail').textContent;
+  navigator.clipboard&&navigator.clipboard.writeText(m).then(()=>{
+    this.textContent='Copied';this.classList.add('ok');
+    setTimeout(()=>{this.textContent='Copy';this.classList.remove('ok');},1400);
+  }).catch(()=>{const r=document.createRange();r.selectNodeContents(document.getElementById('dmail'));
+    const s=getSelection();s.removeAllRanges();s.addRange(r);});
+};
+network.on("click",params=>{
+  if(params.nodes.length){
+    const id=params.nodes[0];
+    const nd=nodes.get(id);
+    if(nd&&nd.person)openDetail(nd.person);
+    else detail.classList.remove('open');
+  }else detail.classList.remove('open');
+});
+
+document.getElementById('asof').textContent="As of "+new Date().toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'})+".";
+applyFilter();
+</script>
