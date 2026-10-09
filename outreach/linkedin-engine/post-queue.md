@@ -12,7 +12,7 @@ site kevinstorm.eu.
 READY TO POST
 ====================================================================
 
-## R1 - Series kickoff: building in public, from the road  [FINAL, Kevin tone]
+## R1 - Series kickoff  [POSTED 2026-10-09, see posted log]  [FINAL, Kevin tone]
 Pillar 4 + 3 · Language: English + Dutch (both final below) ·
 Photo: you with a laptop or notebook open backstage or on the bus, or a stage shot
 from this tour. A real from-the-road shot beats a polished one, it matches the
@@ -186,5 +186,6 @@ BACKLOG (ideas to develop when their moment comes)
 ====================================================================
 POSTED LOG
 ====================================================================
-(none yet. Move posts here with the date and any note on how they performed, so we
-learn what lands.)
+- 2026-10-09 · R1 Series kickoff (build in public, from the road). The first post of
+  the series. Watch how it does and note it here (reactions, comments, any DMs or
+  leads) so we learn what the network responds to.
