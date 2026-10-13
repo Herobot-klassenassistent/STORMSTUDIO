@@ -12,6 +12,65 @@ site kevinstorm.eu.
 READY TO POST
 ====================================================================
 
+## N1 - The special-ed cards, delivered (REAL, just happened 7 Oct)
+Pillar 2 + 3 + 5 · Language: Dutch (English version below) · Photo: the actual card
+deck and the handleiding laid out on a table, or a few cards fanned out in your hands.
+A real photo of the thing you made beats anything staged. · First comment: kevinstorm.eu
+
+DUTCH:
+Deze zomer heb ik keihard gewerkt aan iets waar ik nu best trots op ben.
+
+Een set opdrachtkaarten voor het speciaal onderwijs, met een handleiding erbij.
+Kaarten waarmee een leerling meteen aan de slag kan, zonder eerst een lap tekst te
+moeten lezen. Een beeld, een duidelijke opdracht, een ingang die werkt voor het kind
+dat anders afhaakt.
+
+Het mooiste moment was niet het af krijgen. Dat was het overdragen. Want een
+kaartenset die alleen in mijn hoofd zit heeft niemand iets aan. Het gaat erom dat de
+docenten er zelf mee verder kunnen, op hun eigen manier, ook als ik er niet bij ben.
+Daar ontwerp ik eigenlijk altijd naartoe.
+
+Nu maar hopen dat ze er net zoveel plezier aan beleven als ik had tijdens het maken.
+
+Werk jij in het speciaal onderwijs? Wat maakt voor jou een opdracht meteen behapbaar?
+
+First comment: meer over wat ik maak, mocht je nieuwsgierig zijn, kevinstorm.eu
+Hashtags: #speciaalonderwijs #passendonderwijs #onderwijs #lesmateriaal #curriculum
+
+ENGLISH (shorter, for the international network):
+I spent a big chunk of my summer building something I am quietly proud of.
+
+A set of task cards for special education, with a teacher guide. Cards a pupil can
+start with straight away, no wall of text to get through first. A picture, a clear
+task, a way in that works for the kid who usually checks out.
+
+The best bit was not finishing them. It was handing them over. A card set that only
+lives in my head helps nobody. What matters is that the teachers can run with it
+themselves, their way, long after I am gone. That is what I am really designing for,
+every time.
+
+## N2 - Designing from the road (REAL: De Maten lesson plans signed off this week)
+Pillar 4 + 3 · Language: English (make a Dutch version if you like) · Photo: your
+laptop open with a lesson plan on screen, in a hotel or on the bus, gig case nearby.
+· First comment: kevinstorm.eu
+
+Funny week. I am on tour with the band, and in a hotel room between two shows I am
+finishing a set of lesson plans for a school project back home.
+
+The thumbs up came in while I was somewhere on the road: the school and the team are
+happy, the plans are polished and ready to run. That quiet little yes, this works,
+lands about as hard as a good show does, honestly.
+
+This is the double life I used to keep tucked away and have decided to just show.
+Guitar in the evening, curriculum in the afternoon, and far more overlap between the
+two than people expect. Both come down to building something other people can pick up
+and run with.
+
+Right, back to soundcheck.
+
+First comment: a bit more about what I make, kevinstorm.eu
+Hashtags: #onderwijs #curriculum #education #buildinpublic #teaching
+
 ## R1 - Series kickoff  [POSTED 2026-10-09, see posted log]  [FINAL, Kevin tone]
 Pillar 4 + 3 · Language: English + Dutch (both final below) ·
 Photo: you with a laptop or notebook open backstage or on the bus, or a stage shot
