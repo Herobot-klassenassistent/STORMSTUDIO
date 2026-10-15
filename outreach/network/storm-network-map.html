@@ -124,6 +124,8 @@
     <div class="d-org" id="dorg"></div>
     <div class="warm" id="dwarm"></div>
     <div class="tagrow" id="dtags"></div>
+    <div class="d-row" id="drole-row"><div class="d-label">Currently</div><div class="d-val" id="drole"></div></div>
+    <div class="d-row" id="dmoved-row"><div class="d-label">Recently moved</div><div class="d-val" id="dmoved"></div></div>
     <div class="d-row" id="dappt-row"><div class="d-label">Coming up</div><div class="d-val" id="dappt"></div></div>
     <div class="d-row" id="dnext-row"><div class="d-label">Your next move</div><div class="d-val" id="dnext"></div></div>
     <div class="d-row" id="dhow-row"><div class="d-label">How you worked together</div><div class="d-val" id="dhow"></div></div>
@@ -238,14 +240,14 @@ const PEOPLE = [
   // MEDIA & MAGAZINES
   {n:"Erk (Gitarist / De Bassist)",org:"K18 Media",sectors:["media"],warmth:"collab",loc:"NL",mail:"Erk@k18.nl",how:"Your editor. You write a monthly column for Gitarist / De Bassist and feature in their guitar videos and conventions.",net:"Direct, regular",note:"Strong, standing media relationship."},
   {n:"EdTech Digest (Victor)",org:"EdTech media",sectors:["media","edtech"],warmth:"contact",loc:"US",mail:"victor@edtechdigest.blog",how:"EdTech media and blog contact.",net:"Media",note:""},
-  {n:"Layered Reality (Lily)",org:"Immersive experiences",sectors:["edtech","culture"],warmth:"contact",loc:"London, UK",mail:"lily@layered-reality.com",how:"Immersive-experience company contact.",net:"Immersive",note:""},
+  {n:"Layered Reality (Lily)",org:"Immersive experiences",role:"Lily Wardzala; founder/director Tom",sectors:["edtech","culture"],warmth:"contact",loc:"London, UK",mail:"lily@layered-reality.com",how:"Immersive-experience company; in touch about a call with their founder.",net:"Immersive",note:""},
 
   // EDUCATION / SPECIAL NEEDS / CULTURE / LIBRARIES
-  {n:"RENN4 (M. Knegt)",org:"Special education (cluster 4)",sectors:["special"],warmth:"warm",loc:"North NL",mail:"m.knegt@renn4.nl",how:"Special-education organisation, ongoing contact.",net:"Direct",note:""},
+  {n:"RENN4 (Marion Knegt)",org:"Special education (cluster 4)",role:"Marion Knegt",sectors:["special"],warmth:"collab",loc:"North NL",mail:"m.knegt@renn4.nl",how:"You built and delivered a set of special-ed task cards plus a teacher guide for them (Oct 2026). Now theirs to run with.",net:"Direct",action:"active",note:"Delivered Oct 2026. Check in once teachers have used them."},
   {n:"Punt Speciaal (M. Theunissen)",org:"Special education",sectors:["special"],warmth:"contact",loc:"Gelderland, NL",mail:"m.theunissen@puntspeciaal.nl",how:"Special-education organisation.",net:"Outreach",note:""},
   {n:"Praktikon (L. Geijsen)",org:"Youth-care research",sectors:["special"],warmth:"contact",loc:"Nijmegen, NL",mail:"l.geijsen@praktikon.nl",how:"Youth-care research organisation.",net:"Outreach",note:""},
   {n:"DJI (Jimmy Dekkers)",org:"Justice / youth education",sectors:["special"],warmth:"warm",loc:"NL",mail:"jimmy.dekkers@dji.minjus.nl",how:"Teaching in justice and youth settings (DJI).",net:"Direct",note:"Also E. Koppelaar and VSO Ginneken within DJI."},
-  {n:"G. Schinkel",org:"OOZ (ex Ambelt)",sectors:["special","education"],warmth:"warm",loc:"Zwolle, NL",mail:"g.schinkel@ooz.nl",how:"Special and public education. Moved from Ambelt (special ed) to OOZ (Openbaar Onderwijs Zwolle).",net:"Direct",note:"JOB CHANGE: Ambelt to OOZ. Old address g.schinkel@ambelt.nl."},
+  {n:"G. Schinkel",org:"OOZ (ex Ambelt)",role:"OOZ, Openbaar Onderwijs Zwolle",sectors:["special","education"],warmth:"warm",loc:"Zwolle, NL",mail:"g.schinkel@ooz.nl",how:"Special and public education. A new, bigger board to work with since the move.",net:"Direct",moved:"Ambelt (special ed) to OOZ (Openbaar Onderwijs Zwolle). Old address g.schinkel@ambelt.nl.",note:"Re-approach on the new role, likely a bigger budget."},
   {n:"OOE (M. Wieringa)",org:"Public education",sectors:["education"],warmth:"contact",loc:"Emmen, NL",mail:"m.wieringa@ooe.nl",how:"Public education contact.",net:"Outreach",note:""},
   {n:"H3O (Slagrouw-Molenaar)",org:"Childcare / primary",sectors:["primary","education"],warmth:"contact",loc:"Dordrecht, NL",mail:"slagrouw-molenaar@h3o.nl",how:"Childcare and primary-education organisation.",net:"Outreach",note:""},
   {n:"JTC Roosendaal",org:"Youth justice training",sectors:["special"],warmth:"contact",loc:"Roosendaal, NL",mail:"mkr@jtc-roosendaal.nl",how:"Youth justice training centre.",net:"Outreach",note:""},
@@ -261,6 +263,16 @@ const PEOPLE = [
   {n:"Sarah Brid",org:"Design collaborator",sectors:["friends"],warmth:"contact",loc:"",mail:"sarahbrid59@gmail.com",how:"Friend and design collaborator (brand book Vango Andorra, cauldron file).",net:"Personal",note:""},
   {n:"Mirte de Hart",org:"Personal contact",sectors:["friends"],warmth:"contact",loc:"",mail:"mirtedehart@gmail.com",how:"Personal contact.",net:"Personal",note:""},
   {n:"M. Bos",org:"Friend / STORMDRIVEN tester",sectors:["friends"],warmth:"contact",loc:"NL",mail:"mbos1@hetnet.nl",how:"Friend who tests your STORMDRIVEN release.",net:"Personal",note:""},
+
+  // NEW CONNECTIONS (week of 13 Oct 2026)
+  {n:"Tartu Herbert Masingu School",org:"Special school, Estonia",role:"Contact: Evelin Lemetti",sectors:["edtech","special"],warmth:"hot",loc:"Tartu, EE",mail:"evelin.lemetti@masing.tartu.ee",how:"You trained their teachers before; they remember it highly and want to set up training cooperation again.",net:"Reconnection",appt:"Scoping a new training together",action:"chase",moved:"Your old contact Sirelin left the school; now Evelin Lemetti, plus Tuuli and Ingrid who remember you."},
+  {n:"Eckhard Doll",org:"Steinberg (Cubase)",role:"Your contact at Steinberg",sectors:["music"],warmth:"collab",loc:"Hamburg, DE",mail:"E.Doll@steinberg.de",how:"Music-software relationship; beta programme and warm check-ins.",net:"Direct",note:"beta.steinberg.net."},
+  {n:"Lwiza (Filmhub Oost)",org:"Filmhub Oost",role:"Project lead, Proeftuin De Maten",sectors:["culture","education"],warmth:"collab",loc:"Deventer, NL",mail:"lwiza@filmhuboost.nl",how:"You design the lesson plans (democratie, voeding) for the De Maten proeftuin and deliver them with their media sets.",net:"Project",action:"active",note:"Live collaboration."},
+  {n:"Dorien Leussink",org:"SCO-T (school board)",role:"School board, SCO-T",sectors:["primary","education"],warmth:"contact",loc:"Twente, NL",mail:"d.leussink@sco-t.nl",how:"Involved in the De Maten proeftuin.",net:"Via Filmhub Oost",note:""},
+  {n:"Mei-Lin Man",org:"Kleinkunstig",role:"Booker / coordinator",sectors:["culture","education"],warmth:"collab",loc:"NL",mail:"mei-lin@kleinkunstig.nl",how:"Books and develops workshops with you (Gouden Eeuw at Pax Christi College Druten, Soundtrap sampling).",net:"Via Kleinkunstig",action:"active",note:""},
+  {n:"Marlou Lammersen",org:"Kaliber Kunstenschool",role:"Coordinator",sectors:["culture","education"],warmth:"collab",loc:"NL",mail:"marlou.lammersen@kaliberkunstenschool.nl",how:"Coordinates workshops at Kaliber (e.g. Christmas-break workshops).",net:"Via Kaliber",action:"active",note:""},
+  {n:"Future Classroom Lab",org:"European Schoolnet",role:"",sectors:["edtech","education"],warmth:"warm",loc:"Brussels, BE",mail:"",how:"You sent an online-coffee intro about hands-on AI and creative-media training for teachers.",net:"Outreach",action:"chase",note:"European Schoolnet; awaiting reply."},
+  {n:"Plus Project",org:"Erasmus+ course provider",role:"",sectors:["edtech"],warmth:"declined",loc:"Malaga, ES",mail:"info@plus-project.eu",how:"Erasmus+ provider. No longer runs courses in NL, but open to you as a trainer abroad.",net:"Outreach",note:"Keep for abroad opportunities."},
 ];
 
 // ---- Contacts you add on this device (saved locally, merged with the seed) ----
@@ -438,6 +450,8 @@ function openDetail(p){
   document.getElementById('dwarm').innerHTML='<span class="wd" style="background:'+w.color+'"></span>'+w.label;
   document.getElementById('dtags').innerHTML=p.sectors.map(s=>
     '<span class="tag" style="background:'+SECTORS[s].color+'">'+SECTORS[s].label+'</span>').join('');
+  setRow('drole-row','drole',p.role);
+  setRow('dmoved-row','dmoved',p.moved);
   setRow('dappt-row','dappt',p.appt);
   setRow('dnext-row','dnext',p.action?(ACTION_LABEL[p.action]||p.action):'');
   setRow('dhow-row','dhow',p.how);
@@ -505,6 +519,7 @@ document.getElementById('add').onclick=()=>{
     +'<div style="color:var(--muted);font-size:12.5px;margin-bottom:8px">Saved on this device and shown straight away. Use Copy my additions to send them back for the master file.</div>'
     +fieldRow('Name','<input id="f-n" style="'+istyle+'" placeholder="Person or organisation">')
     +fieldRow('Organisation','<input id="f-org" style="'+istyle+'">')
+    +fieldRow('Current role / position (optional)','<input id="f-role" style="'+istyle+'" placeholder="e.g. coordinator at ...">')
     +fieldRow('Sectors (pick one or more)','<div style="display:flex;flex-wrap:wrap">'+secBoxes+'</div>')
     +fieldRow('Warmth','<select id="f-warm" style="'+istyle+'">'+warmOpts+'</select>')
     +fieldRow('How you worked together','<textarea id="f-how" rows="2" style="'+istyle+'"></textarea>')
@@ -522,7 +537,7 @@ document.getElementById('add').onclick=()=>{
     const secs=[...document.querySelectorAll('.secbox:checked')].map(b=>b.value);
     if(!name){document.getElementById('f-err').textContent="Name is required.";return;}
     if(!secs.length){document.getElementById('f-err').textContent="Pick at least one sector.";return;}
-    const p={n:name,org:document.getElementById('f-org').value.trim(),sectors:secs,
+    const p={n:name,org:document.getElementById('f-org').value.trim(),role:document.getElementById('f-role').value.trim(),sectors:secs,
       warmth:document.getElementById('f-warm').value,loc:document.getElementById('f-loc').value.trim(),
       mail:document.getElementById('f-mail').value.trim(),how:document.getElementById('f-how').value.trim(),
       net:document.getElementById('f-net').value.trim(),note:document.getElementById('f-note').value.trim(),

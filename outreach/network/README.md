@@ -30,3 +30,17 @@ how, net, note.
 
 ## To open it again
 Ask Claude for the link, or find "Storm Network Map" in the artifacts gallery.
+
+## Tracking positions and job changes
+Each contact now carries a current role / where they work (shown as "Currently" on
+their card) and, when they move, a "Recently moved" line. A move is one of the best
+openings there is: the person already knows Kevin, now in a new seat, often a bigger
+one. Example in the map: G. Schinkel moved Ambelt to OOZ; Sirelin left the Tartu
+school and Evelin Lemetti took over.
+
+How the watching works (be honest about this): Claude cannot read LinkedIn directly
+(no connector, and the site blocks automated access). Instead, on each twice-weekly
+engine run Claude scans Gmail for job-change signals, a new work domain, a changed
+signature, a bounce from an old address, or a reply saying someone has left, updates
+the map's role / org / moved fields, and flags any that look like an opening for Kevin
+to confirm on LinkedIn himself. New contacts from the week are added the same way.
