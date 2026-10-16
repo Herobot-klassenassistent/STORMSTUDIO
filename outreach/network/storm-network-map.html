@@ -1,3 +1,4 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <title>Storm Network Map</title>
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><defs><linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%231f2a30'/><stop offset='1' stop-color='%230f1619'/></linearGradient></defs><rect width='512' height='512' rx='112' fill='url(%23bg)'/><g stroke='%23b5652e' stroke-width='9' stroke-opacity='0.7'><line x1='256' y1='256' x2='140' y2='150'/><line x1='256' y1='256' x2='372' y2='140'/><line x1='256' y1='256' x2='400' y2='330'/><line x1='256' y1='256' x2='150' y2='384'/><line x1='256' y1='256' x2='312' y2='404'/><line x1='140' y1='150' x2='372' y2='140'/><line x1='150' y1='384' x2='312' y2='404'/></g><g><circle cx='140' cy='150' r='26' fill='%23faf7f0'/><circle cx='372' cy='140' r='24' fill='%232e6e4e'/><circle cx='400' cy='330' r='22' fill='%23b5652e'/><circle cx='150' cy='384' r='24' fill='%23faf7f0'/><circle cx='312' cy='404' r='20' fill='%23b5652e'/><circle cx='256' cy='256' r='56' fill='%232e6e4e'/><circle cx='256' cy='256' r='56' fill='none' stroke='%23f7c59f' stroke-width='6'/></g></svg>">
 <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><defs><linearGradient id='bg2' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%231f2a30'/><stop offset='1' stop-color='%230f1619'/></linearGradient></defs><rect width='512' height='512' rx='112' fill='url(%23bg2)'/><g stroke='%23b5652e' stroke-width='9' stroke-opacity='0.7'><line x1='256' y1='256' x2='140' y2='150'/><line x1='256' y1='256' x2='372' y2='140'/><line x1='256' y1='256' x2='400' y2='330'/><line x1='256' y1='256' x2='150' y2='384'/><line x1='256' y1='256' x2='312' y2='404'/><line x1='140' y1='150' x2='372' y2='140'/><line x1='150' y1='384' x2='312' y2='404'/></g><g><circle cx='140' cy='150' r='26' fill='%23faf7f0'/><circle cx='372' cy='140' r='24' fill='%232e6e4e'/><circle cx='400' cy='330' r='22' fill='%23b5652e'/><circle cx='150' cy='384' r='24' fill='%23faf7f0'/><circle cx='312' cy='404' r='20' fill='%23b5652e'/><circle cx='256' cy='256' r='56' fill='%232e6e4e'/><circle cx='256' cy='256' r='56' fill='none' stroke='%23f7c59f' stroke-width='6'/></g></svg>">
@@ -160,6 +161,7 @@ const WARMTH = {
   warm:{label:"Warm / in talks", color:"#d0952b"},
   contact:{label:"Known contact", color:"#6b7b82"},
   declined:{label:"Door left open", color:"#9aa7ac"},
+  awaiting:{label:"Coffee mail, awaiting reply", color:"#7b6cb8"},
 };
 function getCss(v){return getComputedStyle(document.documentElement).getPropertyValue(v).trim();}
 
@@ -220,7 +222,7 @@ const PEOPLE = [
   // MUSIC INDUSTRY (management, labels, gear, stores)
   {n:"Anne Swallow",org:"Feat First Management",sectors:["music"],warmth:"collab",loc:"Germany",mail:"aswallow@featfirstmanagement.com",how:"Your booking and tour management. Arranges flights, trains and tickets and settles the bills for your session tours (Baden in Blut, Samhain, Greece and more).",net:"Direct, core",note:"Key logistics person on the road."},
   {n:"Skull Strings (Gwen)",org:"Tolito SAS",sectors:["music"],warmth:"collab",loc:"France",mail:"tolito.strings@gmail.com",how:"Your string endorsement. Custom gauges and windings for your artist sets; you post content in return.",net:"Endorsement",note:"Gwen is your contact; Tolito SAS makes Skull Strings."},
-  {n:"Archaic Sound / Records",org:"Metal label",sectors:["music"],warmth:"collab",loc:"EU",mail:"demos@archaic-sound.com",how:"Label releasing Fleetburner (Alexithymia). Release partner.",net:"Label",note:""},
+  {n:"Archaic Sound / Records (Yurii)",org:"Metal label",role:"Yurii",sectors:["music"],warmth:"collab",loc:"EU",mail:"demos@archaic-sound.com",how:"Label releasing Fleetburner (Alexithymia). Release partner.",net:"Label",appt:"Meeting in Berlin, Sunday before the show",note:""},
   {n:"PIAS (Clemence Simon)",org:"Label / distribution",sectors:["music"],warmth:"contact",loc:"Brussels, BE",mail:"Clemence.Simon@pias.com",how:"Label and distribution contact; showcase invites.",net:"Scene",note:""},
   {n:"Supreme Chaos Records (Robby)",org:"Metal label",sectors:["music"],warmth:"contact",loc:"Germany",mail:"robby@supremechaos.de",how:"German metal label contact.",net:"Scene",note:""},
   {n:"Klundert Music (Dennis)",org:"Music store / backline",sectors:["music"],warmth:"contact",loc:"NL",mail:"dennis@klundertmusic.nl",how:"Music store and backline contact.",net:"Scene",note:""},
@@ -267,7 +269,7 @@ const PEOPLE = [
   // NEW CONNECTIONS (week of 13 Oct 2026)
   {n:"Tartu Herbert Masingu School",org:"Special school, Estonia",role:"Contact: Evelin Lemetti",sectors:["edtech","special"],warmth:"hot",loc:"Tartu, EE",mail:"evelin.lemetti@masing.tartu.ee",how:"You trained their teachers before; they remember it highly and want to set up training cooperation again.",net:"Reconnection",appt:"Scoping a new training together",action:"chase",moved:"Your old contact Sirelin left the school; now Evelin Lemetti, plus Tuuli and Ingrid who remember you."},
   {n:"Eckhard Doll",org:"Steinberg (Cubase)",role:"Your contact at Steinberg",sectors:["music"],warmth:"collab",loc:"Hamburg, DE",mail:"E.Doll@steinberg.de",how:"Music-software relationship; beta programme and warm check-ins.",net:"Direct",note:"beta.steinberg.net."},
-  {n:"Lwiza (Filmhub Oost)",org:"Filmhub Oost",role:"Project lead, Proeftuin De Maten",sectors:["culture","education"],warmth:"collab",loc:"Deventer, NL",mail:"lwiza@filmhuboost.nl",how:"You design the lesson plans (democratie, voeding) for the De Maten proeftuin and deliver them with their media sets.",net:"Project",action:"active",note:"Live collaboration."},
+  {n:"Lwiza el Founti (Filmhub Oost)",org:"Filmhub Oost",role:"Regiocoordinator Overijssel",sectors:["culture","education"],warmth:"collab",loc:"Deventer, NL",mail:"lwiza@filmhuboost.nl",how:"You design the lesson plans (democratie, voeding) for the De Maten proeftuin and deliver them with their media sets. They are filming a film-education video of the project.",net:"Project",action:"active",note:"You cannot make the 12 Nov storyboard kickoff; helping find a stand-in film teacher."},
   {n:"Dorien Leussink",org:"SCO-T (school board)",role:"School board, SCO-T",sectors:["primary","education"],warmth:"contact",loc:"Twente, NL",mail:"d.leussink@sco-t.nl",how:"Involved in the De Maten proeftuin.",net:"Via Filmhub Oost",note:""},
   {n:"Mei-Lin Man",org:"Kleinkunstig",role:"Booker / coordinator",sectors:["culture","education"],warmth:"collab",loc:"NL",mail:"mei-lin@kleinkunstig.nl",how:"Books and develops workshops with you (Gouden Eeuw at Pax Christi College Druten, Soundtrap sampling).",net:"Via Kleinkunstig",action:"active",note:""},
   {n:"Marlou Lammersen",org:"Kaliber Kunstenschool",role:"Coordinator",sectors:["culture","education"],warmth:"collab",loc:"NL",mail:"marlou.lammersen@kaliberkunstenschool.nl",how:"Coordinates workshops at Kaliber (e.g. Christmas-break workshops).",net:"Via Kaliber",action:"active",note:""},
@@ -282,6 +284,30 @@ const PEOPLE = [
   {n:"Wil (Filmhub Oost)",org:"Filmhub Oost",role:"",sectors:["culture","education"],warmth:"collab",loc:"Deventer, NL",mail:"wil@filmhuboost.nl",how:"Invited you into Filmhub Oost (kennismiddag); part of the De Maten film-education work.",net:"Via Filmhub Oost",note:""},
   {n:"Bibliotheek Wierden (Henriette Gerrits)",org:"Local library",role:"Consulent Volwassenen",sectors:["libraries"],warmth:"contact",loc:"Wierden, NL",mail:"h.gerrits@bibliotheekwierden.nl",how:"Long, friendly back-and-forth about a possible collaboration near home.",net:"Local",action:"reconnect",note:"Warm but slow; worth another nudge."},
   {n:"Yvonne Eikenaar",org:"Special-ed teacher",role:"",sectors:["special","friends"],warmth:"contact",loc:"NL",mail:"eikyvoeenden73@icloud.com",how:"A special-education teacher who bought your e-books and asks you for advice, happy to pay. A warm peer and small customer.",net:"Peer / customer",note:""},
+
+  // ROUND 5 COFFEE MAILS (special schools, drafted 16 Oct 2026), awaiting reply
+  {"n": "Ramon Heuwekemeijer", "org": "Bartiméus SO + College", "role": "Cluster 1, visually impaired", "sectors": ["special"], "warmth": "awaiting", "loc": "Zeist, NL", "mail": "rheuwekemeijer@bartimeus.nl", "how": "Coffee-invite email (Even kennismaken, kop koffie?) drafted 16 Oct 2026 in your Gmail. Once sent, this waits for their reply.", "net": "Outreach round 5", "action": "await", "note": ""},
+  {"n": "Monique Kampman", "org": "Bartiméus SO Lochem", "role": "Cluster 1, visually impaired", "sectors": ["special"], "warmth": "awaiting", "loc": "Lochem, NL", "mail": "mkampman@bartimeus.nl", "how": "Coffee-invite email (Even kennismaken, kop koffie?) drafted 16 Oct 2026 in your Gmail. Once sent, this waits for their reply.", "net": "Outreach round 5", "action": "await", "note": ""},
+  {"n": "Max Janssen", "org": "De Bosschool (Bartiméus)", "role": "Cluster 1", "sectors": ["special"], "warmth": "awaiting", "loc": "Doorn, NL", "mail": "bosschoolsecretariaat@bartimeus.nl", "how": "Coffee-invite email (Even kennismaken, kop koffie?) drafted 16 Oct 2026 in your Gmail. Once sent, this waits for their reply.", "net": "Outreach round 5", "action": "await", "note": "Mailed via the school office."},
+  {"n": "Linda Greuter", "org": "VierTaal College", "role": "Cluster 2, language and hearing", "sectors": ["special"], "warmth": "awaiting", "loc": "Amsterdam, NL", "mail": "l.greuter@viertaal.nl", "how": "Coffee-invite email (Even kennismaken, kop koffie?) drafted 16 Oct 2026 in your Gmail. Once sent, this waits for their reply.", "net": "Outreach round 5", "action": "await", "note": ""},
+  {"n": "Marleen Vermin", "org": "Cor Emousschool (VierTaal)", "role": "Cluster 2", "sectors": ["special"], "warmth": "awaiting", "loc": "Den Haag, NL", "mail": "m.vermin@viertaal.nl", "how": "Coffee-invite email (Even kennismaken, kop koffie?) drafted 16 Oct 2026 in your Gmail. Once sent, this waits for their reply.", "net": "Outreach round 5", "action": "await", "note": "Address inferred from the VierTaal pattern; watch for a bounce."},
+  {"n": "Sanne Sars", "org": "De Parkschool (Kindante)", "role": "ZML", "sectors": ["special", "primary"], "warmth": "awaiting", "loc": "Limbricht, NL", "mail": "s.sars@kindante.nl", "how": "Coffee-invite email (Even kennismaken, kop koffie?) drafted 16 Oct 2026 in your Gmail. Once sent, this waits for their reply.", "net": "Outreach round 5", "action": "await", "note": ""},
+  {"n": "Kristin Renooij", "org": "VSO De Stormvogel", "role": "VSO", "sectors": ["special"], "warmth": "awaiting", "loc": "Hoorn, NL", "mail": "info@vsodestormvogel.nl", "how": "Coffee-invite email (Even kennismaken, kop koffie?) drafted 16 Oct 2026 in your Gmail. Once sent, this waits for their reply.", "net": "Outreach round 5", "action": "await", "note": "Mailed via the general address."},
+  {"n": "Lieke Segers & Sandra Buys", "org": "Emiliusschool", "role": "SO/VSO", "sectors": ["special"], "warmth": "awaiting", "loc": "Son en Breugel, NL", "mail": "lieke.segers@emiliusschool.nl, sandra.buys@emiliusschool.nl", "how": "Coffee-invite email (Even kennismaken, kop koffie?) drafted 16 Oct 2026 in your Gmail. Once sent, this waits for their reply.", "net": "Outreach round 5", "action": "await", "note": ""},
+  {"n": "Tim klein Tank", "org": "SO De Wissel (SOTOG)", "role": "SO", "sectors": ["special", "primary"], "warmth": "awaiting", "loc": "Almelo, NL", "mail": "t.kleintank@so-dewissel.nl", "how": "Coffee-invite email (Even kennismaken, kop koffie?) drafted 16 Oct 2026 in your Gmail. Once sent, this waits for their reply.", "net": "Outreach round 5", "action": "await", "note": "Close to home."},
+  {"n": "Jan Vernooij", "org": "De Linde VSO", "role": "VSO", "sectors": ["special"], "warmth": "awaiting", "loc": "Deventer, NL", "mail": "j.vernooij@linde-deventer.nl", "how": "Coffee-invite email (Even kennismaken, kop koffie?) drafted 16 Oct 2026 in your Gmail. Once sent, this waits for their reply.", "net": "Outreach round 5", "action": "await", "note": ""},
+  {"n": "Hans van Katwijk", "org": "Sbo SAM", "role": "Special primary (sbo)", "sectors": ["special", "primary"], "warmth": "awaiting", "loc": "Doetinchem, NL", "mail": "h.vankatwijk@sbosam.nl", "how": "Coffee-invite email (Even kennismaken, kop koffie?) drafted 16 Oct 2026 in your Gmail. Once sent, this waits for their reply.", "net": "Outreach round 5", "action": "await", "note": ""},
+  {"n": "Alice Geessinck", "org": "Mytylschool Roosendaal", "role": "Physical disabilities", "sectors": ["special"], "warmth": "awaiting", "loc": "Roosendaal, NL", "mail": "info@mytylschoolroosendaal.nl", "how": "Coffee-invite email (Even kennismaken, kop koffie?) drafted 16 Oct 2026 in your Gmail. Once sent, this waits for their reply.", "net": "Outreach round 5", "action": "await", "note": "Mailed via the general address."},
+  {"n": "Kelly van der Koelen", "org": "Orion College Amstel", "role": "VSO", "sectors": ["special"], "warmth": "awaiting", "loc": "Amsterdam, NL", "mail": "k.vanderkoelen@orion.nl", "how": "Coffee-invite email (Even kennismaken, kop koffie?) drafted 16 Oct 2026 in your Gmail. Once sent, this waits for their reply.", "net": "Outreach round 5", "action": "await", "note": ""},
+  {"n": "Lilian Reding", "org": "Orion College Zuidoost", "role": "VSO", "sectors": ["special"], "warmth": "awaiting", "loc": "Amsterdam, NL", "mail": "orioncollegezuidoost@orion.nl", "how": "Coffee-invite email (Even kennismaken, kop koffie?) drafted 16 Oct 2026 in your Gmail. Once sent, this waits for their reply.", "net": "Outreach round 5", "action": "await", "note": "Mailed via the school address."},
+  {"n": "Albert van der Ploeg", "org": "Portalis VSO (Elker)", "role": "VSO", "sectors": ["special"], "warmth": "awaiting", "loc": "Groningen, NL", "mail": "a.ploeg@elker.nl", "how": "Coffee-invite email (Even kennismaken, kop koffie?) drafted 16 Oct 2026 in your Gmail. Once sent, this waits for their reply.", "net": "Outreach round 5", "action": "await", "note": "You mailed Dewi Schroor at Elker on 6 Sep, so this board already knows your name."},
+
+  // NEW CONNECTIONS (week of 16 Oct 2026, from replies)
+  {n:"iDevelop (Beata Brindzova)",org:"Erasmus+ course provider",role:"Beata Brindzova",sectors:["edtech"],warmth:"warm",loc:"EU",mail:"beata.brindzova@idevelopcourses.com",how:"Replied to your trainer pitch for their Unlocking AI in Education and gamification courses; open to you travelling to Spain or Portugal.",net:"Outreach",action:"chase",note:"Asked your base; you offered to travel."},
+  {n:"TLWAI Europe (BUas)",org:"Teaching & Learning with AI conference",role:"",sectors:["edtech","education"],warmth:"warm",loc:"Breda, NL",mail:"tlwaieu@buas.nl",how:"Warm reply to your coffee note; liked the classroom focus and know Storm in de Klas. Their conference is 19-20 Oct at Breda University.",net:"Outreach",action:"chase",note:""},
+  {n:"GamesTalente (Florian Bender)",org:"Bildung und Begabung",role:"Florian Bender",sectors:["edtech","special"],warmth:"warm",loc:"Germany",mail:"florian.bender@bildung-und-begabung.de",how:"You sent an online-coffee intro as a Dutch game-design teacher. Gifted-education games programme.",net:"Outreach",action:"chase",note:"Auto-reply: back 9 Nov, follow up then."},
+  {n:"Koninklijke Visio (Nadine Awuy)",org:"Special ed, visual impairment",role:"Nadine Awuy, secretaresse SO/VSO Grave",sectors:["special","education"],warmth:"warm",loc:"Grave, NL",mail:"nadineawuy@visio.org",how:"Warm reply to your koffie about music-making and AI voices for visually impaired students; forwarded to their education locations.",net:"Outreach",action:"chase",note:"Also Ralf Habets, Frank ter Beek, Mieke van der Ven."},
+  {n:"Dimence Groep (Miranda Hulsman)",org:"GGZ (incl. jeugd)",role:"Miranda Hulsman",sectors:["special"],warmth:"contact",loc:"Deventer, NL",mail:"mi.hulsman@dimencegroep.nl",how:"Replied to your team-training koffie: no room now, try again in a few months.",net:"Outreach",action:"reconnect",note:"Reconnect early 2027."},
 ];
 
 // ---- Contacts you add on this device (saved locally, merged with the seed) ----
@@ -297,7 +323,8 @@ ADDED.forEach(a=>{a._added=true;PEOPLE.push(a);});
 // ---- Action layer: next move + upcoming appointments (appt => glowing ring) ----
 const ACTION_LABEL={reconnect:"Reconnect, a warm check-in",chase:"Chase / follow up",
   "intro-ask":"Ask them for an introduction",referral:"Ask for a referral",
-  appointment:"Appointment coming up",active:"Active client, no outreach needed",nurture:"Keep warm"};
+  appointment:"Appointment coming up",active:"Active client, no outreach needed",nurture:"Keep warm",
+  await:"Awaiting reply to your coffee mail"};
 const ACTIONS={
   "Bibian Welbergen":{action:"active"},
   "Suzan Wenke":{action:"active"},
@@ -350,7 +377,7 @@ PEOPLE.forEach((p,i)=>{
       width:si===0?2:1,dashes:si!==0});
   });
 });
-function warmSize(w){return w==="hot"?26:w==="collab"?22:w==="warm"?18:14;}
+function warmSize(w){return w==="hot"?26:w==="collab"?22:w==="warm"?18:w==="awaiting"?15:14;}
 function nodeColor(p){
   const c=SECTORS[p.sectors[0]].color;
   const border=p.warmth==="hot"?"#d9534f":(p.warmth==="collab"?getCss('--accent-ink'):c);
@@ -537,7 +564,7 @@ document.getElementById('add').onclick=()=>{
     +fieldRow('Email','<input id="f-mail" style="'+istyle+'">')
     +fieldRow('Note','<input id="f-note" style="'+istyle+'">')
     +fieldRow('Coming up (optional, makes the node glow)','<input id="f-appt" style="'+istyle+'" placeholder="e.g. 12 Nov, intro call">')
-    +fieldRow('Next move','<select id="f-action" style="'+istyle+'"><option value="">None</option><option value="reconnect">Reconnect</option><option value="chase">Chase / follow up</option><option value="intro-ask">Ask for introduction</option><option value="referral">Ask for referral</option><option value="appointment">Appointment coming up</option><option value="active">Active client</option></select>')
+    +fieldRow('Next move','<select id="f-action" style="'+istyle+'"><option value="">None</option><option value="reconnect">Reconnect</option><option value="chase">Chase / follow up</option><option value="intro-ask">Ask for introduction</option><option value="referral">Ask for referral</option><option value="appointment">Appointment coming up</option><option value="active">Active client</option><option value="await">Awaiting reply</option></select>')
     +'<div style="display:flex;gap:8px;margin-top:12px"><button class="btn primary" id="f-save">Add to map</button><button class="btn" id="f-cancel">Cancel</button><span id="f-err" style="color:#d9534f;font-size:12px;align-self:center"></span></div>';
   ov.hidden=false;
   document.getElementById('f-cancel').onclick=()=>ov.hidden=true;
@@ -582,7 +609,7 @@ document.getElementById('agenda').onclick=()=>{
   html+='<div style="'+lbl+'">Glowing on the map, upcoming</div>';
   html+= appts.length? appts.map(p=>'<div class="agi" data-id="'+p._id+'" style="padding:7px 9px;border:1px solid var(--line);border-radius:9px;margin-bottom:6px;cursor:pointer"><b>'+p.n+'</b><div style="color:var(--muted);font-size:12.5px">'+p.appt+'</div></div>').join('')
     : '<div style="color:var(--muted);font-size:13px">Nothing flagged yet. Add an appointment on any contact to make it glow.</div>';
-  const order=["reconnect","intro-ask","chase","referral","nurture"];
+  const order=["reconnect","intro-ask","chase","referral","nurture","await"];
   html+='<div style="'+lbl+'">Suggested next moves</div>';
   let any=false;
   order.forEach(k=>{if(moves[k]){any=true;html+='<div style="margin-bottom:8px"><div style="font-weight:600;font-size:13px">'+ACTION_LABEL[k]+'</div><div style="color:var(--muted);font-size:12.5px">'+moves[k].map(p=>p.n).join(', ')+'</div></div>';}});
@@ -599,3 +626,5 @@ document.getElementById('agenda').onclick=()=>{
 document.getElementById('asof').textContent="As of "+new Date().toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'})+".";
 applyFilter();
 </script>
+
+</body></html>

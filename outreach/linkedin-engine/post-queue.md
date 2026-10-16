@@ -12,6 +12,43 @@ site kevinstorm.eu.
 READY TO POST
 ====================================================================
 
+## N3 - Building a beatmaking workshop (REAL: booked for Druten, 25 Jan 2027)
+Pillar 3 + 1 · Language: Dutch (English version below) · Photo: you making a beat on
+a laptop or MPC, headphones on, backstage or at home; or a kid's hands on pads. ·
+First comment: kevinstorm.eu
+
+DUTCH:
+Ik ben een nieuwe workshop aan het bouwen en ik heb er stiekem veel te veel zin in.
+
+Beatmaking, met een klas. Geen instrument dat je eerst jaren moet leren, gewoon meteen
+zelf iets maken dat klinkt. Een ritme, een melodietje, een geluid dat je zelf hebt
+opgenomen. Binnen een uur heeft iedereen iets waar hun eigen naam op staat.
+
+Wat ik er zo mooi aan vind: muziek maken is precies zo'n ingang waar ik altijd naar
+zoek. Je hoeft niet goed te kunnen lezen of vooraan te durven staan om mee te doen. Je
+hoeft alleen maar iets te durven proberen. En dat lukt bijna ieder kind.
+
+Hier komen mijn twee werelden weer samen, de muzikant en de docent. Ik kan niet wachten
+om dit in januari te geven.
+
+Wat was het eerste nummer dat jou als kind het gevoel gaf dat je dat ook zelf wilde maken?
+
+First comment: meer over wat ik maak, kevinstorm.eu
+Hashtags: #onderwijs #muziekonderwijs #lesgeven #creativiteit #speciaalonderwijs
+
+ENGLISH (shorter):
+I am building a new workshop and I am honestly a little too excited about it.
+
+Beatmaking, with a class. No instrument you have to study for years first, just making
+something that sounds good straight away. A rhythm, a little melody, a sound you
+recorded yourself. Within an hour everyone has something with their own name on it.
+
+Here is why I love it: making music is exactly the kind of way in I am always hunting
+for. You do not have to read well or dare to stand at the front to join. You only have
+to dare to try something. Almost every kid can do that.
+
+My two worlds meeting again, the musician and the teacher. Cannot wait to teach this.
+
 ## N1 - The special-ed cards, delivered (REAL, just happened 7 Oct)
 Pillar 2 + 3 + 5 · Language: Dutch (English version below) · Photo: the actual card
 deck and the handleiding laid out on a table, or a few cards fanned out in your hands.
