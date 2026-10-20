@@ -12,6 +12,71 @@ site kevinstorm.eu.
 READY TO POST
 ====================================================================
 
+## N5 - An article in a Canadian teacher magazine (REAL: pitch accepted, article written 17 Oct)
+Pillar 3 + 5 · Language: English (NL network: post when it is published) · Photo: your
+notebook or laptop mid-writing, backstage or on the bus; or a workshop shot. ·
+First comment: kevinstorm.eu
+
+Small thing that made my week. A teacher magazine in Canada said yes to an article
+from me.
+
+It is about something I have done thousands of times by now, media workshops with
+kids, and the handful of things I have learned that make them actually land. The
+messy real version, not the glossy one.
+
+Funny to think a few notes scribbled between lessons and shows end up in a magazine on
+the other side of the world. But that is sort of the whole point of writing it down.
+If one idea helps a teacher in a classroom I will never see, it did its job.
+
+I will share it once it is out. For now I am just quietly chuffed.
+
+First comment: a bit more about what I make, kevinstorm.eu
+Hashtags: #education #teaching #edtech #onderwijs #writing
+NOTE: honest as drafted (accepted and written, not yet published). A stronger "it is
+live" version can go up the day the issue publishes; tell me when that is.
+
+## N4 - Rooms across the world (REAL: Asia tour just wrapped, now touring Europe)
+Pillar 4 + 1 · Language: English (Dutch below) · Photo: a stage or crowd shot from the
+Asia tour, Tokyo if you have one. A real from-the-road frame. · First comment: kevinstorm.eu
+
+ENGLISH:
+A few weeks ago I wrapped three weeks playing across Asia. Japan, China, Singapore,
+Thailand. Now I am back on the road in Europe.
+
+Different countries, different languages, rooms that could not be further from a
+classroom in Twente. And yet the thing that makes a room lean in was exactly the same
+everywhere.
+
+You give people something real, you mean it, and you make sure nobody in the back
+feels invisible. That is pretty much it. A crowd in Tokyo and a group of kids who find
+school hard are not as far apart as you would think. Both can tell within about ten
+seconds whether you actually see them.
+
+I teach the same way I play. Show up, read the room, give them something to do with
+their hands and their heads. The language changes, the rest really does not.
+
+Head full of new rooms. Back to building lessons soon.
+
+First comment: a bit more about what I make, kevinstorm.eu
+Hashtags: #onderwijs #lesgeven #education #teaching #speciaalonderwijs
+
+DUTCH:
+Een paar weken geleden zat mijn driewekentour door Azie erop. Japan, China, Singapore,
+Thailand. Inmiddels sta ik weer op de planken in Europa.
+
+Andere landen, andere talen, zalen die niet verder van een klaslokaal in Twente af
+kunnen staan. En toch is wat een zaal meeneemt overal precies hetzelfde.
+
+Je geeft mensen iets echts, je meent het, en je zorgt dat niemand achterin zich
+onzichtbaar voelt. Dat is het eigenlijk wel zo'n beetje. Een publiek in Tokio en een
+groep kinderen voor wie school lastig is liggen minder ver uit elkaar dan je zou
+denken. Allebei voelen ze binnen tien seconden of je ze echt ziet.
+
+Ik lesgeef op dezelfde manier als ik speel. Kom opdagen, lees de zaal, geef ze iets te
+doen met hun handen en hun hoofd. De taal verandert, de rest niet.
+
+Hoofd vol nieuwe zalen. Straks weer lessen bouwen.
+
 ## N3 - Building a beatmaking workshop (REAL: booked for Druten, 25 Jan 2027)
 Pillar 3 + 1 · Language: Dutch (English version below) · Photo: you making a beat on
 a laptop or MPC, headphones on, backstage or at home; or a kid's hands on pads. ·
