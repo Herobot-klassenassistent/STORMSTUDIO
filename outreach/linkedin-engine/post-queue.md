@@ -12,6 +12,27 @@ site kevinstorm.eu.
 READY TO POST
 ====================================================================
 
+## N6 - Getting edited (REAL: Diana returned her edited version 22 Oct)
+Pillar 3 + 2 · Language: English · Photo: your laptop with a marked-up document on
+screen, or a notebook; on the bus or backstage. · First comment: kevinstorm.eu
+
+My article came back from the editor today, covered in her careful little changes.
+
+I will be honest, there is a tiny sting the first time you watch someone tidy your
+words. And then you read it again and realise she is right. It is clearer, it is
+better, the point lands faster. That is what a good editor does.
+
+It reminded me of teaching. The best thing you can give someone is not praise, it is
+attention. Someone who takes your rough thing seriously enough to make it better. I
+try to be that for the kids and teams I work with, and it is good to be on the
+receiving end for once.
+
+Approving her version tonight. Then it is out of my hands and into a magazine, which
+is a strange and lovely feeling.
+
+First comment: a bit more about what I make, kevinstorm.eu
+Hashtags: #teaching #onderwijs #writing #education #feedback
+
 ## N5 - An article in a Canadian teacher magazine (REAL: pitch accepted, article written 17 Oct)
 Pillar 3 + 5 · Language: English (NL network: post when it is published) · Photo: your
 notebook or laptop mid-writing, backstage or on the bus; or a workshop shot. ·
